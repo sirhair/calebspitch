@@ -4,7 +4,7 @@ var gulp = require('gulp');
 
 // Include Our Plugins
 var jshint = require('gulp-jshint');
-// var compass = require('gulp-compass');
+var compass = require('gulp-compass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
@@ -17,15 +17,15 @@ gulp.task('lint', function() {
 });
 
 // Compile Our Sass using Compass
-// gulp.task('compass', function() {
-//   gulp.src('./components/sass/*.scss')
-//     .pipe(compass({
-//       config_file: './config.rb',
-//       css: 'stylesheets',
-//       sass: 'sass'
-//     }))
-//     .pipe(gulp.dest('./'));
-// });
+gulp.task('compass', function() {
+  gulp.src('components/sass/*.scss')
+    .pipe(compass({
+      config_file: 'config.rb',
+      css: './',
+      sass: 'components/sass'
+    }))
+    .pipe(gulp.dest('dest'));
+});
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
@@ -34,14 +34,14 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist'))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./'));
+        .pipe(gulp.dest('dest'));
 });
 
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
-    // gulp.watch('components/sass/*.scss', ['compass']);
+    gulp.watch('components/sass/*.scss', ['compass']);
 });
 
 // Default Task
-gulp.task('default', ['lint', 'scripts', 'watch']); // 'compass',
+gulp.task('default', ['lint', 'compass', 'scripts', 'watch']); // 

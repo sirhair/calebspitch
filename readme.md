@@ -16,8 +16,9 @@ Dev package is a theme for WordPress
 ```
 git clone https://github.com/sirhair/calebspitch.git
 npm install npm -g #to update node package manager
-npm install -g grunt-cli #adds grunt command line interface
+npm install --global gulp
 npm install #installs package.json
+
 gem update --system #updates your gems
 gem install compass #installs compass
 gem install normalize-scss #installs normalize sass file
@@ -51,9 +52,9 @@ If you want to save your user/pass when you push: [Git Credential Store](http://
 
 Before coding, open the folder using a command line interface, and run 
 ```
-grunt
+gulp
 ```
-this will start grunt. Keep that window running in the background.
+this will start gulp. Keep that window running in the background.
 
 You will also need a command line for running git commands
 

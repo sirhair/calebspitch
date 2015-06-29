@@ -3,6 +3,8 @@
 ##Created by Dinosaur Dynamite
 *Edward Alonzo, Kelly Ngo and Veronica Vilar*
 
+We are using gulp, browsersync, [compass](http://compass-style.org/) (for sass), and jshint (for javascript debugging).
+
 ##Setting up dev package
 
 Dev package is a theme for WordPress

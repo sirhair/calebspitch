@@ -12,7 +12,8 @@
   },
   "main": "gruntfile.js",
   "devDependencies": {
-    "grunt-browser-sync": "^2.1.3"
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-contrib-compass": "^1.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,29 @@
+/* # Caleb's Pitch -- Genesis Child Theme  
+Theme Name: Caleb's Pitch Theme  
+Theme URI: https://github.com/sirhair/calebspitch  
+Description: This is originally created for Caleb's Pitch, http://calebspitch.org/.   
+Author: Dinosaur Dynamite 
+Author URI: https://github.com/sirhair/calebspitch 
+Version: 0.1;
+
+Template: genesis  
+Template Version: 2.1.2  
+Tags: 
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+//gems and packages
+@import 'compass';
+@import 'compass/reset'; 
+@import 'susy';
+@import 'normalize';
+
+//local files
+@import 'base';
+@import 'layout';
+@import 'variables';
+@import 'base_elements';
+//@import 'mixins';
+@import 'typography';
+//@import 'modules';

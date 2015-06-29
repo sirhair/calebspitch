@@ -1,0 +1,35 @@
+//######################SETUP VERTICAL RHYTHM
+$base-font-size: 18px;
+$rhythm-ratio: 1.8;
+$base-line-height: $base-font-size * $rhythm-ratio;
+$rhythm-unit: "em";
+$rem-with-px-fallback: true;
+$default-rhythm-border-width: 1px;
+$default-rhythm-border-style: solid;
+$round-to-nearest-half-line: false;
+$min-line-padding: 2px;
+
+
+//######################ADD FONTS
+// Add font awesome
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'); //font awesome
+// add fonts for site
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700,300|Roboto:400italic,700italic,700,400);
+
+//base fonts for site
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oxygen', sans-serif;
+	margin: .5em 0;
+	font-weight:700;
+  // color:red;
+}
+
+p, pre {
+  margin: 1.35em 0;
+}

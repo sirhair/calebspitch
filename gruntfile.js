@@ -33,7 +33,7 @@ grunt.initConfig({
 		},//sass
 		php: {
 			files:['**/*.php'],
-		}
+		}, //watch php files
     browserSync: {
       dev: {
         bsFiles: {
@@ -43,13 +43,13 @@ grunt.initConfig({
             '**/*.html',
             '**/*.js'
           ]
-        },
+        },//browsersync watch files
         options: {
           watchTask: true,
-          server: '.'
-        }
-      }
-    }
+          server: './capstone'
+        }//options
+      }//dev
+    }//browsersync
 		//scripts
 		// html: {
 		// 	files: ['*.html']

@@ -1,8 +1,8 @@
 {
-  "name": "Caleb's Pitch Theme",
-  "version": "0.1",
+  "name": "calebspitchtheme",
+  "version": "0.1.0",
   "author": "Edward Alonzo",
-  "description": "Wordpress Theme for Caleb's pitch, Gainesville, FL ",
+  "description": "Wordpress Theme for Calebs pitch, Gainesville, FL ",
   "dependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-watch": "~0.6.1",
@@ -28,6 +28,6 @@
     "development",
     "package"
   ],
-  "license": "proprietary",
+  "license": "GPL-2.0",
   "homepage": "https://github.com/sirhair/calebspitch.git"
 }

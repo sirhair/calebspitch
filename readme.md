@@ -31,8 +31,8 @@ gem install normalize-scss #installs normalize sass file
 gem install susy #installs susy, in case we use it
 
 ```
-
-  7. install [LiveReload extension](http://livereload.com/extensions/)
+  
+  7. **reboot**
   8. install [Sass code hinting for Sublime Text](https://packagecontrol.io/packages/Sass) 
 
 ###Notes

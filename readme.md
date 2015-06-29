@@ -50,3 +50,4 @@ You will also need a command line for running git commands
 #Appendices
 ##Learn node
 [NodeSchool](http://nodeschool.io/)
+[View your local fonts with wordmark.it](http://wordmark.it/)

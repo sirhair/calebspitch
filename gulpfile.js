@@ -8,6 +8,8 @@ var compass = require('gulp-compass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var browserSync = require('browser-sync').create();
+
 
 // Lint Task
 gulp.task('lint', function() {
@@ -19,12 +21,14 @@ gulp.task('lint', function() {
 // Compile Our Sass using Compass
 gulp.task('compass', function() {
   gulp.src('components/sass/*.scss')
-    .pipe(compass({
-      config_file: 'config.rb',
-      css: './',
-      sass: 'components/sass'
-    }))
-    .pipe(gulp.dest('dest'));
+  .pipe(compass({
+    config_file: 'config.rb',
+    css: './',
+    sass: 'components/sass'
+  }))
+  .pipe(gulp.dest('dest'))
+  .pipe(browserSync.stream());
+
 });
 
 // Concatenate & Minify JS
@@ -34,13 +38,23 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist'))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('dest'));
+        .pipe(gulp.dest('dest'))
+        .pipe(browserSync.stream());
 });
+
+//start browsersync
+// gulp.task('browser-sync', function() {
+
+// });
 
 // Watch Files For Changes
 gulp.task('watch', function() {
+     browserSync.init({
+        proxy: "localhost/capstone/"
+    });
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
     gulp.watch('components/sass/*.scss', ['compass']);
+
 });
 
 // Default Task

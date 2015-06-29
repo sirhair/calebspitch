@@ -1,9 +1,10 @@
 module.exports = function(grunt){
- grunt.loadNpmTasks('grunt-contrib-uglify');
- grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-uglify');
+grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-contrib-compass');
+grunt.loadNpmTasks('grunt-browser-sync');
 
- grunt.initConfig({
+grunt.initConfig({
  	uglify:{
  		my_target: {
  			files: {
@@ -20,7 +21,7 @@ grunt.loadNpmTasks('grunt-contrib-compass');
  		}//dev
  	}, //compass
 	watch: {
-		options:{ livereload: true },
+		//options:{ livereload: true },
 		scripts: {
 			files: ['components/js/*.js'],
 			tasks: ['uglify']
@@ -33,7 +34,22 @@ grunt.loadNpmTasks('grunt-contrib-compass');
 		php: {
 			files:['**/*.php'],
 		}
-
+    browserSync: {
+      dev: {
+        bsFiles: {
+          src : [
+            '*.css',
+            '**/*.php',
+            '**/*.html',
+            '**/*.js'
+          ]
+        },
+        options: {
+          watchTask: true,
+          server: '.'
+        }
+      }
+    }
 		//scripts
 		// html: {
 		// 	files: ['*.html']

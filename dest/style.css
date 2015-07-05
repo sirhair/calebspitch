@@ -622,6 +622,10 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  color: #FF0A27;
+}
+
 .right {
   float: right;
 }

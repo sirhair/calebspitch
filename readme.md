@@ -19,7 +19,8 @@ Make sure your wordpress install is in a directory called "capstone" or browsers
   3. **reboot**
   4. Install ruby. For  [windows](http://rubyinstaller.org/) or [OS X](https://www.ruby-lang.org/en/documentation/installation/#homebrew)
   5. **reboot**
-  6. Run these commands in your empty theme folder 
+  6. Run these commands, one at a time, in your empty theme folder (note for mac users you probably need to add "sudo " to the beginning of each line)
+  *Note:* wait until they complete before doing the next line.
 
 ```
 git clone https://github.com/sirhair/calebspitch.git

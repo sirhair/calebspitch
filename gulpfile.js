@@ -1,6 +1,6 @@
 //based on https://travismaynard.com/writing/getting-started-with-gulp
 // Include gulp
-var gulp = require('gulp'); 
+var gulp = require('gulp');
 
 // Include Our Plugins
 var jshint = require('gulp-jshint');
@@ -50,7 +50,7 @@ gulp.task('scripts', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
      browserSync.init({
-        proxy: "localhost/capstone/"
+        proxy: "localhost:8888"
     });
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
     gulp.watch('components/sass/*.scss', ['compass']);
@@ -58,4 +58,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'compass', 'scripts', 'watch']); // 
+gulp.task('default', ['lint', 'compass', 'scripts', 'watch']); //

@@ -5,43 +5,38 @@ html{
 *, *:before, *:after{
 	box-sizing:inherit;
 }
-*{
-  // font-size: 100px;
-  // color: pink;
-color: $cMain;
-}
 
 
-// //######################SETUP SUSY
-// //defaults commented out
-// $small      : 26em;
-// $medium     : 45em;
-// $large      : 45em+26em;
-// $susy: (
-//   // flow: ltr,
-//   // math: fluid,
-//   // output: float,
-//   container: $large, //set max width
-//   // container-position: center, //centers container
-//   columns: 12,    //4,
-//   gutters: .20, // .25 ratio of gutter to column width
-//   // column-width: false, //set explicit width
-//   gutter-position: inside, //after,
-//   global-box-sizing: border-box, //content-box,
-//   last-flow: to,
-//   debug: (
-//     // image: show, //hide,
-//     // output: background,
-//     // toggle: top right,
-//     // color: rgba(#66f, .25),
-//   ),
-//   use-custom: (
-//     clearfix: false,
-//     background-image: true,
-//     background-options: false,
-//     //breakpoint: true,
-//     box-sizing: true,
-//     rem: true,
-//     //location: null;
-//   )
-// );
+//######################SETUP SUSY
+//defaults commented out
+$small      : 26em;
+$medium     : 45em;
+$large      : 45em+26em;
+$susy: (
+  // flow: ltr,
+  // math: fluid,
+  // output: float,
+  container: $large, //set max width
+  // container-position: center, //centers container
+  columns: 12,    //4,
+  gutters: .20, // .25 ratio of gutter to column width
+  // column-width: false, //set explicit width
+  gutter-position: inside, //after,
+  global-box-sizing: border-box, //content-box,
+  last-flow: to,
+  debug: (
+    // image: show, //hide,
+    // output: background,
+    // toggle: top right,
+    // color: rgba(#66f, .25),
+  ),
+  use-custom: (
+    clearfix: false,
+    background-image: true,
+    background-options: false,
+    //breakpoint: true,
+    box-sizing: true,
+    rem: true,
+    //location: null;
+  )
+);

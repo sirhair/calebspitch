@@ -5,3 +5,37 @@ $cGrey: #9B9AA6;
 $cBlack: #221F24;
 $cWhite: #FCFCFF;
 $cNote: #fcffad; 
+
+
+//***************************
+// Where is everything else??
+//***************************
+
+// the following are variables defined elswhere
+// check their location for current values.
+
+//Container size variables defined in _base.scss
+//***************************
+// $small      : 26em;
+// $medium     : 45em;
+// $large      : 45em+26em;
+
+// Margins/paddings defined in _layout.scss
+//***************************
+// $padding: gutter(12);
+// $halfmargin: $padding/2;
+// $margin: gutter(12);
+// $halfpadding: $margin/2;
+
+// Typography variables are in _typography.scss
+//***************************
+// VERTICAL RHYTHM
+// $base-font-size: 18px;
+// $rhythm-ratio: 1.8;
+// $base-line-height: $base-font-size * $rhythm-ratio;
+// $rhythm-unit: "em";
+// $rem-with-px-fallback: true;
+// $default-rhythm-border-width: 1px;
+// $default-rhythm-border-style: solid;
+// $round-to-nearest-half-line: false;
+// $min-line-padding: 2px;

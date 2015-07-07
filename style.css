@@ -5,7 +5,6 @@ Description: This is originally created for Caleb's Pitch, http://calebspitch.or
 Author: Dinosaur Dynamite 
 Author URI: https://github.com/sirhair/calebspitch 
 Version: 0.1;
-License:;
 
 */
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
@@ -618,10 +617,133 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  color: #FF0A27;
+.layout {
+  max-width: 71em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 1.38889%;
+  padding: 0.5em;
+}
+.layout:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
+@media (min-width: 45em) {
+  .headprimary {
+    width: 100%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .headsecondary {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .headsearch {
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .primary {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .secondary {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fullwidth {
+    width: 100%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .thirdwidth {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .thirdwidth:nth-child(3n+0) {
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+}
+@media (min-width: 71em) {
+  .headprimary {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .headsecondary {
+    width: 25%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .headsearch {
+    width: 25%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .primary {
+    width: 75%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .secondary {
+    width: 25%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .fullwidth {
+    width: 100%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .thirdwidth {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .thirdwidth:nth-child(3n+0) {
+    width: 25%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+}
 .right {
   float: right;
 }

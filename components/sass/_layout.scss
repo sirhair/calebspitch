@@ -1,0 +1,108 @@
+//######################Spacing Variables
+// http://www.zell-weekeat.com/context-with-susy/
+$padding: .5em;
+$halfmargin: $padding/2;
+$margin: 2*gutter();
+$halfpadding: $margin/2;
+
+
+//######################LAYOUTS
+
+//##########Susy Responsive sizes
+
+//Susy is context/nesting sensitive!!!!
+
+// if you have a .primary (span(9 of 12)) section, and put three .thirdwidth 
+// (span(4 of 12)) sections INSIDE it, then you will divide up the
+// .primary into 12 columns and give each .thirdwidth section 4 of those nested columns.
+
+// in other words, each nested .thirdwidth will be a third the width of the .primary section.
+
+// if a class does not have a span defined, it will default to full width.
+// it is preferred to not use the .fullwidth class 
+
+// .siteheader{}
+// .main{}
+// .sitefooter{}
+
+//##########base layouts
+.layout{
+  @include container;
+  margin:$margin;
+  padding:$padding;
+}
+
+//medium breakpoint
+@include susy-breakpoint ($medium){
+  //head columns
+  .headprimary{
+    @include span(9 of 9);
+  }
+
+  .headsecondary{
+    @include span(6 of 9);
+  }
+
+  .headsearch{
+    @include span(last 3 of 9);
+  }
+
+  //body columns
+  .primary{
+    @include span(6 of 9);
+  }
+
+  .secondary{
+    @include span(3 of 9);
+  }
+
+  .fullwidth{
+    @include span(9 of 9);
+  }
+  .thirdwidth{
+    @include span(3 of 9);
+  }
+ 
+  .thirdwidth:nth-child(3n+0){
+    @include span(last 3 of 9);
+  }
+
+}
+
+//large breakpoint
+@include susy-breakpoint ($large){
+  //head columns
+  .headprimary{
+    @include span(6 of 12);
+  }
+
+  .headsecondary{
+    @include span(3 of 12);
+  }
+
+  .headsearch{
+    @include span(last 3 of 12);
+  }
+
+  //body columns
+  .primary{
+    @include span(9 of 12);
+  }
+
+  .secondary{
+    @include span(3 of 12);
+  }
+
+  .fullwidth{
+    @include span(12 of 12);
+  }
+
+  .thirdwidth{
+    @include span(4 of 12);
+  }
+ 
+  .thirdwidth:nth-child(3n+0){
+    @include span(last 3 of 12);
+  }
+
+}

@@ -88,7 +88,7 @@ If you need to install a local server [Xampp tutorial](http://grad.sirhair.com/i
 ```
 git pull --all
 ```
-  * enter your working branch (replace "<YOUR WORKING BRANCH NAME>" with the branch you are working on)
+  * enter your working branch (replace "\<YOUR WORKING BRANCH NAME\>" with the branch you are working on)
 ```
 git checkout <YOUR WORKING BRANCH NAME>
 git merge master

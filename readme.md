@@ -13,13 +13,13 @@ We're using [SublimeText 3](http://www.sublimetext.com/3), if you are using anot
 ####IMPORTANT
 Make sure your wordpress install is in a directory called "capstone" or browsersync won't work (unless you modify the config locally)
 
-
+###Windows Instructions
   1. Install git from [GitHub](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   2. Install node from [NodeJS](https://nodejs.org/)
   3. **reboot**
   4. Install ruby. For  [windows](http://rubyinstaller.org/) or [OS X](https://www.ruby-lang.org/en/documentation/installation/#homebrew)
   5. **reboot**
-  6. Run these commands, one at a time, in your empty theme folder (note for mac users you probably need to add "sudo " to the beginning of each line)
+  6. Run these commands, one at a time, in your empty theme folder 
   *Note:* wait until they complete before doing the next line.
 
 ```
@@ -32,19 +32,43 @@ gem update --system #updates your gems
 gem install compass #installs compass
 gem install normalize-scss #installs normalize sass file
 gem install susy #installs susy, in case we use it
-
 ```
-  
   7. **reboot**
   8. install [Sass code hinting for Sublime Text](https://packagecontrol.io/packages/Sass) 
+
+###Mac instructions
+  1. Install git from [GitHub](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  2. Install node from [NodeJS](https://nodejs.org/)
+  3. Install [Brew](http://brew.sh/)
+  4. Run `brew to install npm` in a terminal to install npm
+  5. **reboot**
+  6. Install ruby. For  [windows](http://rubyinstaller.org/) or [OS X](https://www.ruby-lang.org/en/documentation/installation/#homebrew)
+  7. **reboot**
+  8. Run these commands, one at a time, in your **empty theme folder** 
+  *Note:* wait until they complete before doing the next line.
+
+```
+git clone https://github.com/sirhair/calebspitch.git
+sudo npm install npm -g #to update node package manager
+sudo npm install --global gulp
+sudo npm install #installs package.json
+
+sudo gem update --system #updates your gems
+sudo gem install compass #installs compass
+sudo gem install normalize-scss #installs normalize sass file
+sudo gem install susy #installs susy, in case we use it
+```
+  
+  9. **reboot**
+  10. install [Sass code hinting for Sublime Text](https://packagecontrol.io/packages/Sass) 
 
 ###Notes
 
 If this is your first time using Git on your machine,  make sure you setup user.name and user.email [Git First Time](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) 
 
-If you need to install a local server [Xampp tutorial](http://grad.sirhair.com/installing-a-wordpress-testing-server-part-1-xampp/)
-
 If you want to save your user/pass when you push: [Git Credential Store](http://git-scm.com/docs/git-credential-store)
+
+If you need to install a local server [Xampp tutorial](http://grad.sirhair.com/installing-a-wordpress-testing-server-part-1-xampp/)
 
 ##Code base style guides: 
 * [Google Style Guide HTML CSS](http://google.github.io/styleguide/htmlcssguide.xml)
@@ -60,8 +84,14 @@ If you want to save your user/pass when you push: [Git Credential Store](http://
 ##Using package
 
   * Run your local server.
-  * Before coding, open the folder using a command line interface, and run 
+  * Before coding, open the theme folder using a command line interface, and run: 
 ```
+git pull --all
+```
+  * enter your working branch (replace "<YOUR WORKING BRANCH NAME>" with the branch you are working on)
+```
+git checkout <YOUR WORKING BRANCH NAME>
+git merge master
 gulp
 ```
 this will start gulp. Keep that window running in the background. It will also automatically open a browser window to your "localhost/capstone" (assuming you have your server started)

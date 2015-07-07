@@ -88,13 +88,13 @@ If you need to install a local server [Xampp tutorial](http://grad.sirhair.com/i
 ```
 git pull --all
 ```
-  * enter your working branch (replace "\<YOUR WORKING BRANCH NAME\>" with the branch you are working on)
+  * enter your working branch (replace "\<YOUR WORKING BRANCH NAME\>" with the branch you are working on) and update the branch with the changes from master.
 ```
 git checkout <YOUR WORKING BRANCH NAME>
 git merge master
 gulp
 ```
-this will start gulp. Keep that window running in the background. It will also automatically open a browser window to your "localhost/capstone" (assuming you have your server started)
+This last command will start gulp. Keep that window running in the background. It will also automatically open a browser window to your "localhost/capstone" (assuming you have your server started)
 
   * You will also need a command line for running git commands
 

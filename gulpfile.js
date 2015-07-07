@@ -51,6 +51,7 @@ gulp.task('scripts', function() {
 gulp.task('watch', function() {
      browserSync.init({
         proxy: "localhost/capstone/"
+        //if you are having problems with gulp and running Mamp instead of Xamp on Mac localhost:8888 instead of localhost/capstone might work 
     });
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
     gulp.watch('components/sass/*.scss', ['compass']);

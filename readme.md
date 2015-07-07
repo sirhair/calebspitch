@@ -99,8 +99,9 @@ This last command will start gulp. Keep that window running in the background. I
   * You will also need a command line for running git commands
 
 #Tag notes
-v 0.2 is an extremely basic [Genesis](http://www.studiopress.com/) WP theme 
-v 0.3 is a boilerplate for a regular WP theme.
+
+  * v 0.2 is an extremely basic [Genesis](http://www.studiopress.com/) WP theme 
+  * v 0.3 is a boilerplate for a regular WP theme.
 
 #Appendices
 ##Learn node

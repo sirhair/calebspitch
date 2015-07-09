@@ -28,7 +28,7 @@ $halfpadding: $margin/2;
 //##########base layouts
 .layout{
   @include container;
-  margin:$margin;
+  margin:$margin auto;
   padding:$padding;
 }
 

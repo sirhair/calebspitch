@@ -621,7 +621,7 @@ html {
   max-width: 71em;
   margin-left: auto;
   margin-right: auto;
-  margin: 1.38889%;
+  margin: 1.38889% auto;
   padding: 0.5em;
 }
 .layout:after {

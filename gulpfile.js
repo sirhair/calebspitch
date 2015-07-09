@@ -23,6 +23,8 @@ gulp.task('compass', function() {
   gulp.src('components/sass/*.scss')
   .pipe(compass({
     config_file: 'config.rb',
+    style: 'expanded',
+     // One of: nested, expanded, compact, or compressed.
     css: './',
     sass: 'components/sass'
   }))

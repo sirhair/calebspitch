@@ -1,11 +1,11 @@
 #require 'susy'
 require 'normalize-scss'
-css_dir ="/"
+css_dir ="./"
 sass_dir ="components/sass"
 scss_dir ="components/sass"
 javascript_dir ='components/js'
 images_dir= "images"
-# output_style = :expanded
+output_style = :expanded
 
 
 

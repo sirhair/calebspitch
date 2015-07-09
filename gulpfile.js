@@ -26,7 +26,7 @@ gulp.task('compass', function() {
     css: './',
     sass: 'components/sass'
   }))
-  .pipe(gulp.dest('dest'))
+  .pipe(gulp.dest('./'))
   .pipe(browserSync.stream());
 
 });
@@ -38,7 +38,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist'))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('dest'))
+        .pipe(gulp.dest('./'))
         .pipe(browserSync.stream());
 });
 

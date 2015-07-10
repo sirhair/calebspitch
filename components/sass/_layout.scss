@@ -12,6 +12,12 @@ $halfpadding: $margin/2;
 
 //Susy is context/nesting sensitive!!!!
 
+//place all custom spans in the Medium and Large breakpoints
+
+// Since small is default, and sizes for small will be full width, there is 
+// no need to do spans for the small size.
+
+
 // if you have a .primary (span(9 of 12)) section, and put three .thirdwidth 
 // (span(4 of 12)) sections INSIDE it, then you will divide up the
 // .primary into 12 columns and give each .thirdwidth section 4 of those nested columns.

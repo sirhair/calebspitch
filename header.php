@@ -21,11 +21,11 @@
 					</h2>
 
 				</div>
-				<div class="headsecondary">
+<div class="headsecondary">
 					<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
 				</div>
 				<div class="headsearch">
-					<?php get_search_form();?>
+					<?php get_search_form();?> 
 				</div>
 			</section>
 		</header>

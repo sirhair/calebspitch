@@ -9,7 +9,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var browserSync = require('browser-sync').create();
-
+var phpLoad;
 
 // Lint Task
 gulp.task('lint', function() {
@@ -49,6 +49,14 @@ gulp.task('scripts', function() {
 
 // });
 
+
+gulp.task('phpLoad', function(){
+  return gulp.src('**/*.php')
+        .pipe(browserSync.stream());
+});
+
+
+
 // Watch Files For Changes
 gulp.task('watch', function() {
      browserSync.init({
@@ -57,6 +65,7 @@ gulp.task('watch', function() {
     });
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
     gulp.watch('components/sass/*.scss', ['compass']);
+    gulp.watch('**/*.php', ['phpLoad']);
 
 });
 

@@ -772,12 +772,19 @@ p, pre {
   color: fuschia;
 }
 
-.siteheader, .sitefooter {
+body {
   background-color: #57bfc4;
+}
+
+.siteheader, .sitefooter {
   margin: 0;
   color: #FFFFFF;
 }
 .siteheader .layout, .sitefooter .layout {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+main {
+  background-color: #FFFFFF;
 }

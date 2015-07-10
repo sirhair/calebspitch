@@ -1,14 +1,20 @@
 //This is where we'll put most of the CSS
 
-
-.siteheader, .sitefooter{
+body{
   background-color: $cMain;
+}
+.siteheader, .sitefooter{
   margin:0;
   color: $cWhite;
+
   //nested style only affects layouts in siteheader or footer
   .layout{
     margin-top:0;
     margin-bottom:0;
   }
 
+}
+
+main {
+  background-color: $cWhite;
 }

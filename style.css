@@ -743,6 +743,14 @@ main {
   background-color: #FFFFFF;
 }
 
+/*----------Homepage - Story Section----------- */
+.story {
+  width: 100%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+}
+
 .storyText {
   width: 41.66667%;
   float: left;
@@ -754,10 +762,77 @@ main {
   color: #57bfc4;
 }
 
+.blueButton {
+  background: #0062a4;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.blueButton:hover {
+  background: #37b449;
+}
+
 .video {
   width: 58.33333%;
   float: left;
   padding-left: 0.69444%;
   padding-right: 0.69444%;
   margin-top: 1.4em;
+}
+
+/*----------Homepage - Get Involved Section----------- */
+.getInvolved {
+  width: 100%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  background: #fff0b3;
+  margin-top: 1em;
+}
+
+.getInvolved h2 {
+  color: #0062a4;
+  text-align: center;
+}
+
+.getInvolvedBadge {
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+}
+
+.circleGreen {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  background: #37b449;
+  margin: auto;
+}
+
+.circleBlue {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  background: #0062a4;
+  margin: auto;
+}
+
+.circleSalmon {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  background: #e56066;
+  margin: auto;
+}
+
+.getInvolvedBadge h3 {
+  text-align: center;
 }

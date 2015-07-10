@@ -19,7 +19,9 @@ main {
   background-color: $cWhite;
 }
 
+/*----------Homepage - Story Section----------- */
 .story {
+    @include span(12 of 12);
 
 }
 
@@ -33,8 +35,71 @@ main {
 
 }
 
+.blueButton{ //How do I center this w/i the storyText div?
+    background: $cpBlue;
+    color: white;
+    font-family: 'Graduate', sans-serif;
+    border: none;
+    padding: .2em .6em .2em .6em;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    transition: background .05s ease;
+    margin: auto 0;
+}
+
+.blueButton:hover {
+    background: $cpGreen;
+}
+
 .video {
     @include span(7 of 12);
     margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
 
+}
+
+/*----------Homepage - Get Involved Section----------- */
+
+.getInvolved {
+    @include span(12 of 12);
+    background: lighten($cpYellow, 35%);
+    margin-top: 1em;
+
+}
+
+.getInvolved h2 {
+    color: $cpBlue;
+    text-align: center;
+}
+
+.getInvolvedBadge {
+    @include span(4 of 12);
+}
+
+.circleGreen {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpGreen;
+    margin: auto;
+}
+
+.circleBlue {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpBlue;
+    margin: auto;
+}
+
+.circleSalmon {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpSalmon;
+    margin: auto;
+}
+
+.getInvolvedBadge h3 {
+    text-align: center;
 }

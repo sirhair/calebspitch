@@ -18,7 +18,7 @@ $min-line-padding: 2px;
 
 //base fonts for site
 body {
-	font-family: 'Open+Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
@@ -26,7 +26,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Graduate', sans-serif;
 	margin: .5em 0;
-  // color:red;
+    font-weight: normal;
+    //color:red;
 }
 
 p, pre {

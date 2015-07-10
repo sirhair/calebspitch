@@ -18,3 +18,23 @@ body{
 main {
   background-color: $cWhite;
 }
+
+.story {
+
+}
+
+.storyText {
+    @include span(5 of 12);
+
+}
+
+.storyText h2 {
+    color: $cpTeal;
+
+}
+
+.video {
+    @include span(7 of 12);
+    margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+
+}

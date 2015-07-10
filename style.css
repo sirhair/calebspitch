@@ -711,7 +711,7 @@ html {
 }
 
 body {
-  font-family: 'Open+Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 32.4px;
 }
@@ -719,6 +719,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Graduate', sans-serif;
   margin: .5em 0;
+  font-weight: normal;
 }
 
 p, pre {
@@ -740,4 +741,23 @@ body {
 
 main {
   background-color: #FFFFFF;
+}
+
+.storyText {
+  width: 41.66667%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+}
+
+.storyText h2 {
+  color: #57bfc4;
+}
+
+.video {
+  width: 58.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  margin-top: 1.4em;
 }

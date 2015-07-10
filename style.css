@@ -836,3 +836,44 @@ main {
 .getInvolvedBadge h3 {
   text-align: center;
 }
+
+/*---------- Forms ----------- */
+#mc_embed_signup {
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.69444%;
+  padding-right: 0.69444%;
+  border: solid 1px #0062a4;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  padding: .5em 1em 1em 1em;
+}
+
+#mc_embed_signup h2 {
+  color: #0062a4;
+  text-align: center;
+}
+
+.formButton {
+  background: #0062a4;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.formButton:hover {
+  background: #37b449;
+}
+
+input {
+  width: 100%;
+}

@@ -16,6 +16,16 @@ function blank_widgets_init(){
 		'after_title' => '</h2>'
 		)
 	);
+
+	register_sidebar ( array (
+        'name' => ('Form Widget'),
+        'id' => 'mc-form',
+        'description' => 'Widget for adding Mail Chimp sign-up',
+        'before_widget' => '<div class="mcForm">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ));
 }
 add_action('widgets_init','blank_widgets_init');
 

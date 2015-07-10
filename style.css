@@ -618,7 +618,7 @@ html {
 }
 
 .layout {
-  max-width: 71em;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   margin: 1.38889% auto;
@@ -631,27 +631,6 @@ html {
 }
 
 @media (min-width: 45em) {
-  .headprimary {
-    width: 100%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .headsecondary {
-    width: 66.66667%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .headsearch {
-    width: 33.33333%;
-    float: right;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
   .primary {
     width: 66.66667%;
     float: left;
@@ -687,28 +666,7 @@ html {
     padding-right: 0.92593%;
   }
 }
-@media (min-width: 71em) {
-  .headprimary {
-    width: 50%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
-  .headsecondary {
-    width: 25%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
-  .headsearch {
-    width: 25%;
-    float: right;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
+@media (min-width: 60em) {
   .primary {
     width: 75%;
     float: left;

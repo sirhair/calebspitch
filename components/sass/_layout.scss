@@ -36,16 +36,16 @@ $halfpadding: $margin/2;
 @include susy-breakpoint ($medium){
   //head columns
   .headprimary{
-    @include span(9 of 9);
+    // @include span(9 of 9);
   }
 
   .headsecondary{
-    @include span(6 of 9);
+    // @include span(6 of 9);
   }
 
-  .headsearch{
-    @include span(last 3 of 9);
-  }
+  // .headsearch{
+  //   @include span(last 3 of 9);
+  // }
 
   //body columns
   .primary{
@@ -73,16 +73,16 @@ $halfpadding: $margin/2;
 @include susy-breakpoint ($large){
   //head columns
   .headprimary{
-    @include span(6 of 12);
+    // @include span(6 of 12);
   }
 
   .headsecondary{
-    @include span(3 of 12);
+    // @include span(3 of 12);
   }
 
-  .headsearch{
-    @include span(last 3 of 12);
-  }
+  // .headsearch{
+  //   @include span(last 3 of 12);
+  // }
 
   //body columns
   .primary{

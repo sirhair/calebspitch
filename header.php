@@ -16,16 +16,16 @@
 							<?php bloginfo('name'); ?>
 						</a> 
 					</h1>
-					<h2>
+<!-- 					<h2>
 							<?php bloginfo('description'); ?>
 					</h2>
-
+ -->
 				</div>
 <div class="headsecondary">
 					<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
 				</div>
-				<div class="headsearch">
+<!-- 				<div class="headsearch">
 					<?php get_search_form();?> 
-				</div>
+				</div> -->
 			</section>
 		</header>

@@ -771,3 +771,13 @@ p, pre {
 * {
   color: fuschia;
 }
+
+.siteheader, .sitefooter {
+  background-color: #57bfc4;
+  margin: 0;
+  color: #FFFFFF;
+}
+.siteheader .layout, .sitefooter .layout {
+  margin-top: 0;
+  margin-bottom: 0;
+}

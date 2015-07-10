@@ -1,10 +1,21 @@
-$cMain: #FF0A27;
-$cSecondary: #8B1E13;
-$cAccent: #2D38FC;
-$cGrey: #9B9AA6;
-$cBlack: #221F24;
-$cWhite: #FCFCFF;
-$cNote: #fcffad; 
+//Caleb's Pitch Colors
+$cpYellow: #ffce00;
+$cpSalmon: #e56066;
+$cpOrange: #ed7e22;
+$cpBlue: #0062a4;
+$cpGreen: #37b449;
+$cpTeal: #57bfc4;
+$cpPurple: #825da3;
+$cpWhite: #FFFFFF;
+
+
+$cMain: $cpTeal;
+$cSecondary: $cpBlue;
+// $cAccent: #2D38FC;
+// $cGrey: #9B9AA6;
+// $cBlack: #221F24;
+$cWhite: $cpWhite;
+// $cNote: #fcffad; 
 
 
 //***************************

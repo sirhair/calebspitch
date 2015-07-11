@@ -29,5 +29,7 @@
 			</section>
 		</header>
 		<nav class="headsecondary">
+			<section class="layout">
 				<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
+			</section>
 		</nav>

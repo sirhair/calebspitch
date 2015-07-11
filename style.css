@@ -612,6 +612,25 @@ th {
 html {
   box-sizing: border-box;
 }
+html a {
+  color: #57bfc4;
+  text-decoration: none;
+}
+html a:visited {
+  color: #37b449;
+}
+html a:focus {
+  color: #ed7e22;
+}
+html a:hover {
+  color: #ed7e22;
+}
+html a:active {
+  color: #825da3;
+}
+html a:hover, html a:focus {
+  text-decoration: underline;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -758,4 +777,30 @@ body {
 
 main {
   background-color: #FFFFFF;
+}
+
+.headsecondary .layout {
+  padding: 0;
+  margin: 0 auto;
+}
+.headsecondary ul {
+  padding: 0;
+}
+.headsecondary a {
+  color: #FFFFFF;
+}
+.headsecondary a:visited {
+  color: #FFFFFF;
+}
+.headsecondary a:focus {
+  color: #0062a4;
+}
+.headsecondary a:hover {
+  color: #0062a4;
+}
+.headsecondary a:active {
+  color: #825da3;
+}
+.headsecondary a:hover, .headsecondary a:focus {
+  text-decoration: none;
 }

@@ -4,8 +4,10 @@ html{
 
   //default link colors
   //link-colors($normal, $hover, $active, $visited, $focus) 
-  // @include link-colors($cpTeal, $cpOrange, $cpPurple, $cpGreen, $cpOrange);
-
+  a{
+    @include link-colors($cpTeal, $cpOrange, $cpPurple, $cpGreen, $cpOrange);
+    @include hover-link;
+  }
 }
 
 *, *:before, *:after{

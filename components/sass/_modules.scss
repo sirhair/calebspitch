@@ -25,12 +25,34 @@ main {
   background-color: $cWhite;
 }
 
-.headsecondary a {
+.headsecondary {
 
-  //LINK COLOR MIX IN
+    .layout{
 
-  //link-colors($normal, $hover, $active, $visited, $focus) 
-  // @include link-colors($normal, $hover, $active, $visited, $focus)
-}
+      padding: 0;
+      margin: 0 auto;
+    
+    }//headsecondary layout
 
+    ul{
+      padding:0;
+    }//headsecondary ul
+
+
+  a {
+
+    //LINK COLOR MIX IN
+
+    //link-colors($normal, $hover, $active, $visited, $focus) 
+    @include link-colors($cWhite, $cpBlue,$cpPurple, $cWhite, $cpBlue);
+
+
+    &:hover, &:focus{
+      text-decoration: none;    
+    }
+
+
+  }//headsecondary a
+
+}//headsecondary
  

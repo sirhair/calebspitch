@@ -2,3 +2,4 @@
 node_modules/
 .sass-cache
 *.sublime*
+guplfile.js

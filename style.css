@@ -665,6 +665,21 @@ html {
     padding-left: 0.92593%;
     padding-right: 0.92593%;
   }
+
+  .storyText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .video {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    margin-top: 1.4em;
+  }
 }
 @media (min-width: 60em) {
   .primary {
@@ -698,6 +713,35 @@ html {
   .thirdwidth:nth-child(3n+0) {
     width: 25%;
     float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .storyText {
+    width: 41.66667%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .video {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    margin-top: 1.4em;
+  }
+
+  .getInvolvedBadge {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  #mc_embed_signup {
+    width: 33.33333%;
+    float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
   }
@@ -744,20 +788,6 @@ main {
 }
 
 /*----------Homepage - Story Section----------- */
-.story {
-  width: 100%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
-}
-
-.storyText {
-  width: 41.66667%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
-}
-
 .storyText h2 {
   color: #57bfc4;
 }
@@ -772,7 +802,8 @@ main {
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
   transition: background .05s ease;
-  margin: auto 0;
+  margin: 0 auto;
+  display: block;
 }
 
 .blueButton:hover {
@@ -780,33 +811,24 @@ main {
 }
 
 .video {
-  width: 58.33333%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
   margin-top: 1.4em;
+}
+
+.video iframe {
+  width: 100%;
+  height: 42%;
 }
 
 /*----------Homepage - Get Involved Section----------- */
 .getInvolved {
-  width: 100%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
   background: #fff0b3;
   margin-top: 1em;
+  padding: .5em 1em 1em 1em;
 }
 
 .getInvolved h2 {
   color: #0062a4;
   text-align: center;
-}
-
-.getInvolvedBadge {
-  width: 33.33333%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
 }
 
 .circleGreen {

@@ -122,6 +122,9 @@ gulp
 This last command will start gulp. Keep that window running in the background. It will also automatically open a browser window to your "localhost/capstone" (assuming you have your server started)
 
   * You will also need a command line for running git commands
+  * You can also sync the live database to your local. [See the syncing section above](https://github.com/sirhair/calebspitch#syncing)
+
+
 
 #Tag notes
 

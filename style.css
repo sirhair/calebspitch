@@ -774,6 +774,24 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+.siteheader a, .sitefooter a {
+  color: #FFFFFF;
+}
+.siteheader a:visited, .sitefooter a:visited {
+  color: #FFFFFF;
+}
+.siteheader a:focus, .sitefooter a:focus {
+  color: #0062a4;
+}
+.siteheader a:hover, .sitefooter a:hover {
+  color: #0062a4;
+}
+.siteheader a:active, .sitefooter a:active {
+  color: #825da3;
+}
+.siteheader a:hover, .siteheader a:focus, .sitefooter a:hover, .sitefooter a:focus {
+  text-decoration: none;
+}
 
 main {
   background-color: #FFFFFF;

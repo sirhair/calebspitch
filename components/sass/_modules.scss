@@ -18,6 +18,20 @@ body{
     margin-top:0;
     margin-bottom:0;
   }
+  a {
+
+    //LINK COLOR MIX IN
+
+    //link-colors($normal, $hover, $active, $visited, $focus) 
+    @include link-colors($cWhite, $cpBlue,$cpPurple, $cWhite, $cpBlue);
+
+
+    &:hover, &:focus{
+      text-decoration: none;    
+    }
+
+
+  }//head/foot a
 
 }
 
@@ -36,8 +50,9 @@ main {
     }//headsecondary layout
 
     ul{
-      
+
       padding: 0;
+
     }//headsecondary ul
 
 

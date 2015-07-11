@@ -649,13 +649,17 @@ html a:hover, html a:focus {
   clear: both;
 }
 
-.logoimg, footer.logoimg {
-  height: 4em;
+.logoimg, footer .logoimg {
+  height: 9rem;
 }
 
 .siteheader {
   background: url("images/heroimagesm.jpg") no-repeat center center;
   height: 10em;
+}
+
+.footlogo, .footcopy {
+  text-align: center;
 }
 
 @media (min-width: 45em) {
@@ -708,13 +712,16 @@ html a:hover, html a:focus {
     padding-right: 0.92593%;
   }
 
-  .fourths:nth-child(4) {
+  .footcopy {
     width: 100%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
     clear: both;
-    text-align: center;
+  }
+
+  .footlogo {
+    text-align: left;
   }
 
   .siteheader {
@@ -815,6 +822,9 @@ body {
 .siteheader .layout, .sitefooter .layout {
   margin-top: 0;
   margin-bottom: 0;
+}
+.siteheader ul, .sitefooter ul {
+  padding: 0;
 }
 .siteheader a, .sitefooter a {
   color: #FFFFFF;

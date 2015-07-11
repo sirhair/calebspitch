@@ -38,13 +38,21 @@ $halfpadding: $margin/2;
   padding:$padding;
 }
 
-.logoimg, footer.logoimg{
-    height: 4em;
+.logoimg, footer .logoimg{
+    height: 9rem;
 }
- .siteheader{
-    background: url("images/heroimagesm.jpg") no-repeat center center; 
-    height: 10em;
-  }
+
+.siteheader{
+  background: url("images/heroimagesm.jpg") no-repeat center center; 
+  height: 10em;
+}
+
+
+//footer layout divs
+.footlogo,   .footcopy{
+  text-align:center;
+}
+
 
 
 //medium breakpoint
@@ -89,10 +97,13 @@ $halfpadding: $margin/2;
   .fourths:nth-child(3n+0){
     @include span(last 3 of 9);
   }
-  .fourths:nth-child(4){
+  .footcopy{
     @include span(9 of 9);
     clear:both;
-    text-align:center;
+  }
+
+  .footlogo{
+    text-align:left;
   }
 
 

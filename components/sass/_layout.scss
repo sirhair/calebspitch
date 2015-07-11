@@ -38,7 +38,9 @@ $halfpadding: $margin/2;
   padding:$padding;
 }
 
-
+.logoimg{
+    height: 4em;
+}
  .siteheader{
     background: url("images/heroimagesm.jpg") no-repeat center center; 
     height: 10em;
@@ -84,7 +86,9 @@ $halfpadding: $margin/2;
     background: url("images/heroimage.jpg") no-repeat center center; 
     height: 25em;
   }
-
+  .logoimg{
+      height: 9em;
+  }
 
 }
 

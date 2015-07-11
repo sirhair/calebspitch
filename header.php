@@ -14,7 +14,7 @@
 				<div class="headprimary">
 					<h1 class="site-title">
 						<a href="<?php $url = home_url( '/' ); echo $url; ?>">
-							<?php bloginfo('name'); ?>
+							<img class="logoimg" alt="<?php echo get_bloginfo('name');?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.svg">
 						</a> 
 					</h1>
 <!-- 					<h2>
@@ -22,11 +22,12 @@
 					</h2>
  -->
 				</div>
-				<div class="headsecondary">
-					<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
-				</div>
+
 <!-- 				<div class="headsearch">
 					<?php get_search_form();?> 
 				</div> -->
 			</section>
 		</header>
+		<nav class="headsecondary">
+				<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
+		</nav>

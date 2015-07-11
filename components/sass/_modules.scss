@@ -2,6 +2,9 @@
 //to adjust the layout spans *have* to be in _layout.scss
 //HELPER classes go into _helperclasses.scss
 
+// also check out mixins at http://compass-style.org/index/mixins/
+
+
 body{
   background-color: $cMain;
 }
@@ -19,6 +22,10 @@ body{
 
 main {
   background-color: $cWhite;
+}
+
+.headsecondary a {
+  font-famil    
 }
 
  

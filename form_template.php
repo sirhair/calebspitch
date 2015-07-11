@@ -43,6 +43,6 @@ Template Name: Volunteer Form Template
 <!--End mc_embed_signup-->
 
     </section>
-</section>
+</main>
 
 <?php get_footer(); ?>

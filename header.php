@@ -5,6 +5,7 @@
 		<?php wp_head(); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	</head>
 	
 	<body>
@@ -21,7 +22,7 @@
 					</h2>
  -->
 				</div>
-<div class="headsecondary">
+				<div class="headsecondary">
 					<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
 				</div>
 <!-- 				<div class="headsearch">

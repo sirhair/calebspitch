@@ -1,10 +1,18 @@
 //######################Set Border-Box
 html{
 	box-sizing:border-box;
+
+  //default link colors
+  //link-colors($normal, $hover, $active, $visited, $focus) 
+  // @include link-colors($cpTeal, $cpOrange, $cpPurple, $cpGreen, $cpOrange);
+
 }
+
 *, *:before, *:after{
 	box-sizing:inherit;
 }
+
+
 
 
 //######################SETUP SUSY

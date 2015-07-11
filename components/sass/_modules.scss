@@ -3,6 +3,7 @@
 //HELPER classes go into _helperclasses.scss
 
 // also check out mixins at http://compass-style.org/index/mixins/
+// when using a mixin, don't forget "@include " before it.
 
 
 body{
@@ -25,7 +26,11 @@ main {
 }
 
 .headsecondary a {
-  font-famil    
+
+  //LINK COLOR MIX IN
+
+  //link-colors($normal, $hover, $active, $visited, $focus) 
+  // @include link-colors($normal, $hover, $active, $visited, $focus)
 }
 
  

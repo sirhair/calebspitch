@@ -22,9 +22,9 @@ e.g.
 $table_prefix  = 'wp_someTeamName_';
 ```
 ### Install these plugins locally and on the live/dev servers
-[Github updater](https://github.com/afragen/github-updater/releases)
-[WP Sync DB](https://github.com/wp-sync-db/wp-sync-db/releases)
-[WP Sync DB MEDIA files addon](https://github.com/wp-sync-db/wp-sync-db-media-files/releases)
+  * [Github updater](https://github.com/afragen/github-updater/releases)
+  * [WP Sync DB](https://github.com/wp-sync-db/wp-sync-db/releases)
+  * [WP Sync DB MEDIA files addon](https://github.com/wp-sync-db/wp-sync-db-media-files/releases)
 
 ###Syncing
 If working in a team you will always want to add permanent pages to your Live/dev site and then PULL permanent pages to your localsite.

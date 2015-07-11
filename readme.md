@@ -104,6 +104,62 @@ This last command will start gulp. Keep that window running in the background. I
   * v 0.3 is a boilerplate for a regular WP theme.
 
 #Appendices
+##Publishing with Git
+
+From: [how to setup git uploading](http://wiki.dreamhost.com/Git#Setup_One:_For_the_Impatient)
+then set up an automatic copy of your remote git repo to copy to your web directory (using hooks) [how to](http://toroid.org/ams/git-website-howto)
+
+If you have git installed on your server (and ssh setup locally-- if not see the info in the uploading link above)
+
+### Create a bare remote repository
+```
+[local project]$ ssh [user@]remote
+[remote ~]$ mkdir project.git
+[remote ~]$ cd project.git
+[remote project.git]$ git init --bare
+[remote project.git]$ exit
+```
+### Push to the remote repository
+```
+[local project]$ git remote add web ssh://[user@]remote/~/project.git
+[local project]$ git push web +master:refs/heads/master
+```
+
+###Setup hook
+This first one is to create your template directory. You will need to have wordpress installed on your remote already. And you will need to locate your themes folder. I'm going to assume that your themes folder is located at "www.example.org/wp-content/themes/". But change that path as appropriate to your wordpress/server installation.
+
+```
+[remote ~]$ cd www.example.org/wp-content/themes/
+[remote themes]$ mkdir calebspitch
+[remote themes]$ cd calebspitch
+[remote calebspitch]$ pwd
+```
+you should then see a path displayed, in this example I'm assuming that the following was displayed
+"/var/www/www.example.org/wp-content/themes/"
+
+```
+[remote calebspitch]$ cd ~
+[remote ~]$ cd project.git
+[remote project.git]$ cat > hooks/post-receive
+```
+You will then have a response line waiting type:
+```
+#!/bin/sh
+GIT_WORK_TREE=/www.example.org/wp-content/themes/calebspitch git checkout -f
+```
+Then press CNTRL+C to break from the response line and return to the normal shell prompt.
+
+Make the hook executable (+x)
+```
+[remote project.git]$ chmod +x hooks/post-receive
+```
+Then make a change to your local repo, commit it and then push:
+
+```
+[local project]$ git push web
+```
+once you've done that a copy should be on your remote in the project.git folder and in the themes/calebspitch folder.
+
 ##Learn node
 [NodeSchool](http://nodeschool.io/)
 

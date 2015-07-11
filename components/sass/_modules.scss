@@ -137,3 +137,30 @@ main {
     input {
         width: 100%;
     }
+
+/*---------- Get Involved ----------- */
+
+    .getInvolvedPage h1 {
+        color: $cpPurple;
+    }
+
+    .giVolunteer {
+    background: $cpBlue;
+    color: white;
+    }
+
+    .giVolunteerVideo iframe {
+        width: 100%;
+        height: 40%;
+    }
+
+    .giDonate {
+    background: $cpGreen;
+    color: white;
+
+    }
+
+    .giSponsor {
+    background: $cpSalmon;
+    color: white;
+    }

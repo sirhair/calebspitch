@@ -78,6 +78,20 @@ $halfpadding: $margin/2;
 
   }
 
+  .giVolunteerText {
+    @include span(4 of 9);
+
+  }
+
+  .giDonateText {
+    @include span(4 of 9);
+
+  }
+
+  .giSponsorText {
+    @include span(4 of 9);
+  }
+
 }
 
 //large breakpoint
@@ -116,6 +130,8 @@ $halfpadding: $margin/2;
     @include span(last 3 of 12);
   }
 
+  /*----------- Home Page ------------ */
+
   .storyText {
     @include span(5 of 12);
 
@@ -131,8 +147,53 @@ $halfpadding: $margin/2;
     @include span(4 of 12);
   }
 
+  /*----------- Forms ------------ */
+
   #mc_embed_signup {
     @include span(4 of 12);
+  }
+
+  /*----------- Get Involved Page ------------ */
+
+
+  .giVolunteer {
+    margin-bottom: $margin;
+  }
+
+  .giVolunteerText {
+    @include span(6 of 12);
+    padding:$padding;
+    margin-bottom: $margin;
+  }
+
+  .giVolunteerVideo {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giDonate {
+    margin-bottom: $margin;
+  }
+
+  .giDonateText {
+    @include span(6 of 12);
+    padding:$padding;
+
+  }
+
+  .giDonateImage {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giSponsorText {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giSponsorImage {
+    @include span(6 of 12);
+    padding:$padding;
   }
 
 

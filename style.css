@@ -680,6 +680,27 @@ html {
     padding-right: 0.92593%;
     margin-top: 1.4em;
   }
+
+  .giVolunteerText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .giDonateText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .giSponsorText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
 }
 @media (min-width: 60em) {
   .primary {
@@ -717,6 +738,7 @@ html {
     padding-right: 0.69444%;
   }
 
+  /*----------- Home Page ------------ */
   .storyText {
     width: 41.66667%;
     float: left;
@@ -739,11 +761,70 @@ html {
     padding-right: 0.69444%;
   }
 
+  /*----------- Forms ------------ */
   #mc_embed_signup {
     width: 33.33333%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+  }
+
+  /*----------- Get Involved Page ------------ */
+  .giVolunteer {
+    margin-bottom: 1.38889%;
+  }
+
+  .giVolunteerText {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
+    margin-bottom: 1.38889%;
+  }
+
+  .giVolunteerVideo {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
+  }
+
+  .giDonate {
+    margin-bottom: 1.38889%;
+  }
+
+  .giDonateText {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
+  }
+
+  .giDonateImage {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
+  }
+
+  .giSponsorText {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
+  }
+
+  .giSponsorImage {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    padding: 0.5em;
   }
 }
 .right {
@@ -898,4 +979,29 @@ main {
 
 input {
   width: 100%;
+}
+
+/*---------- Get Involved ----------- */
+.getInvolvedPage h1 {
+  color: #825da3;
+}
+
+.giVolunteer {
+  background: #0062a4;
+  color: white;
+}
+
+.giVolunteerVideo iframe {
+  width: 100%;
+  height: 40%;
+}
+
+.giDonate {
+  background: #37b449;
+  color: white;
+}
+
+.giSponsor {
+  background: #e56066;
+  color: white;
 }

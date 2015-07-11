@@ -108,7 +108,7 @@ This last command will start gulp. Keep that window running in the background. I
 
 Derived From: [Git Setup for Dreamhost](http://wiki.dreamhost.com/Git#Setup_One:_For_the_Impatient) and [Using Git to manage a web site](http://toroid.org/ams/git-website-howto)
 
-If you have git installed on your server (and ssh setup locally-- if not see the info in the uploading link above)
+If you have git installed on your server (and ssh setup locally-- if not see the info in the git setup for dreamhost link above) you can start below.
 
 ### Create a bare remote repository
 ```

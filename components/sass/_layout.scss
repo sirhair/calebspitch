@@ -15,11 +15,11 @@ $halfpadding: $margin/2;
 
 //place all custom spans in the Medium and Large breakpoints
 
-// Since small is default, and sizes for small will be full width, there is 
+// Since small is default, and sizes for small will be full width, there is
 // no need to do spans for the small size.
 
 
-// if you have a .primary (span(9 of 12)) section, and put three .thirdwidth 
+// if you have a .primary (span(9 of 12)) section, and put three .thirdwidth
 
 // if you have a .primary (span(9 of 12)) section, and put three .thirdwidth
 
@@ -47,9 +47,24 @@ $halfpadding: $margin/2;
 }
 
 .siteheader{
-  background: url("images/heroimagesm.jpg") no-repeat center center; 
+  background: url("images/heroimagesm.jpg") no-repeat center center;
   height: 10em;
 }
+
+.storyText {
+  font-size: .8em;
+}
+
+.video {
+  margin-top: 1.4em;
+}
+
+.video iframe {
+    width: 95%;
+    height: 15em;
+    display: block;
+    margin: auto;
+  }
 
 
 //footer layout divs
@@ -97,7 +112,7 @@ $halfpadding: $margin/2;
   .fourths{
     @include span(3 of 9);
   }
-  
+
   .fourths:nth-child(3n+0){
     @include span(last 3 of 9);
   }
@@ -112,12 +127,14 @@ $halfpadding: $margin/2;
 
 
   .siteheader{
-    background: url("images/heroimage.jpg") no-repeat center center; 
+    background: url("images/heroimage.jpg") no-repeat center center;
     height: 25em;
   }
+
   .logoimg{
       height: 9em;
     }
+
   .storyText {
     @include span(4 of 9);
 
@@ -125,7 +142,12 @@ $halfpadding: $margin/2;
 
   .video {
     @include span(5 of 9);
-    margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+    margin-top: 1.4em;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 18em;
 
   }
 
@@ -188,7 +210,7 @@ $halfpadding: $margin/2;
    .fourths:nth-child(4){
     clear:none;
   }
-  
+
   .fourths:nth-child(4n+0){
     @include span(last 3 of 12);
     text-align:right;
@@ -198,12 +220,18 @@ $halfpadding: $margin/2;
 
   .storyText {
     @include span(5 of 12);
+    font-size: 1em;
 
   }
 
   .video {
     @include span(7 of 12);
     margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 18em;
 
   }
 

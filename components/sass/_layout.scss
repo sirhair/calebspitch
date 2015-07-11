@@ -31,12 +31,19 @@ $halfpadding: $margin/2;
 // .main{}
 // .sitefooter{}
 
-//##########base layouts
+//##########base layouts (Mobile and Small)
 .layout{
   @include container;
   margin:$margin auto;
   padding:$padding;
 }
+
+
+ .siteheader{
+    background: url("images/heroimagesm.jpg") no-repeat center center; 
+    height: 10em;
+  }
+
 
 //medium breakpoint
 @include susy-breakpoint ($medium){
@@ -72,6 +79,12 @@ $halfpadding: $margin/2;
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 9);
   }
+
+  .siteheader{
+    background: url("images/heroimage.jpg") no-repeat center center; 
+    height: 25em;
+  }
+
 
 }
 
@@ -110,5 +123,6 @@ $halfpadding: $margin/2;
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 12);
   }
+
 
 }

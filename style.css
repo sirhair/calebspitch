@@ -630,6 +630,11 @@ html {
   clear: both;
 }
 
+.siteheader {
+  background: url("images/heroimagesm.jpg") no-repeat center center;
+  height: 10em;
+}
+
 @media (min-width: 45em) {
   .primary {
     width: 66.66667%;
@@ -664,6 +669,11 @@ html {
     float: right;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
+  }
+
+  .siteheader {
+    background: url("images/heroimage.jpg") no-repeat center center;
+    height: 25em;
   }
 }
 @media (min-width: 60em) {

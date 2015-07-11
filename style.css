@@ -807,6 +807,7 @@ main {
 }
 .headsecondary a {
   color: #FFFFFF;
+  font-size: 1.5rem;
 }
 .headsecondary a:visited {
   color: #FFFFFF;

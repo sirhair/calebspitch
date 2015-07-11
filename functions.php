@@ -1,20 +1,14 @@
 <?php
-/*-----------------------enqueue CSS fields-----------------------*/
-function foundation_css(){
-	wp_enqueue_style(
-		'foundation',
-		get_template_directory_uri() . '/css/foundation.css'
-		);
-}
-add_action('wp_enqueue_scripts', 'foundation_css');
 
-function normalize_css(){
-	wp_enqueue_style(
-		'normalize',
-		get_template_directory_uri() . '/css/normalize.css'
-		);
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'primary' ),
+      'extra-menu' => __( 'footer' )
+    )
+  );
 }
-add_action('wp_enqueue_scripts', 'normalize_css');
+add_action( 'init', 'register_my_menus' );
 
 
 /*-----------------------enable widgets-----------------------*/

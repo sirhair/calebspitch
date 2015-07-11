@@ -38,7 +38,7 @@ $halfpadding: $margin/2;
   padding:$padding;
 }
 
-.logoimg{
+.logoimg, footer.logoimg{
     height: 4em;
 }
  .siteheader{
@@ -81,6 +81,20 @@ $halfpadding: $margin/2;
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 9);
   }
+
+  .fourths{
+    @include span(3 of 9);
+  }
+  
+  .fourths:nth-child(3n+0){
+    @include span(last 3 of 9);
+  }
+  .fourths:nth-child(4){
+    @include span(9 of 9);
+    clear:both;
+    text-align:center;
+  }
+
 
   .siteheader{
     background: url("images/heroimage.jpg") no-repeat center center; 
@@ -126,6 +140,19 @@ $halfpadding: $margin/2;
  
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 12);
+  }
+
+  .fourths,   .fourths:nth-child(3n+0), .fourths:nth-child(4){
+    @include span(3 of 12);
+  }
+
+   .fourths:nth-child(4){
+    clear:none;
+  }
+  
+  .fourths:nth-child(4n+0){
+    @include span(last 3 of 12);
+    text-align:right;
   }
 
 

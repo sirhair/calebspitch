@@ -649,7 +649,7 @@ html a:hover, html a:focus {
   clear: both;
 }
 
-.logoimg {
+.logoimg, footer.logoimg {
   height: 4em;
 }
 
@@ -692,6 +692,29 @@ html a:hover, html a:focus {
     float: right;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
+  }
+
+  .fourths {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fourths:nth-child(3n+0) {
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fourths:nth-child(4) {
+    width: 100%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    clear: both;
+    text-align: center;
   }
 
   .siteheader {
@@ -737,6 +760,25 @@ html a:hover, html a:focus {
     float: right;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+  }
+
+  .fourths, .fourths:nth-child(3n+0), .fourths:nth-child(4) {
+    width: 25%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .fourths:nth-child(4) {
+    clear: none;
+  }
+
+  .fourths:nth-child(4n+0) {
+    width: 25%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    text-align: right;
   }
 }
 .right {

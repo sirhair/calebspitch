@@ -40,6 +40,6 @@ Template Name: Get Involved Landing Page
         </section>
 
     </section>
-</section>
+</main>
 
 <?php get_footer(); ?>

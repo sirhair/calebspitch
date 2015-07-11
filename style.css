@@ -1060,6 +1060,10 @@ main {
   color: #57bfc4;
 }
 
+.storyText a:hover {
+  text-decoration: none;
+}
+
 .blueButton {
   background: #0062a4;
   color: white;

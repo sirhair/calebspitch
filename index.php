@@ -35,6 +35,12 @@
 			</div>
 
 			<section class="layout">
+				<section class="upcomingEvents">
+					<h2>Upcoming Events</h2>
+				</section>
+				<section class="upcomingEvents">
+					<h2>Caleb's Pitch In Action</h2>
+				</section>
 
 
 

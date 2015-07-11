@@ -97,6 +97,10 @@ main {
 
 }
 
+.storyText a:hover {
+    text-decoration: none;
+}
+
 .blueButton{ //How do I center this w/i the storyText div?
     background: $cpBlue;
     color: white;

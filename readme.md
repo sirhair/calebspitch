@@ -13,6 +13,31 @@ We're using [SublimeText 3](http://www.sublimetext.com/3), if you are using anot
 ####IMPORTANT
 Make sure your wordpress install is in a directory called "capstone" or browsersync won't work (unless you modify the config locally)
 
+##WP DATABASE SYNCING
+All team members will need to ensure that their local wordpress installations USE THE SAME TABLE PREFIX.
+
+If not, then you need to have the team edit their local wp-config.php files and replace their ```$table_prefix``` with the table prefix of the live/dev sites.
+e.g.
+````
+$table_prefix  = 'wp_someTeamName_';
+```
+### Install these plugins locally and on the live/dev servers
+[Github updater](https://github.com/afragen/github-updater/releases)
+[WP Sync DB](https://github.com/wp-sync-db/wp-sync-db/releases)
+[WP Sync DB MEDIA files addon](https://github.com/wp-sync-db/wp-sync-db-media-files/releases)
+
+###Syncing
+If working in a team you will always want to add permanent pages to your Live/dev site and then PULL permanent pages to your localsite.
+
+Though you can create *temporary* pages locally to test something, before you make the permanent page on the live site.
+
+Pulling will **ERASE** any local database changes (users/pass/post/pages, etc) So it is important to make any permanent changes to the LIVE site.
+
+AND ALWAYS make sure you have updated the live site with any new pages/posts changes before you pull. Or it will be erased locally... I can't stress this enough.
+
+[view the pulling live data screencast](https://github.com/wp-sync-db/wp-sync-db#pulling-live-data-into-your-local-development-environment)
+
+
 ###Windows Instructions
   1. Install git from [GitHub](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   2. Install node from [NodeJS](https://nodejs.org/)

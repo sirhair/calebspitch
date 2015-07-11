@@ -673,6 +673,16 @@ html a:hover, html a:focus {
   margin: auto;
 }
 
+.getInvolvedBadge {
+  text-align: center;
+}
+
+.homeSplat {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 .footlogo, .footcopy {
   text-align: center;
 }
@@ -766,6 +776,10 @@ html a:hover, html a:focus {
   .video iframe {
     width: 100%;
     height: 18em;
+  }
+
+  .homeSplat {
+    width: 40%;
   }
 
   .giVolunteerText {
@@ -871,6 +885,11 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+    text-align: left;
+  }
+
+  .homeSplat {
+    width: 90%;
   }
 
   /*----------- Forms ------------ */
@@ -1069,30 +1088,6 @@ main {
 .getInvolved h2 {
   color: #0062a4;
   text-align: center;
-}
-
-.circleGreen {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #37b449;
-  margin: auto;
-}
-
-.circleBlue {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #0062a4;
-  margin: auto;
-}
-
-.circleSalmon {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #e56066;
-  margin: auto;
 }
 
 .getInvolvedBadge h3 {

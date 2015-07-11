@@ -17,19 +17,19 @@
 				<section class="layout">
 					<h2>Get Involved</h2>
 						<div class="getInvolvedBadge">
-							<div class="circleGreen"></div>
+							<img class="homeSplat" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
 							<h3>Donate</h3>
-							<p>Some text about donating money and how it's awesome.</p>
+							<p>Some text about donating money and how it's awesome. Some text about donating money and how it's awesome.</p>
 						</div>
 						<div class="getInvolvedBadge">
-							<div class="circleBlue"></div>
+							<img class="homeSplat" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
 							<h3>Volunteer</h3>
-							<p>Some text about volunteering and how it's awesome.</p>
+							<p>Some text about volunteering and how it's awesome. Some text about volunteering and how it's awesome.</p>
 						</div>
 						<div class="getInvolvedBadge">
-							<div class="circleSalmon"></div>
+							<img class="homeSplat" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
 							<h3>Sponsor</h3>
-							<p>Some text about sponsoring Caleb's Pitch and how it's awesome.</p>
+							<p>Some text about sponsoring Caleb's Pitch and how it's awesome. Some text about sponsoring Caleb's Pitch.</p>
 						</div>
 				</section>
 			</div>

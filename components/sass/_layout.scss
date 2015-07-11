@@ -66,6 +66,16 @@ $halfpadding: $margin/2;
     margin: auto;
   }
 
+.getInvolvedBadge {
+  text-align: center;
+}
+
+.homeSplat {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 
 //footer layout divs
 .footlogo,   .footcopy{
@@ -149,6 +159,10 @@ $halfpadding: $margin/2;
     width: 100%;
     height: 18em;
 
+  }
+
+  .homeSplat {
+  width: 40%;
   }
 
   .giVolunteerText {
@@ -237,6 +251,11 @@ $halfpadding: $margin/2;
 
   .getInvolvedBadge {
     @include span(4 of 12);
+    text-align: left;
+  }
+
+  .homeSplat {
+  width: 90%;
   }
 
   /*----------- Forms ------------ */

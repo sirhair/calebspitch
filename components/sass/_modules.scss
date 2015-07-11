@@ -81,3 +81,148 @@ main {
 
 }//headsecondary
  
+/*----------Homepage - Story Section----------- */
+
+.storyText h2 {
+    color: $cpTeal;
+
+}
+
+.blueButton{ //How do I center this w/i the storyText div?
+    background: $cpBlue;
+    color: white;
+    font-family: 'Graduate', sans-serif;
+    border: none;
+    padding: .2em .6em .2em .6em;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    transition: background .05s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.blueButton:hover {
+    background: $cpGreen;
+}
+
+.video {
+    margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+
+}
+
+.video iframe {
+    width: 100%;
+    height: 42%;
+
+}
+
+/*----------Homepage - Get Involved Section----------- */
+
+.getInvolved {
+    background: lighten($cpYellow, 35%);
+    margin-top: 1em;
+    padding: .5em 1em 1em 1em;
+
+}
+
+.getInvolved h2 {
+    color: $cpBlue;
+    text-align: center;
+}
+
+.circleGreen {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpGreen;
+    margin: auto;
+}
+
+.circleBlue {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpBlue;
+    margin: auto;
+}
+
+.circleSalmon {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background: $cpSalmon;
+    margin: auto;
+}
+
+.getInvolvedBadge h3 {
+    text-align: center;
+}
+
+/*---------- Forms ----------- */
+
+    #mc_embed_signup {
+        @include span(4 of 12);
+        border: solid 1px $cpBlue;
+        border-radius: .2em;
+        -webkit-border-radius: .2em;
+        -moz-border-radius: .2em;
+        padding: .5em 1em 1em 1em;
+    }
+
+
+    #mc_embed_signup h2 {
+        color:$cpBlue;
+        text-align: center;
+
+    }
+
+    .formButton{
+    background: $cpBlue;
+    color: white;
+    font-family: 'Graduate', sans-serif;
+    border: none;
+    width: 100%;
+    padding: .5em;
+    margin-top: 1em;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    transition: background .05s ease;
+    margin: auto 0;
+    }
+
+    .formButton:hover {
+        background: $cpGreen;
+    }
+
+    input {
+        width: 100%;
+    }
+
+/*---------- Get Involved ----------- */
+
+    .getInvolvedPage h1 {
+        color: $cpPurple;
+    }
+
+    .giVolunteer {
+    background: $cpBlue;
+    color: white;
+    }
+
+    .giVolunteerVideo iframe {
+        width: 100%;
+        height: 40%;
+    }
+
+    .giDonate {
+    background: $cpGreen;
+    color: white;
+
+    }
+
+    .giSponsor {
+    background: $cpSalmon;
+    color: white;
+    }

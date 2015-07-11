@@ -1,6 +1,6 @@
 //based on https://travismaynard.com/writing/getting-started-with-gulp
 // Include gulp
-var gulp = require('gulp'); 
+var gulp = require('gulp');
 
 // Include Our Plugins
 var jshint = require('gulp-jshint');
@@ -60,8 +60,8 @@ gulp.task('phpLoad', function(){
 // Watch Files For Changes
 gulp.task('watch', function() {
      browserSync.init({
-        proxy: "localhost/capstone/"
-        //if you are having problems with gulp and running Mamp instead of Xamp on Mac localhost:8888 instead of localhost/capstone might work 
+        proxy: "localhost:8888/"
+        //if you are having problems with gulp and running Mamp instead of Xamp on Mac localhost:8888 instead of localhost/capstone might work
     });
     gulp.watch('components/js/*.js', ['lint', 'scripts']);
     gulp.watch('components/sass/*.scss', ['compass']);
@@ -70,4 +70,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'compass', 'scripts', 'watch']); // 
+gulp.task('default', ['lint', 'compass', 'scripts', 'watch']); //

@@ -12,6 +12,7 @@ $halfpadding: $margin/2;
 
 //Susy is context/nesting sensitive!!!!
 
+<<<<<<< HEAD
 //place all custom spans in the Medium and Large breakpoints
 
 // Since small is default, and sizes for small will be full width, there is 
@@ -19,13 +20,16 @@ $halfpadding: $margin/2;
 
 
 // if you have a .primary (span(9 of 12)) section, and put three .thirdwidth 
+=======
+// if you have a .primary (span(9 of 12)) section, and put three .thirdwidth
+>>>>>>> kelly
 // (span(4 of 12)) sections INSIDE it, then you will divide up the
 // .primary into 12 columns and give each .thirdwidth section 4 of those nested columns.
 
 // in other words, each nested .thirdwidth will be a third the width of the .primary section.
 
 // if a class does not have a span defined, it will default to full width.
-// it is preferred to not use the .fullwidth class 
+// it is preferred to not use the .fullwidth class
 
 // .siteheader{}
 // .main{}
@@ -85,7 +89,7 @@ $halfpadding: $margin/2;
   .thirdwidth{
     @include span(3 of 9);
   }
- 
+
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 9);
   }
@@ -113,6 +117,30 @@ $halfpadding: $margin/2;
   }
   .logoimg{
       height: 9em;
+    }
+  .storyText {
+    @include span(4 of 9);
+
+  }
+
+  .video {
+    @include span(5 of 9);
+    margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+
+  }
+
+  .giVolunteerText {
+    @include span(4 of 9);
+
+  }
+
+  .giDonateText {
+    @include span(4 of 9);
+
+  }
+
+  .giSponsorText {
+    @include span(4 of 9);
   }
 
 }
@@ -148,7 +176,7 @@ $halfpadding: $margin/2;
   .thirdwidth{
     @include span(4 of 12);
   }
- 
+
   .thirdwidth:nth-child(3n+0){
     @include span(last 3 of 12);
   }
@@ -164,6 +192,71 @@ $halfpadding: $margin/2;
   .fourths:nth-child(4n+0){
     @include span(last 3 of 12);
     text-align:right;
+
+  /*----------- Home Page ------------ */
+
+  .storyText {
+    @include span(5 of 12);
+
+  }
+
+  .video {
+    @include span(7 of 12);
+    margin-top: 1.4em; //Aligns video with text, is there  better way to do this?
+
+  }
+
+  .getInvolvedBadge {
+    @include span(4 of 12);
+  }
+
+  /*----------- Forms ------------ */
+
+  #mc_embed_signup {
+    @include span(4 of 12);
+  }
+
+  /*----------- Get Involved Page ------------ */
+
+
+  .giVolunteer {
+    margin-bottom: $margin;
+  }
+
+  .giVolunteerText {
+    @include span(6 of 12);
+    padding:$padding;
+    margin-bottom: $margin;
+  }
+
+  .giVolunteerVideo {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giDonate {
+    margin-bottom: $margin;
+  }
+
+  .giDonateText {
+    @include span(6 of 12);
+    padding:$padding;
+
+  }
+
+  .giDonateImage {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giSponsorText {
+    @include span(6 of 12);
+    padding:$padding;
+  }
+
+  .giSponsorImage {
+    @include span(6 of 12);
+    padding:$padding;
   }
 
 

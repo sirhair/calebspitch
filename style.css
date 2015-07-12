@@ -913,6 +913,21 @@ html a:hover, html a:focus {
     padding: 0.5em;
   }
 }
+/*------------ Gallery Template-------*/
+.gallery {
+  padding: 0.5em;
+  margin-bottom: 1.38889%;
+}
+
+/*------------ Event Template-------*/
+.eventslist ul {
+  list-style-type: none;
+}
+
+.eventslist li a {
+  display: inline;
+}
+
 .right {
   float: right;
 }
@@ -1147,3 +1162,5 @@ input {
   background: #e56066;
   color: white;
 }
+
+/*-----------Events--------*/

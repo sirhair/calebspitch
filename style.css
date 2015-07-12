@@ -802,6 +802,21 @@ html a:hover, html a:focus {
     padding-left: 0.92593%;
     padding-right: 0.92593%;
   }
+
+  /*----------- Forms ------------*/
+  .formText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  #mc_embed_signup {
+    width: 41.66667%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
 }
 @media (min-width: 60em) {
   .primary {
@@ -893,11 +908,19 @@ html a:hover, html a:focus {
   }
 
   /*----------- Forms ------------ */
-  #mc_embed_signup {
-    width: 33.33333%;
+  .formText {
+    width: 41.66667%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+  }
+
+  #mc_embed_signup {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    margin: 0;
   }
 
   /*----------- Get Involved Page ------------ */
@@ -1079,7 +1102,7 @@ main {
 }
 
 .blueButton:hover {
-  background: #37b449;
+  background: #004471;
 }
 
 /*----------Homepage - Get Involved Section----------- */
@@ -1149,15 +1172,12 @@ main {
 
 /*---------- Forms ----------- */
 #mc_embed_signup {
-  width: 33.33333%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
   border: solid 1px #0062a4;
   border-radius: .2em;
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
   padding: .5em 1em 1em 1em;
+  margin: 1.38889%;
 }
 
 #mc_embed_signup h2 {
@@ -1191,11 +1211,16 @@ input {
 /*---------- Get Involved ----------- */
 .getInvolvedPage h1 {
   color: #825da3;
+  text-align: center;
 }
 
 .giVolunteer {
   background: #0062a4;
   color: white;
+}
+
+.giVolunteerText a:hover {
+  text-decoration: none;
 }
 
 .giVolunteerVideo iframe {
@@ -1208,7 +1233,51 @@ input {
   color: white;
 }
 
+.giDonateText a:hover {
+  text-decoration: none;
+}
+
 .giSponsor {
   background: #e56066;
   color: white;
+}
+
+.giSponsorText a:hover {
+  text-decoration: none;
+}
+
+.greenButton {
+  background: #37b449;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.greenButton:hover {
+  background: #2b8d39;
+}
+
+.pinkButton {
+  background: #e56066;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.pinkButton:hover {
+  background: #de343c;
 }

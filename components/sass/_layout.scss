@@ -179,6 +179,17 @@ $halfpadding: $margin/2;
     @include span(4 of 9);
   }
 
+  /*----------- Forms ------------*/
+
+  .formText {
+    @include span(4 of 9);
+  }
+
+  #mc_embed_signup {
+    @include span(5 last);
+
+  }
+
 }
 
 //large breakpoint
@@ -260,9 +271,18 @@ $halfpadding: $margin/2;
 
   /*----------- Forms ------------ */
 
-  #mc_embed_signup {
-    @include span(4 of 12);
+  .formText {
+    @include span(5 of 12);
   }
+
+  #mc_embed_signup {
+    @include span(6 of 12);
+    margin: 0;
+
+  }
+
+
+
 
   /*----------- Get Involved Page ------------ */
 

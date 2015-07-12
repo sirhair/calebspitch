@@ -116,7 +116,7 @@ main {
 }
 
 .blueButton:hover {
-    background: $cpGreen;
+    background: darken($cpBlue, 10%);
 }
 
 /*----------Homepage - Get Involved Section----------- */
@@ -186,12 +186,12 @@ main {
 /*---------- Forms ----------- */
 
     #mc_embed_signup {
-        @include span(4 of 12);
         border: solid 1px $cpBlue;
         border-radius: .2em;
         -webkit-border-radius: .2em;
         -moz-border-radius: .2em;
         padding: .5em 1em 1em 1em;
+        margin: $margin;
     }
 
 
@@ -228,11 +228,16 @@ main {
 
     .getInvolvedPage h1 {
         color: $cpPurple;
+        text-align: center;
     }
 
     .giVolunteer {
     background: $cpBlue;
     color: white;
+    }
+
+    .giVolunteerText a:hover {
+        text-decoration: none;
     }
 
     .giVolunteerVideo iframe {
@@ -246,7 +251,50 @@ main {
 
     }
 
+    .giDonateText a:hover {
+        text-decoration: none;
+    }
+
     .giSponsor {
     background: $cpSalmon;
     color: white;
+    }
+    .giSponsorText a:hover {
+        text-decoration: none;
+    }
+
+    .greenButton{
+    background: $cpGreen;
+    color: white;
+    font-family: 'Graduate', sans-serif;
+    border: none;
+    padding: .2em .6em .2em .6em;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    transition: background .05s ease;
+    margin: 0 auto;
+    display: block;
+    }
+
+    .greenButton:hover {
+        background: darken($cpGreen, 10%);
+    }
+
+    .pinkButton{
+    background: $cpSalmon;
+    color: white;
+    font-family: 'Graduate', sans-serif;
+    border: none;
+    padding: .2em .6em .2em .6em;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    transition: background .05s ease;
+    margin: 0 auto;
+    display: block;
+    }
+
+    .pinkButton:hover {
+        background: darken($cpSalmon, 10%);
     }

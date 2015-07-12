@@ -11,25 +11,36 @@
 						<iframe src="https://www.youtube.com/embed/HoG1NQoU04M" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</section>
-
-			<section class="getInvolved fullwidth">
-				<h2>Get Involved</h2>
-					<div class="getInvolvedBadge">
-						<div class="circleGreen"></div>
-						<h3>Donate</h3>
-						<p>Some text about donating money and how it's awesome.</p>
-					</div>
-					<div class="getInvolvedBadge">
-						<div class="circleBlue"></div>
-						<h3>Volunteer</h3>
-						<p>Some text about volunteering and how it's awesome.</p>
-					</div>
-					<div class="getInvolvedBadge">
-						<div class="circleSalmon"></div>
-						<h3>Sponsor</h3>
-						<p>Some text about sponsoring Caleb's Pitch and how it's awesome.</p>
-					</div>
 			</section>
+
+			<div class="getInvolved">
+				<section class="layout">
+					<h2>Get Involved</h2>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
+							<h3>Donate</h3>
+							<p>Some text about donating money and how it's awesome. Some text about donating money and how it's awesome.</p>
+						</div>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
+							<h3>Volunteer</h3>
+							<p>Some text about volunteering and how it's awesome. Some text about volunteering and how it's awesome.</p>
+						</div>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
+							<h3>Sponsor</h3>
+							<p>Some text about sponsoring Caleb's Pitch and how it's awesome. Some text about sponsoring Caleb's Pitch.</p>
+						</div>
+				</section>
+			</div>
+
+			<section class="layout">
+				<section class="upcomingEvents">
+					<h2>Upcoming Events</h2>
+				</section>
+				<section class="upcomingEvents">
+					<h2>Caleb's Pitch In Action</h2>
+				</section>
 
 
 

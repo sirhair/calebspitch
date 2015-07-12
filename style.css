@@ -658,6 +658,31 @@ html a:hover, html a:focus {
   height: 10em;
 }
 
+.storyText {
+  font-size: .8em;
+}
+
+.video {
+  margin-top: 1.4em;
+}
+
+.video iframe {
+  width: 95%;
+  height: 15em;
+  display: block;
+  margin: auto;
+}
+
+.getInvolvedBadge {
+  text-align: center;
+}
+
+.homeSplat {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
 .footlogo, .footcopy {
   text-align: center;
 }
@@ -748,6 +773,15 @@ html a:hover, html a:focus {
     margin-top: 1.4em;
   }
 
+  .video iframe {
+    width: 100%;
+    height: 18em;
+  }
+
+  .homeSplat {
+    width: 40%;
+  }
+
   .giVolunteerText {
     width: 44.44444%;
     float: left;
@@ -767,6 +801,21 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
+  }
+
+  /*----------- Forms ------------*/
+  .formText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  #mc_embed_signup {
+    width: 41.66667%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
   }
 }
 @media (min-width: 60em) {
@@ -830,6 +879,7 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+    font-size: 1em;
   }
 
   .video {
@@ -840,19 +890,37 @@ html a:hover, html a:focus {
     margin-top: 1.4em;
   }
 
+  .video iframe {
+    width: 100%;
+    height: 18em;
+  }
+
   .getInvolvedBadge {
     width: 33.33333%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+    text-align: left;
+  }
+
+  .homeSplat {
+    width: 90%;
   }
 
   /*----------- Forms ------------ */
-  #mc_embed_signup {
-    width: 33.33333%;
+  .formText {
+    width: 41.66667%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+  }
+
+  #mc_embed_signup {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    margin: 0;
   }
 
   /*----------- Get Involved Page ------------ */
@@ -1030,6 +1098,10 @@ main {
   color: #57bfc4;
 }
 
+.storyText a:hover {
+  text-decoration: none;
+}
+
 .blueButton {
   background: #0062a4;
   color: white;
@@ -1045,16 +1117,7 @@ main {
 }
 
 .blueButton:hover {
-  background: #37b449;
-}
-
-.video {
-  margin-top: 1.4em;
-}
-
-.video iframe {
-  width: 100%;
-  height: 42%;
+  background: #004471;
 }
 
 /*----------Homepage - Get Involved Section----------- */
@@ -1069,45 +1132,67 @@ main {
   text-align: center;
 }
 
-.circleGreen {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #37b449;
-  margin: auto;
-}
-
-.circleBlue {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #0062a4;
-  margin: auto;
-}
-
-.circleSalmon {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-  background: #e56066;
-  margin: auto;
-}
-
 .getInvolvedBadge h3 {
   text-align: center;
 }
 
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, black 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
 /*---------- Forms ----------- */
 #mc_embed_signup {
-  width: 33.33333%;
-  float: left;
-  padding-left: 0.69444%;
-  padding-right: 0.69444%;
   border: solid 1px #0062a4;
   border-radius: .2em;
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
   padding: .5em 1em 1em 1em;
+  margin: 1.38889%;
 }
 
 #mc_embed_signup h2 {
@@ -1141,11 +1226,16 @@ input {
 /*---------- Get Involved ----------- */
 .getInvolvedPage h1 {
   color: #825da3;
+  text-align: center;
 }
 
 .giVolunteer {
   background: #0062a4;
   color: white;
+}
+
+.giVolunteerText a:hover {
+  text-decoration: none;
 }
 
 .giVolunteerVideo iframe {
@@ -1158,9 +1248,52 @@ input {
   color: white;
 }
 
+.giDonateText a:hover {
+  text-decoration: none;
+}
+
 .giSponsor {
   background: #e56066;
   color: white;
 }
 
-/*-----------Events--------*/
+.giSponsorText a:hover {
+  text-decoration: none;
+}
+
+.greenButton {
+  background: #37b449;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.greenButton:hover {
+  background: #2b8d39;
+}
+
+.pinkButton {
+  background: #e56066;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.pinkButton:hover {
+  background: #de343c;
+}
+

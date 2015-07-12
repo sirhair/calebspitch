@@ -329,3 +329,22 @@ $halfpadding: $margin/2;
 
 
 }
+
+/*------------ Gallery Template-------*/
+
+.gallery{
+  padding:$padding;
+  margin-bottom: $margin; 
+}
+
+
+
+/*------------ Event Template-------*/
+
+.eventslist ul{
+  list-style-type:none;
+}
+.eventslist li a{
+  display:inline;
+  
+}

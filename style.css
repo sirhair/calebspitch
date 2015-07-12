@@ -725,8 +725,8 @@ html a:hover, html a:focus {
   }
 
   .siteheader {
-    background: url("images/heroimage.jpg") no-repeat center center;
-    height: 25em;
+    background: url("images/heroimage.png") no-repeat center center;
+    height: 20em;
   }
 
   .logoimg {

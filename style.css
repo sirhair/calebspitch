@@ -640,8 +640,8 @@ html a:hover, html a:focus {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
-  margin: 1.38889% auto;
-  padding: 0.5em;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 .layout:after {
   content: " ";
@@ -925,7 +925,7 @@ html a:hover, html a:focus {
 
   /*----------- Get Involved Page ------------ */
   .giVolunteer {
-    margin-bottom: 1.38889%;
+    margin-bottom: 1rem;
   }
 
   .giVolunteerText {
@@ -933,8 +933,8 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
-    margin-bottom: 1.38889%;
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
 
   .giVolunteerVideo {
@@ -942,11 +942,11 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
+    padding: 1rem;
   }
 
   .giDonate {
-    margin-bottom: 1.38889%;
+    margin-bottom: 1rem;
   }
 
   .giDonateText {
@@ -954,7 +954,7 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
+    padding: 1rem;
   }
 
   .giDonateImage {
@@ -962,7 +962,7 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
+    padding: 1rem;
   }
 
   .giSponsorText {
@@ -970,7 +970,7 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
+    padding: 1rem;
   }
 
   .giSponsorImage {
@@ -978,13 +978,13 @@ html a:hover, html a:focus {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
+    padding: 1rem;
   }
 }
 /*------------ Gallery Template-------*/
 .gallery {
-  padding: 0.5em;
-  margin-bottom: 1.38889%;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*------------ Event Template-------*/
@@ -1192,7 +1192,7 @@ main {
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
   padding: .5em 1em 1em 1em;
-  margin: 1.38889%;
+  margin: 1rem;
 }
 
 #mc_embed_signup h2 {
@@ -1296,4 +1296,3 @@ input {
 .pinkButton:hover {
   background: #de343c;
 }
-

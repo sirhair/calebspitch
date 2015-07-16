@@ -38,9 +38,15 @@ $halfpadding: $margin/2;
 //##########base layouts (Mobile and Small)
 .layout{
   @include container;
-  margin:$margin auto;
-  padding:$padding;
+  margin:0 auto;
+  padding:0;
+  @include clearfix;
 }
+
+body nav,body main,body footer,body header{
+  @include clearfix;
+}
+
 
 .logoimg, footer .logoimg{
     height: 9rem;

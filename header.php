@@ -5,7 +5,6 @@
 		<?php wp_head(); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#57bfc4">
-		
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	</head>

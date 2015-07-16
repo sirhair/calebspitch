@@ -640,13 +640,20 @@ html a:hover, html a:focus {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
 }
 .layout:after {
   content: " ";
   display: block;
   clear: both;
+}
+
+body nav, body main, body footer, body header {
+  overflow: hidden;
+  *zoom: 1;
 }
 
 .logoimg, footer .logoimg {
@@ -1028,12 +1035,14 @@ body {
   margin: 0;
   color: #FFFFFF;
 }
-.siteheader .layout, .sitefooter .layout {
+.siteheader ul, .sitefooter ul {
   margin-top: 0;
   margin-bottom: 0;
-}
-.siteheader ul, .sitefooter ul {
   padding: 0;
+}
+.siteheader ul li, .sitefooter ul li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .siteheader a, .sitefooter a {
   color: #FFFFFF;

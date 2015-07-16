@@ -14,14 +14,15 @@ body{
   color: $cWhite;
 
   //nested style only affects layouts in siteheader or footer
-  .layout{
-    margin-top:0;
-    margin-bottom:0;
-  }
 
   ul{
-
+    margin-top:0;
+    margin-bottom:0;
     padding: 0;
+    li{
+      padding-top: $padding;
+      padding-bottom: $padding;
+    }
 
   }//headsecondary ul
 

@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 Template name: Front Page Template
 */
@@ -43,9 +43,13 @@ Template name: Front Page Template
 			<section class="layout">
 				<section class="upcomingEvents">
 					<h2>Upcoming Events</h2>
+					<?php dynamic_sidebar('events-widget'); ?>
 				</section>
-				<section class="upcomingEvents">
+				<section class="galleryHome">
 					<h2>Caleb's Pitch In Action</h2>
+					<?php if( function_exists('cyclone_slider') ) cyclone_slider('home-page-slider'); ?>
+					<a href="http://www.cp.thenewe.com/gallery/"><button class="blueButton">Go To The Gallery</button></a>
+
 				</section>
 
 

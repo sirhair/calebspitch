@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	</head>
-	
+
 	<body>
 		<header class="siteheader">
 			<section class="layout">
@@ -16,7 +16,7 @@
 					<h1 class="site-title">
 						<a href="<?php $url = home_url( '/' ); echo $url; ?>">
 							<img class="logoimg" alt="<?php echo get_bloginfo('name');?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.svg">
-						</a> 
+						</a>
 					</h1>
 <!-- 					<h2>
 							<?php bloginfo('description'); ?>
@@ -25,7 +25,7 @@
 				</div>
 
 <!-- 				<div class="headsearch">
-					<?php get_search_form();?> 
+					<?php get_search_form();?>
 				</div> -->
 			</section>
 		</header>

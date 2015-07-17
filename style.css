@@ -648,7 +648,7 @@ html a:hover, html a:focus {
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0.5rem;
   overflow: hidden;
   *zoom: 1;
 }

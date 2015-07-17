@@ -1,9 +1,9 @@
 //######################Spacing Variables
 // http://www.zell-weekeat.com/context-with-susy/
-$padding: 1rem;
-$margin: 1rem;
-$halfmargin: $padding/2;
-$halfpadding: $margin/2;
+// $padding: 1rem;
+// $margin: 1rem;
+// $halfmargin: $padding/2;
+// $halfpadding: $margin/2;
  
 
 //######################LAYOUTS
@@ -45,6 +45,7 @@ $halfpadding: $margin/2;
 
 body nav,body main,body footer,body header{
   @include clearfix;
+  margin:0;
 }
 
 

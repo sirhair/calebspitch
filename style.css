@@ -637,9 +637,9 @@ html a:hover, html a:focus {
 }
 
 * + * {
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 0;
-  padding-top: 0;
+  padding-top: 1rem;
   padding-bottom: 0;
 }
 
@@ -698,6 +698,10 @@ body nav, body main, body footer, body header {
   width: 50%;
 }
 
+body footer {
+  padding-top: 1rem;
+}
+
 .footlogo, .footcopy {
   text-align: center;
 }
@@ -752,16 +756,13 @@ body nav, body main, body footer, body header {
     padding-right: 0.92593%;
   }
 
-  .footcopy {
+  .footlogo {
+    text-align: center;
     width: 100%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
     clear: both;
-  }
-
-  .footlogo {
-    text-align: left;
   }
 
   .siteheader {
@@ -1035,14 +1036,21 @@ p, pre {
   margin: 1.35em 0;
 }
 
+.footnav {
+  font-size: 1.25em;
+  font-family: 'Graduate', sans-serif;
+}
+
 body {
   background-color: #57bfc4;
 }
 
 ul {
-  margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
+  padding-left: 0;
+}
+ul li {
+  padding-bottom: 1rem;
 }
 
 .siteheader, .sitefooter {
@@ -1084,11 +1092,13 @@ main {
   margin: 0 auto;
 }
 .headsecondary ul {
+  margin-top: 0;
   padding: 0;
 }
 .headsecondary ul li {
-  display: inline-block;
+  padding: 0;
   padding-right: 2em;
+  display: inline-block;
 }
 .headsecondary ul li:last-child {
   padding-right: 0;

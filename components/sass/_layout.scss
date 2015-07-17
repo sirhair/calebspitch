@@ -85,6 +85,9 @@ body nav,body main,body footer,body header{
 
 
 //footer layout divs
+body footer{
+  padding-top: $padding;
+}
 .footlogo,   .footcopy{
   text-align:center;
 }
@@ -133,13 +136,24 @@ body nav,body main,body footer,body header{
   .fourths:nth-child(3n+0){
     @include span(last 3 of 9);
   }
-  .footcopy{
+  // .footcopy{
+  //   @include span(9 of 9);
+  //   clear:both;
+  // }
+
+  // .footcopy{
+  //   span(isolate 3 at 1);
+  // }
+  // .footnav{
+  //   span(isolate 3 at 6 of 9);
+  // }
+  // .footsocial{
+  //   span(isolate 3 at 3 of 9);
+  // }
+  .footlogo{
+    text-align:center;
     @include span(9 of 9);
     clear:both;
-  }
-
-  .footlogo{
-    text-align:left;
   }
 
 

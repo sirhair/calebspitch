@@ -15,13 +15,11 @@ html{
 }
 
 *+*{
-  margin-top:$margin;
+  margin-top:0;
   margin-bottom:0;
-  padding-top:0;
+  padding-top:$padding;
   padding-bottom:0;
-
 }
-
 
 
 //######################SETUP SUSY

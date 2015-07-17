@@ -7,7 +7,7 @@ Template name: Events Template
 <?php get_header(); ?>
 
 <main class="main">
-    <section class="events">
+    <section class="layout events">
 
         	<?php if (have_posts()) :
 			while (have_posts()) : the_post(); ?> <!--[data context]-->
@@ -15,12 +15,29 @@ Template name: Events Template
             	<?php the_content();
 			  endwhile;
 			endif; ?>
+	</section>
 
-				<ul class="eventslist">
-	            	<li><a href="#"><button class="blueButton">Donate</button></a></li>
-	             	<li><a href="#"><button class="blueButton">Sponsor</button></a></li>
-	              	<li><a href="#"><button class="blueButton">Volunteer</button></a></li>
-              	</ul>
+			<div class="getInvolved">
+				<section class="layout">
+					<h2>Get Involved</h2>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
+							<h3>Donate</h3>
+							
+						</div>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
+							<h3>Volunteer</h3>
+							
+						</div>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
+							<h3>Sponsor</h3>
+							
+						</div>
+				</section>
+			</div>
+				
     </section>
 </main>
         

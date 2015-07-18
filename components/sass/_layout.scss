@@ -83,6 +83,15 @@ body nav,body main,body footer,body header{
   width: 50%;
 }
 
+  .giText {
+    margin-bottom: $margin;
+    padding: $padding;
+  }
+
+  .giImage {
+    padding: $padding;
+  }
+
 
 //footer layout divs
 body footer{
@@ -186,18 +195,12 @@ body footer{
   width: 40%;
   }
 
-  .giVolunteerText {
+  .giText {
     @include span(4 of 9);
-
   }
 
-  .giDonateText {
-    @include span(4 of 9);
-
-  }
-
-  .giSponsorText {
-    @include span(4 of 9);
+  .giImage {
+    @include span(5 of 9);
   }
 
   /*----------- Forms ------------*/
@@ -311,50 +314,24 @@ body footer{
 
   }
 
+  .formSplat {
+  width: 20%;
+  float: left
+  padding: $padding;
+  }
+
 
 
 
   /*----------- Get Involved Page ------------ */
 
 
-  .giVolunteer {
-    margin-bottom: $margin;
-  }
-
-  .giVolunteerText {
+  .giText {
     @include span(6 of 12);
-    padding:$padding;
-    margin-bottom: $margin;
   }
 
-  .giVolunteerVideo {
+  .giImage {
     @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giDonate {
-    margin-bottom: $margin;
-  }
-
-  .giDonateText {
-    @include span(6 of 12);
-    padding:$padding;
-
-  }
-
-  .giDonateImage {
-    @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giSponsorText {
-    @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giSponsorImage {
-    @include span(6 of 12);
-    padding:$padding;
   }
 
 

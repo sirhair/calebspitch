@@ -9,8 +9,9 @@ Template Name: Volunteer Form Template
     <section class="layout">
 
     <section class="thirdwidth formText">
+        <img class="formSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
         <h2>Volunteer With Caleb's Pitch Today!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+           You can volunteer with Caleb's Pitch at our syringe art events or at any of our fundraisers. Please sign up using the form to the right, and we'll be in touch to see which events you're interested in.</p>
     </section>
 
 <!-- Begin MailChimp Signup Form -->

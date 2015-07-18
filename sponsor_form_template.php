@@ -45,7 +45,7 @@ Template Name: Sponsor Form Template
         </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <br />
         <div style="position: absolute; left: -5000px;"><input type="text" name="b_e17dc775841d90c94453ee785_8ca46ed13d" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="formButton"></div>
+        <div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="formButton sponsorButton"></div>
         </div>
     </form>
 </div>

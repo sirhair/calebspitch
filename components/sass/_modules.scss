@@ -177,11 +177,19 @@ main {
         margin: $margin;
     }
 
+    #mc_embed_signup.sponsorForm {
+        border: solid 1px $cpSalmon;
+    }
+
 
     #mc_embed_signup h2 {
         color:$cpBlue;
         text-align: center;
 
+    }
+
+    #mc_embed_signup.sponsorForm h2 {
+      color:$cpSalmon;
     }
 
     .formButton{
@@ -203,6 +211,25 @@ main {
         background: $cpGreen;
     }
 
+    .sponsorButton{
+      background: $cpSalmon;
+      color: white;
+      font-family: 'Graduate', sans-serif;
+      border: none;
+      width: 100%;
+      padding: .5em;
+      margin-top: 1em;
+      border-radius: .2em;
+      -webkit-border-radius: .2em;
+      -moz-border-radius: .2em;
+      transition: background .05s ease;
+      margin: auto 0;
+    }
+
+    .sponsorButton:hover {
+        background: $cpGreen;
+    }
+
     input {
       width: 100%;
     }
@@ -219,31 +246,28 @@ main {
     color: $cpBlue;
     }
 
-    .giVolunteerText a:hover {
-        text-decoration: none;
-    }
-
-    .giVolunteerVideo iframe {
-        width: 100%;
-        height: 40%;
-    }
-
     .giDonate {
     border-top:  solid 1em $cpGreen;
     color: $cpGreen;
 
     }
 
-    .giDonateText a:hover {
-        text-decoration: none;
-    }
-
     .giSponsor {
     border-top:  solid 1em $cpSalmon;
     color: $cpSalmon;
     }
-    .giSponsorText a:hover {
+
+    .giText a:hover {
         text-decoration: none;
+    }
+
+    .giImage iframe {
+        width: 100%;
+        height: 18em;
+    }
+
+    .giImage img {
+      width: 100%
     }
 
     .greenButton{

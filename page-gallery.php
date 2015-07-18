@@ -7,7 +7,7 @@ Template name: Gallery Template
 <?php get_header(); ?>
 
 <main class="main">
-    <section class="gallery">
+    <section class="layout gallery">
 
         	<?php if (have_posts()) :
 			while (have_posts()) : the_post(); ?> <!--[data context]-->

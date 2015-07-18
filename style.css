@@ -988,14 +988,6 @@ html a:hover, html a:focus {
 }
 
 /*------------ Event Template-------*/
-.eventslist ul {
-  list-style-type: none;
-}
-
-.eventslist li a {
-  display: inline;
-}
-
 .right {
   float: right;
 }
@@ -1296,4 +1288,3 @@ input {
 .pinkButton:hover {
   background: #de343c;
 }
-

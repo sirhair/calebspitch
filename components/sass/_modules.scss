@@ -143,7 +143,11 @@ main {
     text-align: center;
 }
 
-/*---------- Home Page - Gallery Section --------- */
+/*---------- Home Page - Event/Gallery Section --------- */
+
+  .upcomingEvents ol {
+    padding: 0;
+  }
 
   .galleryHome h2 {
     color: $cpPurple;
@@ -211,8 +215,8 @@ main {
     }
 
     .giVolunteer {
-    background: $cpBlue;
-    color: white;
+    border-top:  solid 1em $cpBlue;
+    color: $cpBlue;
     }
 
     .giVolunteerText a:hover {
@@ -225,8 +229,8 @@ main {
     }
 
     .giDonate {
-    background: $cpGreen;
-    color: white;
+    border-top:  solid 1em $cpGreen;
+    color: $cpGreen;
 
     }
 
@@ -235,8 +239,8 @@ main {
     }
 
     .giSponsor {
-    background: $cpSalmon;
-    color: white;
+    border-top:  solid 1em $cpSalmon;
+    color: $cpSalmon;
     }
     .giSponsorText a:hover {
         text-decoration: none;

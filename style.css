@@ -923,6 +923,20 @@ body footer {
     width: 90%;
   }
 
+  .upcomingEvents {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .galleryHome {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
   /*----------- Forms ------------ */
   .formText {
     width: 41.66667%;
@@ -1166,7 +1180,11 @@ main {
   text-align: center;
 }
 
-/*---------- Home Page - Gallery Section --------- */
+/*---------- Home Page - Event/Gallery Section --------- */
+.upcomingEvents ol {
+  padding: 0;
+}
+
 .galleryHome h2 {
   color: #825da3;
 }
@@ -1228,8 +1246,8 @@ input {
 }
 
 .giVolunteer {
-  background: #0062a4;
-  color: white;
+  border-top: solid 1em #0062a4;
+  color: #0062a4;
 }
 
 .giVolunteerText a:hover {
@@ -1242,8 +1260,8 @@ input {
 }
 
 .giDonate {
-  background: #37b449;
-  color: white;
+  border-top: solid 1em #37b449;
+  color: #37b449;
 }
 
 .giDonateText a:hover {
@@ -1251,8 +1269,8 @@ input {
 }
 
 .giSponsor {
-  background: #e56066;
-  color: white;
+  border-top: solid 1em #e56066;
+  color: #e56066;
 }
 
 .giSponsorText a:hover {

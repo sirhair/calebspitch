@@ -4,7 +4,7 @@
 // $margin: 1rem;
 // $halfmargin: $padding/2;
 // $halfpadding: $margin/2;
- 
+
 
 //######################LAYOUTS
 
@@ -158,7 +158,7 @@ body footer{
 
 
   .siteheader{
-    background: url("images/heroimage.png") no-repeat center center; 
+    background: url("images/heroimage.png") no-repeat center center;
     height: 20em;
   }
 
@@ -290,6 +290,15 @@ body footer{
   width: 90%;
   }
 
+  .upcomingEvents {
+    @include span(4 of 12);
+
+  }
+
+  .galleryHome {
+    @include span(8 of 12);
+  }
+
   /*----------- Forms ------------ */
 
   .formText {
@@ -355,7 +364,7 @@ body footer{
 
 .gallery{
   padding:$padding;
-  margin-bottom: $margin; 
+  margin-bottom: $margin;
 }
 
 
@@ -367,5 +376,5 @@ body footer{
 }
 .eventslist li a{
   display:inline;
-  
+
 }

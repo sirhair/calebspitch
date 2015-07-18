@@ -93,6 +93,17 @@ body nav,body main,body footer,body header{
   }
 
 
+   .formText {
+    padding: $padding;
+  }
+
+  .formSplat {
+  width: 60%;
+  display: block;
+  margin: auto;
+  }
+
+
 //footer layout divs
 body footer{
   padding-top: $padding;
@@ -214,7 +225,11 @@ body footer{
 
   }
 
+  .formSplat {
+  width: 40%;
+  }
 }
+
 
 //large breakpoint
 @include susy-breakpoint ($large){
@@ -315,11 +330,8 @@ body footer{
   }
 
   .formSplat {
-  width: 20%;
-  float: left
-  padding: $padding;
+  width: 40%;
   }
-
 
 
 

@@ -168,6 +168,11 @@ main {
 
 /*---------- Forms ----------- */
 
+
+    .formText h2 {
+      text-align: center;
+    }
+
     #mc_embed_signup {
         border: solid 1px $cpBlue;
         border-radius: .2em;

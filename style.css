@@ -840,14 +840,21 @@ body footer {
   }
 
   #mc_embed_signup {
-    width: 41.66667%;
-    float: right;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
   }
 
   .formSplat {
     width: 40%;
+  }
+
+  .donateForm {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
   }
 }
 @media (min-width: 60em) {
@@ -971,6 +978,13 @@ body footer {
 
   .formSplat {
     width: 40%;
+  }
+
+  .donateForm {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
   }
 
   /*----------- Get Involved Page ------------ */

@@ -221,12 +221,16 @@ body footer{
   }
 
   #mc_embed_signup {
-    @include span(5 last);
+    @include span(5 of 9);
 
   }
 
   .formSplat {
   width: 40%;
+  }
+
+  .donateForm {
+    @include span(5 of 9);
   }
 }
 
@@ -331,6 +335,10 @@ body footer{
 
   .formSplat {
   width: 40%;
+  }
+
+  .donateForm {
+    @include span(7 of 12);
   }
 
 

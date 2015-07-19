@@ -714,6 +714,10 @@ footer .logoimg {
   width: 50%;
 }
 
+.galleryHome {
+  margin: 1rem;
+}
+
 .giText {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -962,20 +966,6 @@ body footer {
     width: 90%;
   }
 
-  .upcomingEvents {
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
-  .galleryHome {
-    width: 66.66667%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
   /*----------- Forms ------------ */
   .formText {
     width: 41.66667%;
@@ -1194,17 +1184,26 @@ main {
   text-align: center;
 }
 
-.getInvolvedBadge h3 {
-  text-align: center;
+.getInvolvedBadge a:hover {
+  text-decoration: none;
 }
 
 /*---------- Home Page - Event/Gallery Section --------- */
+.upcomingEvents {
+  margin: 1rem;
+}
+
+.upcomingEvents h2 {
+  color: #825da3;
+}
+
 .upcomingEvents ol {
   padding: 0;
 }
 
 .galleryHome h2 {
   color: #825da3;
+  text-align: left;
 }
 
 .galleryHome a:hover {
@@ -1237,6 +1236,10 @@ main {
   border: solid 1px #e56066;
 }
 
+#mc_embed_signup.contactForm {
+  border: solid 1px #ed7e22;
+}
+
 #mc_embed_signup h2 {
   color: #0062a4;
   text-align: center;
@@ -1244,6 +1247,10 @@ main {
 
 #mc_embed_signup.sponsorForm h2 {
   color: #e56066;
+}
+
+#mc_embed_signup.contactForm h2 {
+  color: #ed7e22;
 }
 
 .formButton {
@@ -1262,7 +1269,7 @@ main {
 }
 
 .formButton:hover {
-  background: #37b449;
+  background: #004471;
 }
 
 .sponsorButton {
@@ -1281,7 +1288,26 @@ main {
 }
 
 .sponsorButton:hover {
-  background: #37b449;
+  background: #de343c;
+}
+
+.contactButton {
+  background: #ed7e22;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.contactButton:hover {
+  background: #cb6511;
 }
 
 input {

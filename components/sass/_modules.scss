@@ -147,11 +147,19 @@ main {
     text-align: center;
 }
 
-.getInvolvedBadge h3 {
-    text-align: center;
+.getInvolvedBadge a:hover {
+    text-decoration: none;
 }
 
 /*---------- Home Page - Event/Gallery Section --------- */
+
+  .upcomingEvents {
+    margin: $margin;
+  }
+
+  .upcomingEvents h2 {
+    color: $cpPurple;
+  }
 
   .upcomingEvents ol {
     padding: 0;
@@ -159,6 +167,7 @@ main {
 
   .galleryHome h2 {
     color: $cpPurple;
+    text-align: left;
   }
 
   .galleryHome a:hover {
@@ -175,7 +184,6 @@ main {
 
 
 /*---------- Forms ----------- */
-
 
     .formText h2 {
       text-align: center;
@@ -194,6 +202,10 @@ main {
         border: solid 1px $cpSalmon;
     }
 
+    #mc_embed_signup.contactForm {
+        border: solid 1px $cpOrange;
+    }
+
 
     #mc_embed_signup h2 {
         color:$cpBlue;
@@ -203,6 +215,10 @@ main {
 
     #mc_embed_signup.sponsorForm h2 {
       color:$cpSalmon;
+    }
+
+    #mc_embed_signup.contactForm h2 {
+      color:$cpOrange;
     }
 
     .formButton{
@@ -221,7 +237,7 @@ main {
     }
 
     .formButton:hover {
-        background: $cpGreen;
+        background: darken($cpBlue, 10%);
     }
 
     .sponsorButton{
@@ -240,7 +256,26 @@ main {
     }
 
     .sponsorButton:hover {
-        background: $cpGreen;
+        background: darken($cpSalmon, 10%);
+    }
+
+    .contactButton{
+      background: $cpOrange;
+      color: white;
+      font-family: 'Graduate', sans-serif;
+      border: none;
+      width: 100%;
+      padding: .5em;
+      margin-top: 1em;
+      border-radius: .2em;
+      -webkit-border-radius: .2em;
+      -moz-border-radius: .2em;
+      transition: background .05s ease;
+      margin: auto 0;
+    }
+
+    .contactButton:hover {
+        background: darken($cpOrange, 10%);
     }
 
     input {

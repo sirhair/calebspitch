@@ -88,6 +88,10 @@ footer .logoimg{
   width: 50%;
 }
 
+.galleryHome {
+    margin: $margin;
+  }
+
   .giText {
     margin-bottom: $margin;
     padding: $padding;
@@ -219,7 +223,7 @@ body footer{
     @include span(5 of 9);
   }
 
-  /*----------- Forms ------------*/
+/*----------- Forms ------------*/
 
   .formText {
     @include span(4 of 9);
@@ -317,14 +321,6 @@ body footer{
   width: 90%;
   }
 
-  .upcomingEvents {
-    @include span(4 of 12);
-
-  }
-
-  .galleryHome {
-    @include span(8 of 12);
-  }
 
   /*----------- Forms ------------ */
 

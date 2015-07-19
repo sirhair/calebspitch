@@ -31,6 +31,10 @@
 		</header>
 		<nav class="headsecondary">
 			<section class="layout">
+				<div class="menutitle">
+					<a href="#footermenu">Menu</a>
+				</div>		
 				<?php wp_nav_menu(array('theme_location' => 'primary', 'container _class' =>'nav_menu'));?>
 			</section>
+
 		</nav>

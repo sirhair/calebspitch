@@ -676,6 +676,16 @@ body nav, body main, body footer, body header {
   margin: 0;
 }
 
+.headsecondary .menu-header_nav-container {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.menutitle {
+  text-align: center;
+}
+
 .logoimg {
   height: 10rem;
 }
@@ -940,13 +950,21 @@ body footer {
     text-align: right;
   }
 
-  /*foot divs*/
+  /*foot and nav styles*/
   .footlogo {
     text-align: right;
   }
 
+  .menutitle {
+    display: none;
+  }
+
   footer ul ul {
     display: none;
+  }
+
+  .headsecondary .menu-header_nav-container {
+    position: static;
   }
 
   /*----------- Home Page ------------ */
@@ -1196,6 +1214,7 @@ main {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0 auto;
+  content: "Menu";
 }
 .headsecondary ul {
   margin-top: 0;

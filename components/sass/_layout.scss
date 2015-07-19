@@ -322,7 +322,7 @@ body footer{
   }
 
   .miniCalendar {
-     @include span(9 of 12);
+     @include span(last 8);
   }
 
 

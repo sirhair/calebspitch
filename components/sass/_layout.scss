@@ -413,17 +413,21 @@ body footer{
   margin:0 0 10px;
   clear:both;
 }
- dl, dt, dd,ol,ul,li{
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  display: inline;
-  clear: both;
-  text-align:center;
-  
+ 
+#tribe-events{
+   dl, dt, dd,ol,ul,li{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align:center;
+    
+  }
 }
+
 .tribe-events-meta-group-details, .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
   width:1000px;
   margin:auto;

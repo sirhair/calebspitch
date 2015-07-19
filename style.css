@@ -1064,7 +1064,7 @@ body footer {
   clear: both;
 }
 
-dl, dt, dd, ol, ul, li {
+#tribe-events dl, #tribe-events dt, #tribe-events dd, #tribe-events ol, #tribe-events ul, #tribe-events li {
   padding: 0;
   border: 0;
   font: inherit;

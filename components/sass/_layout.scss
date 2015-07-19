@@ -49,8 +49,13 @@ body nav,body main,body footer,body header{
 }
 
 
-.logoimg, footer .logoimg{
+.logoimg {
     height: 10rem;
+}
+
+footer .logoimg{
+    height: 13rem;
+
 }
 
 .siteheader{
@@ -353,7 +358,9 @@ body footer{
   .giImage {
     @include span(6 of 12);
   }
-
+  .footlogo{
+    text-align:right;
+  }
 
 } // end of large breakpoint
 

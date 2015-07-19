@@ -676,8 +676,12 @@ body nav, body main, body footer, body header {
   margin: 0;
 }
 
-.logoimg, footer .logoimg {
+.logoimg {
   height: 10rem;
+}
+
+footer .logoimg {
+  height: 13rem;
 }
 
 .siteheader {
@@ -1012,6 +1016,10 @@ body footer {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+  }
+
+  .footlogo {
+    text-align: right;
   }
 }
 /*------------ Gallery Template-------*/

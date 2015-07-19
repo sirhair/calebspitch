@@ -22,7 +22,6 @@ Template name: Events Template
 					<h2>Get Involved</h2>
 						<div class="getInvolvedBadge">
 							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
-							ages/blue_splat.png">
 							<h3><a href="http://www.cp.thenewe.com/donate/">Donate</a></h3>	
 						</div>
 						<div class="getInvolvedBadge">

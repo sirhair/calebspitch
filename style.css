@@ -963,7 +963,7 @@ body footer {
     display: none;
   }
 
-  .headsecondary .menu-header_nav-container {
+  .headsecondary .layout div:nth-child(2) {
     position: static;
   }
 

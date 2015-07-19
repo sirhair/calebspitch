@@ -1083,7 +1083,11 @@ footer ul {
   margin-top: 0;
 }
 footer ul ul {
+  padding-top: 1rem;
   padding-left: 2em;
+}
+footer ul ul li:last-child {
+  padding-bottom: 0;
 }
 
 main h1 {

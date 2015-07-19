@@ -851,6 +851,14 @@ body footer {
     padding-right: 0.92593%;
   }
 
+  .miniCalendar {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    float: right;
+  }
+
   /*----------- Forms ------------*/
   .formText {
     width: 44.44444%;
@@ -964,6 +972,13 @@ body footer {
 
   .homeSplat {
     width: 90%;
+  }
+
+  .miniCalendar {
+    width: 75%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
   }
 
   /*----------- Forms ------------ */

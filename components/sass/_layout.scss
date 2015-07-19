@@ -288,6 +288,13 @@ body footer{
     @include span(last 3 of 12);
     text-align:right;
   }
+  
+  /*foot divs*/
+  .footlogo{
+    text-align:right;
+  }
+
+
 
   /*----------- Home Page ------------ */
 
@@ -358,9 +365,7 @@ body footer{
   .giImage {
     @include span(6 of 12);
   }
-  .footlogo{
-    text-align:right;
-  }
+
 
 } // end of large breakpoint
 

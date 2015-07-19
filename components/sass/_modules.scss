@@ -21,6 +21,13 @@ ul{
 
 }// ul
 
+footer ul{
+  margin-top:0;
+  ul{
+    padding-left: 2em;
+  }
+}
+
 main h1{
   color: $cpPurple;
   text-align: center;

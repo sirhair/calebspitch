@@ -928,6 +928,11 @@ body footer {
     text-align: right;
   }
 
+  /*foot divs*/
+  .footlogo {
+    text-align: right;
+  }
+
   /*----------- Home Page ------------ */
   .storyText {
     width: 41.66667%;
@@ -1017,10 +1022,6 @@ body footer {
     padding-left: 0.69444%;
     padding-right: 0.69444%;
   }
-
-  .footlogo {
-    text-align: right;
-  }
 }
 /*------------ Gallery Template-------*/
 .gallery {
@@ -1076,6 +1077,13 @@ ul {
 }
 ul li {
   padding-bottom: 1rem;
+}
+
+footer ul {
+  margin-top: 0;
+}
+footer ul ul {
+  padding-left: 2em;
 }
 
 main h1 {

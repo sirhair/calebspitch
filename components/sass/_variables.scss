@@ -33,10 +33,11 @@ $cWhite: $cpWhite;
 
 // Margins/paddings defined in _layout.scss
 //***************************
-// $padding: gutter(12);
-// $halfmargin: $padding/2;
-// $margin: gutter(12);
-// $halfpadding: $margin/2;
+$padding: 1rem;
+$margin: 1rem;
+$halfmargin: $padding/2;
+$halfpadding: $margin/2;
+ 
 
 // Typography variables are in _typography.scss
 //***************************

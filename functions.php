@@ -3,8 +3,8 @@
 function register_my_menus() {
   register_nav_menus(
     array(
-      'header-menu' => __( 'primary' ),
-      'extra-menu' => __( 'footer' )
+      'primary' => __( 'primary menu in header' ),
+      'footer' => __( 'secondary menu in footer' )
     )
   );
 }
@@ -27,15 +27,26 @@ function blank_widgets_init(){
 	);
 
 	register_sidebar ( array (
-        'name' => ('Form Widget'),
-        'id' => 'mc-form',
-        'description' => 'Widget for adding Mail Chimp sign-up',
-        'before_widget' => '<div class="mcForm">',
+        'name' => ('Events Widget'),
+        'id' => 'events-widget',
+        'description' => 'Widget for adding events to the home page',
+        'before_widget' => '<div class="eventsWidget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ));
+
+  register_sidebar ( array (
+        'name' => ('Donate Widget'),
+        'id' => 'donate-widget',
+        'description' => 'Widget that controls the donate form',
+        'before_widget' => '<div class="donateWidget">',
         'after_widget' => '</div>',
         'before_title' => '<h2>',
         'after_title' => '</h2>',
     ));
 }
+
 add_action('widgets_init','blank_widgets_init');
 
 

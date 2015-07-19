@@ -9,8 +9,9 @@ Template Name: Sponsor Form Template
     <section class="layout">
 
     <section class="thirdwidth formText">
+        <img class="formSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
         <h2>Sponsor Caleb's Pitch Today!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <p>By sponsoring an event with Caleb's Pitch you help us reach out the community and build our capacity to reach more children and families. Use the form to the right to sign up, and we'll contact you to talk about how your business can make a lasting contribution to Caleb's Pitch.</p>
     </section>
 
 <!-- Begin MailChimp Signup Form -->
@@ -45,7 +46,7 @@ Template Name: Sponsor Form Template
         </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <br />
         <div style="position: absolute; left: -5000px;"><input type="text" name="b_e17dc775841d90c94453ee785_8ca46ed13d" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="formButton"></div>
+        <div class="clear"><input type="submit" value="Sign Me Up!" name="subscribe" id="mc-embedded-subscribe" class="formButton sponsorButton"></div>
         </div>
     </form>
 </div>

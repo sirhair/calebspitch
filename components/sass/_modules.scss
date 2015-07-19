@@ -8,22 +8,24 @@
 
 body{
   background-color: $cMain;
-}
+}//body
+
+ul{
+  margin-bottom:0;
+  // padding: 0;
+  padding-left:0;
+
+  li{
+    padding-bottom:$padding;
+  }//ul li
+
+}// ul
+
 .siteheader, .sitefooter{
   margin:0;
   color: $cWhite;
 
   //nested style only affects layouts in siteheader or footer
-  .layout{
-    margin-top:0;
-    margin-bottom:0;
-  }
-
-  ul{
-
-    padding: 0;
-
-  }//headsecondary ul
 
   a {
 
@@ -47,29 +49,33 @@ main {
 }
 
 .headsecondary {
+  padding-top: $padding;
+  padding-bottom: $padding;
+  margin-top:0;
+  margin-bottom:0;
 
-    .layout{
+  .layout{
+    padding-top:0;
+    padding-bottom:0;
+    margin: 0 auto;
 
-      padding-top:0;
-      padding-bottom:0;
-      margin: 0 auto;
+  }//headsecondary layout
 
-    }//headsecondary layout
+  ul{
+    margin-top:0;
+    padding: 0;
 
-    ul{
+  li{
+    padding:0;
+    padding-right: 2em;
+    display:inline-block;
 
-      padding: 0;
-
-    li{
-      display:inline-block;
-      padding-right: 2em;
-
-      &:last-child{
-          padding-right: 0;
-      }
+    &:last-child{
+        padding-right: 0;
     }
+  }
 
-    }//headsecondary ul
+  }//headsecondary ul
 
 
   a {
@@ -137,53 +143,35 @@ main {
     text-align: center;
 }
 
-/* Float Shadow */
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
-}
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-}
+/*---------- Home Page - Event/Gallery Section --------- */
+
+  .upcomingEvents ol {
+    padding: 0;
+  }
+
+  .galleryHome h2 {
+    color: $cpPurple;
+  }
+
+  .galleryHome a:hover {
+    text-decoration: none;
+  }
+
+  #cycloneslider-home-page-slider-1 {
+    margin: auto;
+  }
+
+  #cycloneslider-home-page-slider-1-pager {
+    margin: auto;
+  }
+
 
 /*---------- Forms ----------- */
+
+
+    .formText h2 {
+      text-align: center;
+    }
 
     #mc_embed_signup {
         border: solid 1px $cpBlue;
@@ -194,6 +182,10 @@ main {
         margin: $margin;
     }
 
+    #mc_embed_signup.sponsorForm {
+        border: solid 1px $cpSalmon;
+    }
+
 
     #mc_embed_signup h2 {
         color:$cpBlue;
@@ -201,27 +193,50 @@ main {
 
     }
 
+    #mc_embed_signup.sponsorForm h2 {
+      color:$cpSalmon;
+    }
+
     .formButton{
-    background: $cpBlue;
-    color: white;
-    font-family: 'Graduate', sans-serif;
-    border: none;
-    width: 100%;
-    padding: .5em;
-    margin-top: 1em;
-    border-radius: .2em;
-    -webkit-border-radius: .2em;
-    -moz-border-radius: .2em;
-    transition: background .05s ease;
-    margin: auto 0;
+      background: $cpBlue;
+      color: white;
+      font-family: 'Graduate', sans-serif;
+      border: none;
+      width: 100%;
+      padding: .5em;
+      margin-top: 1em;
+      border-radius: .2em;
+      -webkit-border-radius: .2em;
+      -moz-border-radius: .2em;
+      transition: background .05s ease;
+      margin: auto 0;
     }
 
     .formButton:hover {
         background: $cpGreen;
     }
 
+    .sponsorButton{
+      background: $cpSalmon;
+      color: white;
+      font-family: 'Graduate', sans-serif;
+      border: none;
+      width: 100%;
+      padding: .5em;
+      margin-top: 1em;
+      border-radius: .2em;
+      -webkit-border-radius: .2em;
+      -moz-border-radius: .2em;
+      transition: background .05s ease;
+      margin: auto 0;
+    }
+
+    .sponsorButton:hover {
+        background: $cpGreen;
+    }
+
     input {
-        width: 100%;
+      width: 100%;
     }
 
 /*---------- Get Involved ----------- */
@@ -232,35 +247,32 @@ main {
     }
 
     .giVolunteer {
-    background: $cpBlue;
-    color: white;
-    }
-
-    .giVolunteerText a:hover {
-        text-decoration: none;
-    }
-
-    .giVolunteerVideo iframe {
-        width: 100%;
-        height: 40%;
+    border-top:  solid 1em $cpBlue;
+    color: $cpBlue;
     }
 
     .giDonate {
-    background: $cpGreen;
-    color: white;
+    border-top:  solid 1em $cpGreen;
+    color: $cpGreen;
 
-    }
-
-    .giDonateText a:hover {
-        text-decoration: none;
     }
 
     .giSponsor {
-    background: $cpSalmon;
-    color: white;
+    border-top:  solid 1em $cpSalmon;
+    color: $cpSalmon;
     }
-    .giSponsorText a:hover {
+
+    .giText a:hover {
         text-decoration: none;
+    }
+
+    .giImage iframe {
+        width: 100%;
+        height: 18em;
+    }
+
+    .giImage img {
+      width: 100%
     }
 
     .greenButton{

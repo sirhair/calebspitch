@@ -1,9 +1,9 @@
 //######################Spacing Variables
 // http://www.zell-weekeat.com/context-with-susy/
-$padding: .5em;
-$halfmargin: $padding/2;
-$margin: 2*gutter();
-$halfpadding: $margin/2;
+// $padding: 1rem;
+// $margin: 1rem;
+// $halfmargin: $padding/2;
+// $halfpadding: $margin/2;
 
 
 //######################LAYOUTS
@@ -38,12 +38,19 @@ $halfpadding: $margin/2;
 //##########base layouts (Mobile and Small)
 .layout{
   @include container;
-  margin:$margin auto;
-  padding:$padding;
+  margin:0 auto;
+  padding:0 $halfpadding;
+  @include clearfix;
 }
 
+body nav,body main,body footer,body header{
+  @include clearfix;
+  margin:0;
+}
+
+
 .logoimg, footer .logoimg{
-    height: 9rem;
+    height: 10rem;
 }
 
 .siteheader{
@@ -76,8 +83,31 @@ $halfpadding: $margin/2;
   width: 50%;
 }
 
+  .giText {
+    margin-bottom: $margin;
+    padding: $padding;
+  }
+
+  .giImage {
+    padding: $padding;
+  }
+
+
+   .formText {
+    padding: $padding;
+  }
+
+  .formSplat {
+  width: 60%;
+  display: block;
+  margin: auto;
+  }
+
 
 //footer layout divs
+body footer{
+  padding-top: $padding;
+}
 .footlogo,   .footcopy{
   text-align:center;
 }
@@ -126,18 +156,29 @@ $halfpadding: $margin/2;
   .fourths:nth-child(3n+0){
     @include span(last 3 of 9);
   }
-  .footcopy{
+  // .footcopy{
+  //   @include span(9 of 9);
+  //   clear:both;
+  // }
+
+  // .footcopy{
+  //   span(isolate 3 at 1);
+  // }
+  // .footnav{
+  //   span(isolate 3 at 6 of 9);
+  // }
+  // .footsocial{
+  //   span(isolate 3 at 3 of 9);
+  // }
+  .footlogo{
+    text-align:center;
     @include span(9 of 9);
     clear:both;
   }
 
-  .footlogo{
-    text-align:left;
-  }
-
 
   .siteheader{
-    background: url("images/heroimage.png") no-repeat center center; 
+    background: url("images/heroimage.png") no-repeat center center;
     height: 20em;
   }
 
@@ -165,18 +206,12 @@ $halfpadding: $margin/2;
   width: 40%;
   }
 
-  .giVolunteerText {
+  .giText {
     @include span(4 of 9);
-
   }
 
-  .giDonateText {
-    @include span(4 of 9);
-
-  }
-
-  .giSponsorText {
-    @include span(4 of 9);
+  .giImage {
+    @include span(5 of 9);
   }
 
   /*----------- Forms ------------*/
@@ -186,11 +221,19 @@ $halfpadding: $margin/2;
   }
 
   #mc_embed_signup {
-    @include span(5 last);
+    @include span(5 of 9);
 
   }
 
+  .formSplat {
+  width: 40%;
+  }
+
+  .donateForm {
+    @include span(5 of 9);
+  }
 }
+
 
 //large breakpoint
 @include susy-breakpoint ($large){
@@ -269,6 +312,15 @@ $halfpadding: $margin/2;
   width: 90%;
   }
 
+  .upcomingEvents {
+    @include span(4 of 12);
+
+  }
+
+  .galleryHome {
+    @include span(8 of 12);
+  }
+
   /*----------- Forms ------------ */
 
   .formText {
@@ -281,60 +333,37 @@ $halfpadding: $margin/2;
 
   }
 
+  .formSplat {
+  width: 40%;
+  }
+
+  .donateForm {
+    @include span(7 of 12);
+  }
 
 
 
   /*----------- Get Involved Page ------------ */
 
 
-  .giVolunteer {
-    margin-bottom: $margin;
-  }
-
-  .giVolunteerText {
+  .giText {
     @include span(6 of 12);
-    padding:$padding;
-    margin-bottom: $margin;
   }
 
-  .giVolunteerVideo {
+  .giImage {
     @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giDonate {
-    margin-bottom: $margin;
-  }
-
-  .giDonateText {
-    @include span(6 of 12);
-    padding:$padding;
-
-  }
-
-  .giDonateImage {
-    @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giSponsorText {
-    @include span(6 of 12);
-    padding:$padding;
-  }
-
-  .giSponsorImage {
-    @include span(6 of 12);
-    padding:$padding;
   }
 
 
-}
+} // end of large breakpoint
+
+
 
 /*------------ Gallery Template-------*/
 
 .gallery{
   padding:$padding;
-  margin-bottom: $margin; 
+  margin-bottom: $margin;
 }
 
 .gallery p{

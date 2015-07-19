@@ -636,12 +636,21 @@ html a:hover, html a:focus {
   box-sizing: inherit;
 }
 
+* + * {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
 .layout {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
-  margin: 1.38889% auto;
-  padding: 0.5em;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  *zoom: 1;
 }
 .layout:after {
   content: " ";
@@ -649,8 +658,14 @@ html a:hover, html a:focus {
   clear: both;
 }
 
+body nav, body main, body footer, body header {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+}
+
 .logoimg, footer .logoimg {
-  height: 9rem;
+  height: 10rem;
 }
 
 .siteheader {
@@ -681,6 +696,29 @@ html a:hover, html a:focus {
   display: block;
   margin: auto;
   width: 50%;
+}
+
+.giText {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.giImage {
+  padding: 1rem;
+}
+
+.formText {
+  padding: 1rem;
+}
+
+.formSplat {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+body footer {
+  padding-top: 1rem;
 }
 
 .footlogo, .footcopy {
@@ -737,16 +775,13 @@ html a:hover, html a:focus {
     padding-right: 0.92593%;
   }
 
-  .footcopy {
+  .footlogo {
+    text-align: center;
     width: 100%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
     clear: both;
-  }
-
-  .footlogo {
-    text-align: left;
   }
 
   .siteheader {
@@ -782,22 +817,15 @@ html a:hover, html a:focus {
     width: 40%;
   }
 
-  .giVolunteerText {
+  .giText {
     width: 44.44444%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
   }
 
-  .giDonateText {
-    width: 44.44444%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .giSponsorText {
-    width: 44.44444%;
+  .giImage {
+    width: 55.55556%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
@@ -812,10 +840,21 @@ html a:hover, html a:focus {
   }
 
   #mc_embed_signup {
-    width: 41.66667%;
-    float: right;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .formSplat {
+    width: 40%;
+  }
+
+  .donateForm {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
   }
 }
 @media (min-width: 60em) {
@@ -907,6 +946,20 @@ html a:hover, html a:focus {
     width: 90%;
   }
 
+  .upcomingEvents {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .galleryHome {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
   /*----------- Forms ------------ */
   .formText {
     width: 41.66667%;
@@ -923,68 +976,40 @@ html a:hover, html a:focus {
     margin: 0;
   }
 
+  .formSplat {
+    width: 40%;
+  }
+
+  .donateForm {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
   /*----------- Get Involved Page ------------ */
-  .giVolunteer {
-    margin-bottom: 1.38889%;
-  }
-
-  .giVolunteerText {
+  .giText {
     width: 50%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
-    margin-bottom: 1.38889%;
   }
 
-  .giVolunteerVideo {
+  .giImage {
     width: 50%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    padding: 0.5em;
-  }
-
-  .giDonate {
-    margin-bottom: 1.38889%;
-  }
-
-  .giDonateText {
-    width: 50%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-    padding: 0.5em;
-  }
-
-  .giDonateImage {
-    width: 50%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-    padding: 0.5em;
-  }
-
-  .giSponsorText {
-    width: 50%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-    padding: 0.5em;
-  }
-
-  .giSponsorImage {
-    width: 50%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-    padding: 0.5em;
   }
 }
 /*------------ Gallery Template-------*/
 .gallery {
-  padding: 0.5em;
-  margin-bottom: 1.38889%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gallery p {
+  visibility: hidden;
 }
 
 .gallery p {
@@ -1020,20 +1045,26 @@ p, pre {
   margin: 1.35em 0;
 }
 
+.footnav {
+  font-size: 1.25em;
+  font-family: 'Graduate', sans-serif;
+}
+
 body {
   background-color: #57bfc4;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+ul li {
+  padding-bottom: 1rem;
 }
 
 .siteheader, .sitefooter {
   margin: 0;
   color: #FFFFFF;
-}
-.siteheader .layout, .sitefooter .layout {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.siteheader ul, .sitefooter ul {
-  padding: 0;
 }
 .siteheader a, .sitefooter a {
   color: #FFFFFF;
@@ -1058,17 +1089,25 @@ main {
   background-color: #FFFFFF;
 }
 
+.headsecondary {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .headsecondary .layout {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0 auto;
 }
 .headsecondary ul {
+  margin-top: 0;
   padding: 0;
 }
 .headsecondary ul li {
-  display: inline-block;
+  padding: 0;
   padding-right: 2em;
+  display: inline-block;
 }
 .headsecondary ul li:last-child {
   padding-right: 0;
@@ -1136,68 +1175,52 @@ main {
   text-align: center;
 }
 
-/* Float Shadow */
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+/*---------- Home Page - Event/Gallery Section --------- */
+.upcomingEvents ol {
+  padding: 0;
 }
 
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, black 0%, transparent 80%);
-  background: radial-gradient(ellipse at center, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
+.galleryHome h2 {
+  color: #825da3;
 }
 
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
+.galleryHome a:hover {
+  text-decoration: none;
 }
 
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+#cycloneslider-home-page-slider-1 {
+  margin: auto;
+}
+
+#cycloneslider-home-page-slider-1-pager {
+  margin: auto;
 }
 
 /*---------- Forms ----------- */
+.formText h2 {
+  text-align: center;
+}
+
 #mc_embed_signup {
   border: solid 1px #0062a4;
   border-radius: .2em;
   -webkit-border-radius: .2em;
   -moz-border-radius: .2em;
   padding: .5em 1em 1em 1em;
-  margin: 1.38889%;
+  margin: 1rem;
+}
+
+#mc_embed_signup.sponsorForm {
+  border: solid 1px #e56066;
 }
 
 #mc_embed_signup h2 {
   color: #0062a4;
   text-align: center;
+}
+
+#mc_embed_signup.sponsorForm h2 {
+  color: #e56066;
 }
 
 .formButton {
@@ -1219,6 +1242,25 @@ main {
   background: #37b449;
 }
 
+.sponsorButton {
+  background: #e56066;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.sponsorButton:hover {
+  background: #37b449;
+}
+
 input {
   width: 100%;
 }
@@ -1230,35 +1272,31 @@ input {
 }
 
 .giVolunteer {
-  background: #0062a4;
-  color: white;
-}
-
-.giVolunteerText a:hover {
-  text-decoration: none;
-}
-
-.giVolunteerVideo iframe {
-  width: 100%;
-  height: 40%;
+  border-top: solid 1em #0062a4;
+  color: #0062a4;
 }
 
 .giDonate {
-  background: #37b449;
-  color: white;
-}
-
-.giDonateText a:hover {
-  text-decoration: none;
+  border-top: solid 1em #37b449;
+  color: #37b449;
 }
 
 .giSponsor {
-  background: #e56066;
-  color: white;
+  border-top: solid 1em #e56066;
+  color: #e56066;
 }
 
-.giSponsorText a:hover {
+.giText a:hover {
   text-decoration: none;
+}
+
+.giImage iframe {
+  width: 100%;
+  height: 18em;
+}
+
+.giImage img {
+  width: 100%;
 }
 
 .greenButton {

@@ -1,13 +1,14 @@
 <!DOCTYTPE HTML>
 <html>
 	<head>
-		<title>Edward Alonzo Template</title>
+		<title>Caleb's Pitch: Continue the Legacy</title>
 		<?php wp_head(); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#57bfc4">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	</head>
-	
+
 	<body>
 		<header class="siteheader">
 			<section class="layout">
@@ -15,7 +16,7 @@
 					<h1 class="site-title">
 						<a href="<?php $url = home_url( '/' ); echo $url; ?>">
 							<img class="logoimg" alt="<?php echo get_bloginfo('name');?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.svg">
-						</a> 
+						</a>
 					</h1>
 <!-- 					<h2>
 							<?php bloginfo('description'); ?>
@@ -24,7 +25,7 @@
 				</div>
 
 <!-- 				<div class="headsearch">
-					<?php get_search_form();?> 
+					<?php get_search_form();?>
 				</div> -->
 			</section>
 		</header>

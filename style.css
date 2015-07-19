@@ -1,70 +1,1465 @@
-/*
-Error: Invalid CSS after ">>>>>>> footer": expected "{", was ""
-        on line 452 of E:/MY FILES/XAMPP/htdocs/capstone/wp-content/themes/calebspitch/components/sass/_layout.scss
-        from line 20 of E:/MY FILES/xampp/htdocs/capstone/wp-content/themes/calebspitch/components/sass/style.scss
+/* # Caleb's Pitch --  Child Theme  
+Theme Name: Caleb's Pitch Theme  
+Theme URI: https://github.com/sirhair/calebspitch  
+Description: This is originally created for Caleb's Pitch, http://calebspitch.org/.   
+Author: Dinosaur Dynamite 
+Author URI: https://github.com/sirhair/calebspitch 
+Version: 0.1;
 
-447:   width:1000px;
-448:   margin:auto;
-449: }
-450: =======
-451: >>>>>>> footer
-
-Backtrace:
-E:/MY FILES/XAMPP/htdocs/capstone/wp-content/themes/calebspitch/components/sass/_layout.scss:452
-E:/MY FILES/xampp/htdocs/capstone/wp-content/themes/calebspitch/components/sass/style.scss:20
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1162:in `expected'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1098:in `expected'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:1093:in `tok!'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:638:in `block'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:632:in `ruleset'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:657:in `block_child'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:650:in `block_contents'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:117:in `stylesheet'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/scss/parser.rb:42:in `parse'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/engine.rb:403:in `_to_tree'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/engine.rb:309:in `to_tree'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:88:in `block in with_import'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:88:in `with_import'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:157:in `visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:8:in `visit'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:36:in `css_tree'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:20:in `render'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/engine.rb:278:in `render'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `each'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `call'
-c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-c:/Ruby22-x64/bin/compass:23:in `load'
-c:/Ruby22-x64/bin/compass:23:in `<main>'
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \">>>>>>> footer\": expected \"{\", was \"\"\A         on line 452 of E:/MY FILES/XAMPP/htdocs/capstone/wp-content/themes/calebspitch/components/sass/_layout.scss\A         from line 20 of E:/MY FILES/xampp/htdocs/capstone/wp-content/themes/calebspitch/components/sass/style.scss\A \A 447:   width:1000px;\A 448:   margin:auto;\A 449: }\A 450: =======\A 451: >>>>>>> footer"; }
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Graduate|Open+Sans:400italic,400,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
+/**
+ * Establish a vertical rhythm unit using $base-font-size, $base-line-height,
+ * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
+ * body `font-size` is set using `em` units.
+ */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  *display: inline;
+  *zoom: 1;
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ */
+[hidden] {
+  display: none;
+}
+
+/**
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+blockquote {
+  margin: 1.5em 40px;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 2em;
+  line-height: 1.5em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 1.28205em;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 1.80723em;
+}
+
+h6 {
+  font-size: 0.67em;
+  line-height: 2.23881em;
+  margin-top: 2.23881em;
+  margin-bottom: 2.23881em;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Set 1 unit of vertical rhythm on the top and bottom margin.
+ */
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1.5em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+  /* Improve image quality when scaled in IE 7. */
+  -ms-interpolation-mode: bicubic;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1.5em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0;
+}
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Address `font-family` inconsistency between `textarea` and other form in IE 7
+ * 5. Improve appearance and consistency with IE 6/7.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  *font-family: sans-serif;
+  /* 4 */
+  *vertical-align: middle;
+  /* 5 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */
+  /**
+   * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+   * Safari (but not Chrome) clips the cancel button when the search input has
+   * padding (and `textfield` appearance).
+   */
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  margin: 0 2px;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-color: #c0c0c0;
+  border-top-width: 0.0625em;
+  border-top-style: solid;
+  padding-top: 0.4625em;
+  border-bottom-width: 0.0625em;
+  border-bottom-style: solid;
+  padding-bottom: 0.9125em;
+  border-left-width: 0.0625em;
+  border-left-style: solid;
+  padding-left: 0.875em;
+  border-right-width: 0.0625em;
+  border-right-style: solid;
+  padding-right: 0.875em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+html a {
+  color: #57bfc4;
+  text-decoration: none;
+}
+html a:visited {
+  color: #37b449;
+}
+html a:focus {
+  color: #ed7e22;
+}
+html a:hover {
+  color: #ed7e22;
+}
+html a:active {
+  color: #825da3;
+}
+html a:hover, html a:focus {
+  text-decoration: underline;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* + * {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.cpBlue {
+  color: #0062a4;
+}
+
+.cpSalmon {
+  color: #e56066;
+}
+
+.cpYellow {
+  color: #ffce00;
+}
+
+.layout {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  *zoom: 1;
+}
+.layout:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+body nav, body main, body footer, body header {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+}
+
+.logoimg {
+  height: 10rem;
+}
+
+footer .logoimg {
+  height: 13rem;
+}
+
+.siteheader {
+  background: url("images/heroimagesm.jpg") no-repeat center center;
+  height: 10em;
+}
+
+.storyText {
+  font-size: .8em;
+}
+
+.video {
+  margin-top: 1.4em;
+}
+
+.video iframe {
+  width: 95%;
+  height: 15em;
+  display: block;
+  margin: auto;
+}
+
+.getInvolvedBadge {
+  text-align: center;
+}
+
+.homeSplat {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.galleryHome {
+  margin: 1rem;
+}
+
+.giText {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.giImage {
+  padding: 1rem;
+}
+
+.formText {
+  padding: 1rem;
+}
+
+.formSplat {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+body footer {
+  padding-top: 1rem;
+}
+
+.footlogo, .footcopy {
+  text-align: center;
+}
+
+@media (min-width: 45em) {
+  .primary {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .secondary {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fullwidth {
+    width: 100%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .thirdwidth {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .thirdwidth:nth-child(3n+0) {
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fourths {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .fourths:nth-child(3n+0) {
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .footlogo {
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    clear: both;
+  }
+
+  .siteheader {
+    background: url("images/heroimage.png") no-repeat center center;
+    height: 20em;
+  }
+
+  .logoimg {
+    height: 9em;
+  }
+
+  .storyText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .video {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    margin-top: 1.4em;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 18em;
+  }
+
+  .homeSplat {
+    width: 40%;
+  }
+
+  .giText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .giImage {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .miniCalendar {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+    float: right;
+  }
+
+  /*----------- Forms ------------*/
+  .formText {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  #mc_embed_signup {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .formSplat {
+    width: 40%;
+  }
+
+  .donateForm {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+}
+@media (min-width: 60em) {
+  .primary {
+    width: 75%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .secondary {
+    width: 25%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .fullwidth {
+    width: 100%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .thirdwidth {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .thirdwidth:nth-child(3n+0) {
+    width: 25%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .fourths, .fourths:nth-child(3n+0), .fourths:nth-child(4) {
+    width: 25%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .fourths:nth-child(4) {
+    clear: none;
+  }
+
+  .fourths:nth-child(4n+0) {
+    width: 25%;
+    float: right;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    text-align: right;
+  }
+
+  /*foot divs*/
+  .footlogo {
+    text-align: right;
+  }
+
+  /*----------- Home Page ------------ */
+  .storyText {
+    width: 41.66667%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    font-size: 1em;
+  }
+
+  .video {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    margin-top: 1.4em;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 18em;
+  }
+
+  .getInvolvedBadge {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    text-align: left;
+  }
+
+  .homeSplat {
+    width: 90%;
+  }
+
+  .miniCalendar {
+    width: 75%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  /*----------- Forms ------------ */
+  .formText {
+    width: 41.66667%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  #mc_embed_signup {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+    margin: 0;
+  }
+
+  .formSplat {
+    width: 40%;
+  }
+
+  .donateForm {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  /*----------- Get Involved Page ------------ */
+  .giText {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+
+  .giImage {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+}
+/*------------ Gallery Template-------*/
+.gallery {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gallery p {
+  visibility: hidden;
+}
+
+/*------------ Event Template-------*/
+.tribe-events-promo {
+  visibility: hidden;
+}
+
+.tribe-events-meta-group-details {
+  width: 90%;
+}
+
+.tribe-events-meta-group-details dl {
+  display: inline;
+  float: left;
+  text-align: center;
+}
+
+.tribe-events-meta-group-organizer {
+  Width: 500px;
+  margin: auto;
+}
+
+.events-single ul.tribe-related-events {
+  margin: 0 0 8%;
+  padding: 0;
+  border: solid;
+  border-top-color: #0062a4;
+  border-right-color: #825da3;
+  border-left-color: #e56066;
+  border-bottom-color: #37b449;
+}
+
+.primary {
+  width: 1000px;
+  margin: auto;
+}
+
+.tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group {
+  width: 1000px;
+  text-align: center;
+  margin: 0 0 10px;
+  clear: both;
+}
+
+#tribe-events dl, #tribe-events dt, #tribe-events dd, #tribe-events ol, #tribe-events ul, #tribe-events li {
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: inline;
+  clear: both;
+  text-align: center;
+}
+
+.tribe-events-meta-group-details, .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap {
+  width: 1000px;
+  margin: auto;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 32.4px;
+}
+
+h1, h2, h3, h4, h5, h6, .headsecondary {
+  font-family: 'Graduate', sans-serif;
+  margin: .5em 0;
+  font-weight: normal;
+}
+
+p, pre {
+  margin: 1.35em 0;
+}
+
+.footnav {
+  font-size: 1.25em;
+  font-family: 'Graduate', sans-serif;
+}
+
+body {
+  background-color: #57bfc4;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+ul li {
+  padding-bottom: 1rem;
+}
+
+footer ul {
+  margin-top: 0;
+}
+footer ul ul {
+  padding-top: 1rem;
+  padding-left: 2em;
+}
+footer ul ul li:last-child {
+  padding-bottom: 0;
+}
+
+main h1 {
+  color: #825da3;
+  text-align: center;
+  line-height: 1em;
+  margin-top: .5 rem;
+}
+
+.siteheader, .sitefooter {
+  margin: 0;
+  color: #FFFFFF;
+}
+.siteheader a, .sitefooter a {
+  color: #FFFFFF;
+}
+.siteheader a:visited, .sitefooter a:visited {
+  color: #FFFFFF;
+}
+.siteheader a:focus, .sitefooter a:focus {
+  color: #0062a4;
+}
+.siteheader a:hover, .sitefooter a:hover {
+  color: #0062a4;
+}
+.siteheader a:active, .sitefooter a:active {
+  color: #825da3;
+}
+.siteheader a:hover, .siteheader a:focus, .sitefooter a:hover, .sitefooter a:focus {
+  text-decoration: none;
+}
+
+main {
+  background-color: #FFFFFF;
+}
+
+.headsecondary {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.headsecondary .layout {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+.headsecondary ul {
+  margin-top: 0;
+  padding: 0;
+}
+.headsecondary ul li {
+  padding: 0;
+  padding-right: 2em;
+  display: inline-block;
+}
+.headsecondary ul li:last-child {
+  padding-right: 0;
+}
+.headsecondary a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+.headsecondary a:visited {
+  color: #FFFFFF;
+}
+.headsecondary a:focus {
+  color: #0062a4;
+}
+.headsecondary a:hover {
+  color: #0062a4;
+}
+.headsecondary a:active {
+  color: #825da3;
+}
+.headsecondary a:hover, .headsecondary a:focus {
+  text-decoration: none;
+}
+
+/*----------Homepage - Story Section----------- */
+.storyText h2 {
+  color: #57bfc4;
+}
+
+.storyText a:hover {
+  text-decoration: none;
+}
+
+.blueButton {
+  background: #0062a4;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.blueButton:hover {
+  background: #004471;
+}
+
+/*----------Homepage - Get Involved Section----------- */
+.getInvolved {
+  background: #fff0b3;
+  margin-top: 1em;
+  padding: .5em 1em 1em 1em;
+}
+
+.getInvolved h2 {
+  color: #0062a4;
+  text-align: center;
+}
+
+.getInvolvedBadge a:hover {
+  text-decoration: none;
+}
+
+/*---------- Home Page - Event/Gallery Section --------- */
+.upcomingEvents {
+  margin: 1rem;
+}
+
+.upcomingEvents h2 {
+  color: #825da3;
+}
+
+.upcomingEvents ol {
+  padding: 0;
+}
+
+.galleryHome h2 {
+  color: #825da3;
+  text-align: left;
+}
+
+.galleryHome a:hover {
+  text-decoration: none;
+}
+
+#cycloneslider-home-page-slider-1 {
+  margin: auto;
+}
+
+#cycloneslider-home-page-slider-1-pager {
+  margin: auto;
+}
+
+/*---------- Forms ----------- */
+.formText h2 {
+  text-align: center;
+}
+
+#mc_embed_signup {
+  border: solid 1px #0062a4;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  padding: .5em 1em 1em 1em;
+  margin: 1rem;
+}
+
+#mc_embed_signup.sponsorForm {
+  border: solid 1px #e56066;
+}
+
+#mc_embed_signup.contactForm {
+  border: solid 1px #ed7e22;
+}
+
+#mc_embed_signup h2 {
+  color: #0062a4;
+  text-align: center;
+}
+
+#mc_embed_signup.sponsorForm h2 {
+  color: #e56066;
+}
+
+#mc_embed_signup.contactForm h2 {
+  color: #ed7e22;
+}
+
+.formButton {
+  background: #0062a4;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.formButton:hover {
+  background: #004471;
+}
+
+.sponsorButton {
+  background: #e56066;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.sponsorButton:hover {
+  background: #de343c;
+}
+
+.contactButton {
+  background: #ed7e22;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.contactButton:hover {
+  background: #cb6511;
+}
+
+input {
+  width: 100%;
+}
+
+/*---------- Get Involved ----------- */
+.getInvolvedPage h1 {
+  color: #825da3;
+  text-align: center;
+}
+
+.giVolunteer {
+  border-top: solid 1em #0062a4;
+  color: #0062a4;
+}
+
+.giDonate {
+  border-top: solid 1em #37b449;
+  color: #37b449;
+}
+
+.giSponsor {
+  border-top: solid 1em #e56066;
+  color: #e56066;
+}
+
+.giText a:hover {
+  text-decoration: none;
+}
+
+.giImage iframe {
+  width: 100%;
+  height: 18em;
+}
+
+.giImage img {
+  width: 100%;
+}
+
+.greenButton {
+  background: #37b449;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.greenButton:hover {
+  background: #2b8d39;
+}
+
+.pinkButton {
+  background: #e56066;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  padding: .2em .6em .2em .6em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.pinkButton:hover {
+  background: #de343c;
+}

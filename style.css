@@ -980,8 +980,8 @@ body footer {
   }
 
   .miniCalendar {
-    width: 75%;
-    float: left;
+    width: 66.66667%;
+    float: right;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
   }
@@ -1092,7 +1092,7 @@ body footer {
 }
 
 .tribe-events-meta-group-details, .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap {
-  width: 90%;
+  width: 1000px;
   margin: auto;
 }
 
@@ -1141,6 +1141,7 @@ footer ul {
   margin-top: 0;
 }
 footer ul ul {
+  display: none;
   padding-top: 1rem;
   padding-left: 2em;
 }

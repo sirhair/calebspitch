@@ -1494,3 +1494,47 @@ input {
 .pinkButton:hover {
   background: #de343c;
 }
+
+.headsecondary .layout div:nth-child(2) ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.headsecondary .layout div:nth-child(2) ul a {
+  display: block;
+  padding: 0 15px;
+}
+.headsecondary .layout div:nth-child(2) ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.headsecondary .layout div:nth-child(2) ul li.current-menu-item a {
+  color: #825da3;
+}
+.headsecondary .layout div:nth-child(2) ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #e56066;
+  padding: 0;
+}
+.headsecondary .layout div:nth-child(2) ul ul li {
+  float: none;
+  width: 200px;
+}
+.headsecondary .layout div:nth-child(2) ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+.headsecondary .layout div:nth-child(2) ul ul ul {
+  top: 0;
+  left: 100%;
+}
+.headsecondary .layout div:nth-child(2) ul li:hover ul {
+  display: block;
+}

@@ -302,7 +302,11 @@ body footer{
   .footlogo{
     text-align:right;
   }
-
+  footer ul{
+    ul{
+      display:none;
+    }
+  }
 
 
   /*----------- Home Page ------------ */

@@ -945,6 +945,10 @@ body footer {
     text-align: right;
   }
 
+  footer ul ul {
+    display: none;
+  }
+
   /*----------- Home Page ------------ */
   .storyText {
     width: 41.66667%;
@@ -1141,7 +1145,6 @@ footer ul {
   margin-top: 0;
 }
 footer ul ul {
-  display: none;
   padding-top: 1rem;
   padding-left: 2em;
 }

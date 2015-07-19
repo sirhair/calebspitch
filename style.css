@@ -1040,7 +1040,7 @@ body footer {
 
 /*------------ Event Template-------*/
 .tribe-events-promo {
-  visibility: hidden;
+  display: none;
 }
 
 .tribe-events-meta-group-details {

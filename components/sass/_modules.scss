@@ -19,7 +19,19 @@ ul{
     padding-bottom:$padding;
   }//ul li
 
+
 }// ul
+
+footer ul{
+  margin-top:0;
+  ul{
+    padding-top:$padding;
+    padding-left: 2em;
+    li:last-child{
+      padding-bottom:0;
+    }
+  }
+}
 
 main h1{
   color: $cpPurple;

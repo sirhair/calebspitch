@@ -643,6 +643,18 @@ html a:hover, html a:focus {
   padding-bottom: 0;
 }
 
+.cpBlue {
+  color: #0062a4;
+}
+
+.cpSalmon {
+  color: #e56066;
+}
+
+.cpYellow {
+  color: #ffce00;
+}
+
 .layout {
   max-width: 60em;
   margin-left: auto;

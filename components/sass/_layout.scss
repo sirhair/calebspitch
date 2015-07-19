@@ -214,7 +214,15 @@ body footer{
     @include span(5 of 9);
   }
 
-  /*----------- Forms ------------*/
+  .eventsList {
+    @include span(4 of 9);
+  }
+
+  .miniCalendar {
+    @include span(5 of 9);
+  }
+
+/*----------- Forms ------------*/
 
   .formText {
     @include span(4 of 9);
@@ -312,13 +320,8 @@ body footer{
   width: 90%;
   }
 
-  .upcomingEvents {
-    @include span(4 of 12);
-
-  }
-
   .galleryHome {
-    @include span(8 of 12);
+    margin: $margin;
   }
 
   /*----------- Forms ------------ */

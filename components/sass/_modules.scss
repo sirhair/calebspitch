@@ -139,11 +139,19 @@ main {
     text-align: center;
 }
 
-.getInvolvedBadge h3 {
-    text-align: center;
+.getInvolvedBadge a:hover {
+    text-decoration: none;
 }
 
 /*---------- Home Page - Event/Gallery Section --------- */
+
+  .upcomingEvents {
+    margin: $margin;
+  }
+
+  .upcomingEvents h2 {
+    color: $cpPurple;
+  }
 
   .upcomingEvents ol {
     padding: 0;
@@ -151,6 +159,7 @@ main {
 
   .galleryHome h2 {
     color: $cpPurple;
+    text-align: left;
   }
 
   .galleryHome a:hover {

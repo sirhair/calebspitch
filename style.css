@@ -831,6 +831,20 @@ body footer {
     padding-right: 0.92593%;
   }
 
+  .eventsList {
+    width: 44.44444%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
+  .miniCalendar {
+    width: 55.55556%;
+    float: left;
+    padding-left: 0.92593%;
+    padding-right: 0.92593%;
+  }
+
   /*----------- Forms ------------*/
   .formText {
     width: 44.44444%;
@@ -946,18 +960,8 @@ body footer {
     width: 90%;
   }
 
-  .upcomingEvents {
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
-  }
-
   .galleryHome {
-    width: 66.66667%;
-    float: left;
-    padding-left: 0.69444%;
-    padding-right: 0.69444%;
+    margin: 1rem;
   }
 
   /*----------- Forms ------------ */
@@ -1167,17 +1171,26 @@ main {
   text-align: center;
 }
 
-.getInvolvedBadge h3 {
-  text-align: center;
+.getInvolvedBadge a:hover {
+  text-decoration: none;
 }
 
 /*---------- Home Page - Event/Gallery Section --------- */
+.upcomingEvents {
+  margin: 1rem;
+}
+
+.upcomingEvents h2 {
+  color: #825da3;
+}
+
 .upcomingEvents ol {
   padding: 0;
 }
 
 .galleryHome h2 {
   color: #825da3;
+  text-align: left;
 }
 
 .galleryHome a:hover {

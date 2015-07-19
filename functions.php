@@ -27,10 +27,20 @@ function blank_widgets_init(){
 	);
 
 	register_sidebar ( array (
-        'name' => ('Events Widget'),
-        'id' => 'events-widget',
-        'description' => 'Widget for adding events to the home page',
+        'name' => ('Events List Widget'),
+        'id' => 'events-list-widget',
+        'description' => 'Widget for adding a list of events to the home page',
         'before_widget' => '<div class="eventsWidget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ));
+
+  register_sidebar ( array (
+        'name' => ('Calendar Widget'),
+        'id' => 'calendar-widget',
+        'description' => 'Widget for adding a mini calendar to the home page',
+        'before_widget' => '<div class="calendarWidget">',
         'after_widget' => '</div>',
         'before_title' => '<h2>',
         'after_title' => '</h2>',

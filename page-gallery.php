@@ -15,7 +15,7 @@ Template name: Gallery Template
             	<?php the_content();
 			  endwhile;
 			endif; ?>
-            <a href="#"><button class="blueButton">View More</button></a>
+            <a href="https://plus.google.com/u/0/photos/102474186291659580823/albums/5795118637767766737?sort=1" target="new"><button class="blueButton">View More</button></a>
     </section>
 </main>
         

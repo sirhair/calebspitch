@@ -1022,6 +1022,10 @@ body footer {
   visibility: hidden;
 }
 
+.gallery p {
+  visibility: hidden;
+}
+
 /*------------ Event Template-------*/
 .tribe-events-promo {
   visibility: hidden;

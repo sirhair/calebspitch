@@ -1,7 +1,7 @@
 <!DOCTYTPE HTML>
 <html>
 	<head>
-		<title>Edward Alonzo Template</title>
+		<title>Caleb's Pitch: Continue the Legacy</title>
 		<?php wp_head(); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#57bfc4">

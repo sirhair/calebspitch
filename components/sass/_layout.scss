@@ -380,3 +380,51 @@ body footer{
 .tribe-events-promo{
   visibility:hidden;
 }
+
+.tribe-events-meta-group-details{
+  width:90%;
+
+}
+.tribe-events-meta-group-details dl{
+  display:inline;
+  float:left;
+  text-align:center;
+}
+.tribe-events-meta-group-organizer{
+  Width:500px;
+  margin:auto;
+}
+.events-single ul.tribe-related-events {
+  margin: 0 0 8%;
+  padding: 0;
+  border: solid;
+  border-top-color: $cpBlue;
+  border-right-color: $cpPurple;
+  border-left-color:$cpSalmon;
+  border-bottom-color: $cpGreen;
+}
+ .primary{
+  width:1000px;
+  margin:auto;
+}
+.tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
+  width:1000px;
+  text-align:center;
+  margin:0 0 10px;
+  clear:both;
+}
+ dl, dt, dd,ol,ul,li{
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: inline;
+  clear: both;
+  text-align:center;
+  
+}
+.tribe-events-meta-group-details, .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
+  width:1000px;
+  margin:auto;
+}

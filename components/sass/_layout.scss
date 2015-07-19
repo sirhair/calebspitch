@@ -364,14 +364,14 @@ body footer{
   margin-bottom: $margin;
 }
 
+.gallery p{
+  visibility:hidden;
+}
+
 
 
 /*------------ Event Template-------*/
 
-.eventslist ul{
-  list-style-type:none;
-}
-.eventslist li a{
-  display:inline;
-
+.tribe-events-promo{
+  visibility:hidden;
 }

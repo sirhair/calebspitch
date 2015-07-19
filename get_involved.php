@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Get Involved Landing Page
-*/
-?>
-
 <?php get_header(); ?>
 <main class="main" >
     <section class="layout getInvolvedPage">

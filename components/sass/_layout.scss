@@ -218,6 +218,11 @@ body footer{
     @include span(5 of 9);
   }
 
+  .miniCalendar {
+     @include span(5 of 9);
+     float: right;
+  }
+
 /*----------- Forms ------------*/
 
   .formText {
@@ -314,6 +319,10 @@ body footer{
 
   .homeSplat {
   width: 90%;
+  }
+
+  .miniCalendar {
+     @include span(9 of 12);
   }
 
 

@@ -58,12 +58,12 @@ Template name: Front Page Template
 					<div class="secondary">
 						<?php dynamic_sidebar('events-list-widget'); ?>
 					</div>
-					<div class="primary">
+					<div class="miniCalendar">
 						<?php dynamic_sidebar('calendar-widget'); ?>
 					</div>
 
 				</section>
-				<section class="galleryHome">
+				<section class="galleryHome fullWidth">
 					<h2>Caleb's Pitch In Action</h2>
 							<?php if( function_exists('cyclone_slider') ) cyclone_slider('home-page-slider'); ?>
 							<a href="http://www.cp.thenewe.com/gallery/"><button class="blueButton">Go To The Gallery</button></a>

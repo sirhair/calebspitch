@@ -1058,6 +1058,13 @@ ul li {
   padding-bottom: 1rem;
 }
 
+h1 {
+  color: #825da3;
+  text-align: center;
+  line-height: 1em;
+  margin-top: .5 rem;
+}
+
 .siteheader, .sitefooter {
   margin: 0;
   color: #FFFFFF;

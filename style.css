@@ -1074,7 +1074,7 @@ body footer {
 }
 
 .tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group {
-  width: 1000px;
+  width: 90%;
   text-align: center;
   margin: 0 0 10px;
   clear: both;
@@ -1092,7 +1092,7 @@ body footer {
 }
 
 .tribe-events-meta-group-details, .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap {
-  width: 1000px;
+  width: 90%;
   margin: auto;
 }
 

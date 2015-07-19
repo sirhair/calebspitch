@@ -698,6 +698,10 @@ body nav, body main, body footer, body header {
   width: 50%;
 }
 
+.galleryHome {
+  margin: 1rem;
+}
+
 .giText {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -831,20 +835,6 @@ body footer {
     padding-right: 0.92593%;
   }
 
-  .eventsList {
-    width: 44.44444%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .miniCalendar {
-    width: 55.55556%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
   /*----------- Forms ------------*/
   .formText {
     width: 44.44444%;
@@ -958,10 +948,6 @@ body footer {
 
   .homeSplat {
     width: 90%;
-  }
-
-  .galleryHome {
-    margin: 1rem;
   }
 
   /*----------- Forms ------------ */
@@ -1223,6 +1209,10 @@ main {
   border: solid 1px #e56066;
 }
 
+#mc_embed_signup.contactForm {
+  border: solid 1px #ed7e22;
+}
+
 #mc_embed_signup h2 {
   color: #0062a4;
   text-align: center;
@@ -1230,6 +1220,10 @@ main {
 
 #mc_embed_signup.sponsorForm h2 {
   color: #e56066;
+}
+
+#mc_embed_signup.contactForm h2 {
+  color: #ed7e22;
 }
 
 .formButton {
@@ -1248,7 +1242,7 @@ main {
 }
 
 .formButton:hover {
-  background: #37b449;
+  background: #004471;
 }
 
 .sponsorButton {
@@ -1267,7 +1261,26 @@ main {
 }
 
 .sponsorButton:hover {
-  background: #37b449;
+  background: #de343c;
+}
+
+.contactButton {
+  background: #ed7e22;
+  color: white;
+  font-family: 'Graduate', sans-serif;
+  border: none;
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  border-radius: .2em;
+  -webkit-border-radius: .2em;
+  -moz-border-radius: .2em;
+  transition: background .05s ease;
+  margin: auto 0;
+}
+
+.contactButton:hover {
+  background: #cb6511;
 }
 
 input {

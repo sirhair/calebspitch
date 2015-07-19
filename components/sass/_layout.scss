@@ -83,6 +83,10 @@ body nav,body main,body footer,body header{
   width: 50%;
 }
 
+.galleryHome {
+    margin: $margin;
+  }
+
   .giText {
     margin-bottom: $margin;
     padding: $padding;
@@ -214,14 +218,6 @@ body footer{
     @include span(5 of 9);
   }
 
-  .eventsList {
-    @include span(4 of 9);
-  }
-
-  .miniCalendar {
-    @include span(5 of 9);
-  }
-
 /*----------- Forms ------------*/
 
   .formText {
@@ -320,9 +316,6 @@ body footer{
   width: 90%;
   }
 
-  .galleryHome {
-    margin: $margin;
-  }
 
   /*----------- Forms ------------ */
 

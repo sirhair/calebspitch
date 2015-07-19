@@ -157,6 +157,14 @@ main {
     padding: 0;
   }
 
+  .tribe-mini-calendar thead {
+    background: $cpTeal;
+  }
+
+  .tribe-mini-calendar-event .list-date {
+    background: $cpTeal; !important
+  }
+
   .galleryHome h2 {
     color: $cpPurple;
     text-align: left;

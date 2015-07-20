@@ -382,35 +382,35 @@ body footer{
 }
 @media screen and (min-width: 900px){
  .primary{
-  width:1000px;
-  margin:auto;
-}
-.tribe-events-meta-group-organizer{
-  Width:500px;
-  margin:auto;
-}
-.tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
-  width:90% !important;
-  text-align:center;
-  margin:0 0 10px;
-  clear:both;
-}
- #tribe-events {
- dl, dt, dd,ol,ul,li{
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-  display: inline;
-  clear: both;
-  text-align:center;
+    width:1000px;
+    margin:auto;
   }
-  
-}
- .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
-  width:90%;
-  margin:auto;
-}
+  .tribe-events-meta-group-organizer{
+    Width:500px;
+    margin:auto;
+  }
+  .tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
+    width:90% !important;
+    text-align:center;
+    margin:0 0 10px;
+    clear:both;
+  }
+   #tribe-events {
+   dl, dt, dd,ol,ul,li{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align:center;
+    }
+    
+  }
+   .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
+    width:90%;
+    margin:auto;
+  }
 }
 

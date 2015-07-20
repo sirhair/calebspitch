@@ -417,6 +417,11 @@ body footer{
 .tribe-events-calendar{
     background:$cpTeal !important;
 }
+
+.tribe-events-after-html{
+  display:none;
+}
+
 @media screen and (max-width: 1000px){
    .primary{
     width:1000px;

@@ -1069,6 +1069,10 @@ body footer {
   background: #57bfc4 !important;
 }
 
+.tribe-events-after-html {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .primary {
     width: 1000px;

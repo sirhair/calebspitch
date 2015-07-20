@@ -17,23 +17,33 @@ Template name: Events Template
 			endif; ?>
 	</section>
 
-			<section class="getInvolved">
+
+       <div class="getInvolved">
 				<section class="layout">
 					<h2>Get Involved</h2>
+
 						<div class="getInvolvedBadge">
 							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
-							<h3><a href="http://www.cp.thenewe.com/donate/">Donate</a></h3>	
+							<a href="http://www.cp.thenewe.com/donate/">
+							<button class="greenButton">Donate<button>
+							</a>
 						</div>
+
 						<div class="getInvolvedBadge">
 							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
-							<h3><a href="http://www.cp.thenewe.com/volunteer/">Volunteer</a></h3>
+							<a href="http://www.cp.thenewe.com/volunteer/">
+							<button class="blueButton">Volunteer<button>
+							</a>
 						</div>
+
 						<div class="getInvolvedBadge">
 							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
-							<h3><a href="http://www.cp.thenewe.com/sponsor-sign-up/">Sponsor</a></h3>
+							<a href="http://www.cp.thenewe.com/sponsor-sign-up/">
+							<button class="pinkButton">Sponsor<button>
+							</a>
 						</div>
-				</section>
 			</section>
+		</div>
 </main>
         
 

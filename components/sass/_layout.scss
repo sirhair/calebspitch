@@ -418,7 +418,7 @@ body footer{
     background:$cpTeal !important;
   //link-colors($normal, $hover, $active, $visited, $focus) 
   a{
-    @include link-colors($cWhite, $cpOrange, $cpPurple, $cWhite, $cpOrange);
+    @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
   }
 
 }

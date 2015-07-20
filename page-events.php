@@ -18,32 +18,33 @@ Template name: Events Template
 	</section>
 
 
-       <div class="getInvolved">
-				<section class="layout">
-					<h2>Get Involved</h2>
+	<div class="getInvolved">
+		<section class="layout">
+			<h2>Get Involved</h2>
 
-						<div class="getInvolvedBadge">
-							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
-							<a href="http://www.cp.thenewe.com/donate/">
-							<button class="greenButton">Donate</button>
-							</a>
-						</div>
+			<div class="getInvolvedBadge">
+				<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
+				<a href="http://www.cp.thenewe.com/donate/">
+				<button class="greenButton">Donate</button>
+				</a>
+			</div>
 
-						<div class="getInvolvedBadge">
-							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
-							<a href="http://www.cp.thenewe.com/volunteer/">
-							<button class="blueButton">Volunteer</button>
-							</a>
-						</div>
+			<div class="getInvolvedBadge">
+				<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
+				<a href="http://www.cp.thenewe.com/volunteer/">
+				<button class="blueButton">Volunteer</button>
+				</a>
+			</div>
 
-						<div class="getInvolvedBadge">
-							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
-							<a href="http://www.cp.thenewe.com/sponsor-sign-up/">
-							<button class="pinkButton">Sponsor</button>
-							</a>
-						</div>
-			</section>
-		</div>
+			<div class="getInvolvedBadge">
+				<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
+				<a href="http://www.cp.thenewe.com/sponsor-sign-up/">
+				<button class="pinkButton">Sponsor</button>
+				</a>
+			</div>
+		</section>
+	</div>
+	
 </main>
         
 

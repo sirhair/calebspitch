@@ -1021,7 +1021,7 @@ body footer {
   background: #57bfc4 !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 900px) {
   .primary {
     width: 1000px;
     margin: auto;

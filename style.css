@@ -1495,6 +1495,10 @@ input {
   background: #de343c;
 }
 
+.headsecondary, .headsecondary .layout {
+  overflow: visible;
+}
+
 .headsecondary .layout div:nth-child(2) ul {
   list-style: none;
   position: relative;
@@ -1520,8 +1524,9 @@ input {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #e56066;
+  background: #57bfc4;
   padding: 0;
+  padding-top: .5em;
 }
 .headsecondary .layout div:nth-child(2) ul ul li {
   float: none;

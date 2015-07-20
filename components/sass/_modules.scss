@@ -378,6 +378,9 @@ main {
 
 //DROP DOWN MENU
 
+.headsecondary, .headsecondary .layout{
+  overflow: visible;
+}
 
 .headsecondary .layout div:nth-child(2){
   ul
@@ -419,8 +422,10 @@ main {
     position:absolute;
     top:100%;
     left:0;
-    background: $cpSalmon;
-    padding:0
+    background: $cpTeal;
+    padding:0;
+    padding-top:.5em;
+
   }
 
   ul ul li

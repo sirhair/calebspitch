@@ -1067,6 +1067,19 @@ body footer {
 
 .tribe-events-calendar {
   background: #57bfc4 !important;
+  color: #FFFFFF;
+}
+.tribe-events-calendar:visited {
+  color: #FFFFFF;
+}
+.tribe-events-calendar:focus {
+  color: #ed7e22;
+}
+.tribe-events-calendar:hover {
+  color: #ed7e22;
+}
+.tribe-events-calendar:active {
+  color: #825da3;
 }
 
 .tribe-events-after-html {

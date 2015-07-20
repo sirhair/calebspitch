@@ -1131,8 +1131,11 @@ p, pre {
   margin: 1.35em 0;
 }
 
-.footnav {
+body > footer {
   font-size: 1.25em;
+}
+
+.footnav {
   font-family: 'Graduate', sans-serif;
 }
 

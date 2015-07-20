@@ -1146,8 +1146,8 @@ p, pre {
   margin: 1.35em 0;
 }
 
-body > footer {
-  font-size: 1.25em;
+body > footer ul {
+  font-size: 1.5rem;
 }
 
 .footnav {

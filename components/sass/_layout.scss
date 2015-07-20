@@ -416,7 +416,13 @@ body footer{
 }
 .tribe-events-calendar{
     background:$cpTeal !important;
+  //link-colors($normal, $hover, $active, $visited, $focus) 
+  a{
+    @include link-colors($cWhite, $cpOrange, $cpPurple, $cWhite, $cpOrange);
+  }
+
 }
+
 
 .tribe-events-after-html{
   display:none;

@@ -375,18 +375,9 @@ body footer{
 /*------------ Event Template-------*/
 
 .tribe-events-promo{
-  visibility:hidden;
+  display:none;
 }
 
-.tribe-events-meta-group-details{
-  width:90%;
-
-}
-.tribe-events-meta-group-details dl{
-  display:inline;
-  float:left;
-  text-align:center;
-}
 .tribe-events-meta-group-organizer{
   Width:500px;
   margin:auto;
@@ -405,12 +396,13 @@ body footer{
   margin:auto;
 }
 .tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
-  width:90%;!important
+  width:90% !important;
   text-align:center;
   margin:0 0 10px;
   clear:both;
 }
- #tribe-events dl, dt, dd,ol,ul,li{
+ #tribe-events {
+ dl, dt, dd,ol,ul,li{
   padding: 0;
   border: 0;
   font: inherit;
@@ -419,6 +411,7 @@ body footer{
   display: inline;
   clear: both;
   text-align:center;
+  }
   
 }
  .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
@@ -426,3 +419,6 @@ body footer{
   margin:auto;
 
 }
+.tribe-events-calendar{
+    background:$cpTeal !important;
+    }

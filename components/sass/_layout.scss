@@ -421,8 +421,45 @@ body footer{
 a{
   @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width:900px){
  .primary{
+    width:1000px;
+    margin:auto;
+  }
+  .tribe-events-meta-group-organizer{
+    Width:500px;
+    margin:auto;
+  }
+  .tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
+    width:90% !important;
+    text-align:center;
+    margin:0 0 10px;
+    clear:both;
+  }
+   #tribe-events {
+   dl, dt, dd,ol,ul,li{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align:center;
+    }
+    
+  }
+   .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
+    width:90%;
+    margin:auto;
+  }
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .primary{
   width:1000px;
   margin:auto;
 }
@@ -455,7 +492,7 @@ a{
   display:none;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (min-width: 1000px){
    .primary{
     width:1000px;
     margin:auto;
@@ -487,4 +524,39 @@ a{
     margin:auto;
   }
 
+}
+  } 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+  .primary{
+  width:1000px;
+  margin:auto;
+}
+.tribe-events-meta-group-organizer{
+  Width:500px;
+  margin:auto;
+}
+.tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
+  width:90% !important;
+  text-align:center;
+  margin:0 0 10px;
+  clear:both;
+}
+ #tribe-events {
+ dl, dt, dd,ol,ul,li{
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: inline;
+  clear: both;
+  text-align:center;
+  } 
 }

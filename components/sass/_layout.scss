@@ -416,9 +416,36 @@ body footer{
 }
 .tribe-events-calendar{
     background:$cpTeal !important;
-  //link-colors($normal, $hover, $active, $visited, $focus) 
-  a{
-    @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
+
+//link-colors($normal, $hover, $active, $visited, $focus) 
+a{
+  @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
+}
+@media screen and (min-width: 900px){
+ .primary{
+  width:1000px;
+  margin:auto;
+}
+.tribe-events-meta-group-organizer{
+  Width:500px;
+  margin:auto;
+}
+.tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
+  width:90% !important;
+  text-align:center;
+  margin:0 0 10px;
+  clear:both;
+}
+ #tribe-events {
+ dl, dt, dd,ol,ul,li{
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: inline;
+  clear: both;
+  text-align:center;
   }
 
 }

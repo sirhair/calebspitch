@@ -375,24 +375,18 @@ body footer{
 /*------------ Event Template-------*/
 
 .tribe-events-promo{
-  display:none;
+  display:none !important;
 }
-
-.tribe-events-meta-group-organizer{
-  Width:500px;
-  margin:auto;
+.tribe-events-calendar{
+    background:$cpTeal !important;
 }
-.events-single ul.tribe-related-events {
-  margin: 0 0 8%;
-  padding: 0;
-  border: solid;
-  border-top-color: $cpBlue;
-  border-right-color: $cpPurple;
-  border-left-color:$cpSalmon;
-  border-bottom-color: $cpGreen;
-}
+@media screen and (max-width: 1000px){
  .primary{
   width:1000px;
+  margin:auto;
+}
+.tribe-events-meta-group-organizer{
+  Width:500px;
   margin:auto;
 }
 .tribe-events-event-meta .column, .tribe-events-event-meta, .tribe-events-meta-group{
@@ -417,8 +411,6 @@ body footer{
  .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
   width:90%;
   margin:auto;
-
 }
-.tribe-events-calendar{
-    background:$cpTeal !important;
-    }
+}
+

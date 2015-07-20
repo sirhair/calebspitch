@@ -18,46 +18,32 @@ Template name: Events Template
 	</section>
 
 
-        <section class="giVolunteer fullwidth">
-            <div class="layout">
-                <div class="giText">
-                    <h2>Volunteer</h2>
-                        <a href="http://www.cp.thenewe.com/volunteer/"><button class="blueButton">Sign Me Up!</button></a>
-                </div>
-                <div class="giImage">
-                    <iframe src="https://www.youtube.com/embed/IiLjwwUHq0I" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
+       <div class="getInvolved">
+				<section class="layout">
+					<h2>Get Involved</h2>
 
-			  <section class="layout"></section>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
+							<a href="http://www.cp.thenewe.com/donate/">
+							<button class="greenButton">Donate<button>
+							</a>
+						</div>
 
-        <section class="giDonate fullwidth">
-            <div class="layout">
-                <div class="giText">
-                    <h2>Donate</h2>
-                        <a href="http://www.cp.thenewe.com/donate/"><button class="greenButton">Donate</button></a>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
+							<a href="http://www.cp.thenewe.com/volunteer/">
+							<button class="blueButton">Volunteer<button>
+							</a>
+						</div>
 
-                </div>
-                <div class="giImage">
-                    <img alt="Paint supplies for Caleb's Pitch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/paint-supplies.jpg">
-                </div>
-            </div>
-        </section>
-
-        <section class="layout"></section>
-
-        <section class="giSponsor fullwidth">
-            <div class="layout">
-                <div class="giText">
-                    <h2>Sponsor</h2>
-                        <a href="http://www.cp.thenewe.com/sponsor-sign-up/"><button class="pinkButton">Sponsor Us</button></a>
-                </div>
-                <div class="giImage">
-                    <img alt="Caleb's Pitch event raffle tickets" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sponsor-image.jpg">
-                </div>
-            </div>
-        </section>
+						<div class="getInvolvedBadge">
+							<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch sponsor icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
+							<a href="http://www.cp.thenewe.com/sponsor-sign-up/">
+							<button class="pinkButton">Sponsor<button>
+							</a>
+						</div>
+			</section>
+		</div>
 </main>
         
 

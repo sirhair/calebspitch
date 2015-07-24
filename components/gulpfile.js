@@ -10,6 +10,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var browserSync = require('browser-sync').create();
 var phpLoad;
+var autoprefixer = require('gulp-autoprefixer');
 
 // Lint Task
 gulp.task('lint', function() {
@@ -26,7 +27,11 @@ gulp.task('compass', function() {
     style: 'expanded',
      // One of: nested, expanded, compact, or compressed.
     css: './',
-    sass: 'components/sass'
+    sass: 'components/sass',
+  }))
+  .pipe(autoprefixer({
+    browsers: ['last 2 versions'],
+    cascade: false
   }))
   .pipe(gulp.dest('./'))
   .pipe(browserSync.stream());

@@ -129,7 +129,9 @@ body footer{
   text-align:center;
 }
 
-
+.twocolart{
+    text-align:left;
+}
 
 //medium breakpoint
 @include susy-breakpoint ($medium){
@@ -141,10 +143,6 @@ body footer{
   .headsecondary{
     // @include span(6 of 9);
   }
-
-  // .headsearch{
-  //   @include span(last 3 of 9);
-  // }
 
   //body columns
   .primary{
@@ -166,31 +164,18 @@ body footer{
     @include span(last 3 of 9);
   }
 
-  .fourths{
+//FOOTER
+  .footsocial{  
     @include span(3 of 9);
   }
 
-  .fourths:nth-child(3n+0){
-    @include span(last 3 of 9);
+  .footnav {
+    @include span(3 of 9);
   }
-  // .footcopy{
-  //   @include span(9 of 9);
-  //   clear:both;
-  // }
 
-  // .footcopy{
-  //   span(isolate 3 at 1);
-  // }
-  // .footnav{
-  //   span(isolate 3 at 6 of 9);
-  // }
-  // .footsocial{
-  //   span(isolate 3 at 3 of 9);
-  // }
   .footlogo{
+    @include span(last 3 of 9);
     text-align:center;
-    @include span(9 of 9);
-    clear:both;
   }
 
 
@@ -293,25 +278,34 @@ body footer{
     @include span(last 3 of 12);
   }
 
-  .fourths,   .fourths:nth-child(3n+0), .fourths:nth-child(4){
+
+  /*foot and nav styles*/
+  .footsocial{  
     @include span(3 of 12);
   }
 
-   .fourths:nth-child(4){
-    clear:none;
+  .footnav{
+    @include span(6 of 12);
+    h2{
+      margin-bottom: 0;
+    }
+    .twocolart{
+      padding-top: .5em;
+      column-count: 2;
+      border-top: $cWhite solid 2px;
+    }
   }
 
-  .fourths:nth-child(4n+0){
-    @include span(last 3 of 12);
-    text-align:right;
-  }
-  
-
-  /*foot and nav styles*/
-  
   .footlogo{
+    p{
+      text-align: center;
+    }
+    @include span(last 3 of 12);
+    clear:none;
     text-align:right;
   }
+
+
   .menutitle{
     display:none;
   }
@@ -559,4 +553,6 @@ a{
   clear: both;
   text-align:center;
   } 
+}
+
 }

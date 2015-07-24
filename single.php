@@ -1,16 +1,17 @@
 <?php get_header(); ?>
 
-	<main class="main" >
+	<main class="main">
 		<section class="layout">
 			<?php if (have_posts()):
 				while(have_posts()) : the_post(); ?>
-					<h2><?php the_title(); ?> </h2>
+					<h1><?php the_title(); ?> </h1>
 					<?php the_content();
-				endwhile; 
-				endif; ?>
+				endwhile; ?>
+				<div class="postmenu"> 
+					<?php previous_post(); ?>    <?php next_post(); ?>
+				</div>
+				<?php
+			endif; ?>
 		</section>
-	</main>			
-
-
-
+	</main>
 <?php get_footer(); ?>

@@ -363,8 +363,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -500,8 +498,6 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -530,8 +526,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 2 */
   /**
@@ -994,7 +988,7 @@ body footer {
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
-    text-align: left;
+    text-align: center;
   }
 
   .homeSplat {
@@ -1298,6 +1292,52 @@ main {
   text-decoration: none;
 }
 
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+}
+
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  transition-duration: 0.3s;
+  transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
 /*---------- Home Page - Event/Gallery Section --------- */
 .upcomingEvents {
   margin: 1rem;
@@ -1316,7 +1356,11 @@ main {
 }
 
 .tribe-mini-calendar-event .list-date {
+<<<<<<< HEAD
   background: #57bfc4 !important;
+=======
+  background: #57bfc4;
+>>>>>>> kelly
 }
 
 .galleryHome h2 {
@@ -1430,6 +1474,10 @@ main {
 
 input {
   width: 100%;
+}
+
+.checkbox {
+  width: 7%;
 }
 
 /*---------- Get Involved ----------- */

@@ -9,9 +9,9 @@ Template Name: Donate Form Template
     <section class="layout">
 
     <section class="thirdwidth formText">
-        <img class="formSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
+        <img class="formSplat" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
         <h2>Make a Donation to Caleb's Pitch</h2>
-           You can volunteer with Caleb's Pitch at our syringe art events or at any of our fundraisers. Please sign up using the form to the right, and we'll be in touch to see which events you're interested in.</p>
+           Thanks to the generous support from our donors, Caleb's Pitch is able to reach hundreds families. Your contribution to Caleb's Pitch helps buy paint for syringe paintings, canvases, and other necessary supplies.</p>
     </section>
 
     <section class="donateForm">

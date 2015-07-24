@@ -23,7 +23,7 @@
             <div class="layout">
                 <div class="giText">
                     <h2>Donate</h2>
-                        <p>Without the generous support of our donors Caleb's Pitch wouldn't be able to reach as many families or host as many events. You contribution to Caleb's Pitch helps to buy paint for syringe paintings, canvases, and other supplies we need to keep putting smiles on kids' faces.</p>
+                        <p>Thanks to the generous support from our donors, Caleb's Pitch is able to reach hundreds families. Your contribution to Caleb's Pitch helps buy paint for syringe paintings, canvases, and other necessary supplies.</p>
                         <a href="http://www.cp.thenewe.com/donate/"><button class="greenButton">Donate</button></a>
 
                 </div>
@@ -39,7 +39,7 @@
             <div class="layout">
                 <div class="giText">
                     <h2>Sponsor</h2>
-                        <p>By sponsoring an event with Caleb's Pitch you help us reach out the community and build our capacity to reach more children and families. Reliable contributions allows us to plan and expand! Please consider sponsoring an event with us today.</p>
+                        <p>By sponsoring an event with Caleb's Pitch you help us reach out to the community and build our capacity to reach more children and families. Reliable contributions from trusted sponsors allow us to plan and expand. Please consider sponsoring an event with us today!</p>
                         <a href="http://www.cp.thenewe.com/sponsor-sign-up/"><button class="pinkButton">Sponsor Us</button></a>
                 </div>
                 <div class="giImage">

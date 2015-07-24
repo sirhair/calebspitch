@@ -10,7 +10,7 @@ Template Name: Contact Form Template
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup" class="contactForm">
-    <form action="//kellyngo.us11.list-manage.com/subscribe/post?u=e17dc775841d90c94453ee785&amp;id=8ca46ed13d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//thenewe.us11.list-manage.com/subscribe/post?u=e17dc775841d90c94453ee785&amp;id=8ca46ed13d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
         <h2>We Want To Hear From You!</h2>
     <!--<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>-->

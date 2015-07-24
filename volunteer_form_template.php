@@ -9,14 +9,14 @@ Template Name: Volunteer Form Template
     <section class="layout">
 
     <section class="thirdwidth formText">
-        <img class="formSplat hvr-float-shadow" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
+        <img class="formSplat" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/blue_splat.png">
         <h2>Volunteer With Caleb's Pitch Today!</h2>
            You can volunteer with Caleb's Pitch at our syringe art events or at any of our fundraisers. Please sign up using the form to the right, and we'll be in touch to see which events you're interested in.</p>
     </section>
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-    <form action="//kellyngo.us11.list-manage.com/subscribe/post?u=e17dc775841d90c94453ee785&amp;id=8ca46ed13d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//thenewe.us11.list-manage.com/subscribe/post?u=e17dc775841d90c94453ee785&amp;id=8ca46ed13d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
         <h2>Volunteer Sign Up</h2>
     <!--<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>-->
@@ -34,6 +34,14 @@ Template Name: Volunteer Form Template
         <label for="mce-LNAME">Last Name </label>
         <br />
         <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+    </div>
+    <br />
+    <div class="mc-field-group">
+        <label for="mce-INTEREST">I'm interested in:</label>
+        <br />
+        <input type="checkbox" value="" name="PAINT" class="checkbox" id="mce-LNAME">Syringe Painting Events<br />
+        <input type="checkbox" value="" name="PAINT" class="checkbox" id="mce-LNAME">Fundraising<br />
+        <input type="checkbox" value="" name="PAINT" class="checkbox" id="mce-LNAME">I have other skills to contribute to Caleb's Pitch<br />
     </div>
         <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>

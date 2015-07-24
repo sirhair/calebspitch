@@ -27,7 +27,7 @@ Template name: Front Page Template
 								<img class="homeSplat hvr-float-shadow" alt="Caleb's Pitch donate icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
 							</a>
 							<a href="http://www.cp.thenewe.com/donate/">
-								<button class="greenButton">Donate</button>
+								<button class="greenButton hvr-icon-bob">Donate</button>
 							</a>
 							<p>Your donations make our syringe painting events possible! Chip in today to help us reach more kids and families.</p>
 						</div>

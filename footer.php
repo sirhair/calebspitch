@@ -27,8 +27,8 @@
         </div>   <!-- social div -->
   
         <div class="fourths footnav"> <!-- nav div -->
-          
-          <a name="footermenu"><h2>Menu</h2></a>
+          <a id="footermenu"></a>
+          <h2>Menu</h2>
 
           <?php wp_nav_menu(array('theme_location' => 'footer', 'container _class' =>'nav_menu'));?>
 

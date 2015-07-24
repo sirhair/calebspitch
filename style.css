@@ -1067,6 +1067,7 @@ body footer {
 
 .tribe-events-calendar {
   background: #57bfc4 !important;
+  /* ----------- Non-Retina Screens ----------- */
 }
 .tribe-events-calendar a {
   color: #FFFFFF;
@@ -1083,12 +1084,98 @@ body footer {
 .tribe-events-calendar a:active {
   color: #825da3;
 }
-
-.tribe-events-after-html {
-  display: none;
+@media screen and (min-width: 900px) {
+  .tribe-events-calendar .primary {
+    width: 1000px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-meta-group-organizer {
+    Width: 500px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-event-meta .column, .tribe-events-calendar .tribe-events-event-meta, .tribe-events-calendar .tribe-events-meta-group {
+    width: 90% !important;
+    text-align: center;
+    margin: 0 0 10px;
+    clear: both;
+  }
+  .tribe-events-calendar #tribe-events dl, .tribe-events-calendar #tribe-events dt, .tribe-events-calendar #tribe-events dd, .tribe-events-calendar #tribe-events ol, .tribe-events-calendar #tribe-events ul, .tribe-events-calendar #tribe-events li {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align: center;
+  }
+  .tribe-events-calendar .tribe-events-meta-group-venue, .tribe-events-calendar .tribe-events-meta-group-gmap {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .tribe-events-calendar .primary {
+    width: 1000px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-meta-group-organizer {
+    Width: 500px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-event-meta .column, .tribe-events-calendar .tribe-events-event-meta, .tribe-events-calendar .tribe-events-meta-group {
+    width: 90% !important;
+    text-align: center;
+    margin: 0 0 10px;
+    clear: both;
+  }
+  .tribe-events-calendar #tribe-events dl, .tribe-events-calendar #tribe-events dt, .tribe-events-calendar #tribe-events dd, .tribe-events-calendar #tribe-events ol, .tribe-events-calendar #tribe-events ul, .tribe-events-calendar #tribe-events li {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align: center;
+  }
+  .tribe-events-calendar .tribe-events-after-html {
+    display: none;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-width: 1000px) {
+  .tribe-events-calendar .primary {
+    width: 1000px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-meta-group-organizer {
+    Width: 500px;
+    margin: auto;
+  }
+  .tribe-events-calendar .tribe-events-event-meta .column, .tribe-events-calendar .tribe-events-event-meta, .tribe-events-calendar .tribe-events-meta-group {
+    width: 90% !important;
+    text-align: center;
+    margin: 0 0 10px;
+    clear: both;
+  }
+  .tribe-events-calendar #tribe-events dl, .tribe-events-calendar #tribe-events dt, .tribe-events-calendar #tribe-events dd, .tribe-events-calendar #tribe-events ol, .tribe-events-calendar #tribe-events ul, .tribe-events-calendar #tribe-events li {
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    clear: both;
+    text-align: center;
+  }
+  .tribe-events-calendar .tribe-events-meta-group-venue, .tribe-events-calendar .tribe-events-meta-group-gmap {
+    width: 90%;
+    margin: auto;
+  }
 }
 
-@media screen and (min-width: 900px) {
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .primary {
     width: 1000px;
     margin: auto;
@@ -1115,11 +1202,6 @@ body footer {
     display: inline;
     clear: both;
     text-align: center;
-  }
-
-  .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap {
-    width: 90%;
-    margin: auto;
   }
 }
 .right {

@@ -363,8 +363,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -500,8 +498,6 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -530,8 +526,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 2 */
   /**
@@ -755,6 +749,10 @@ body footer {
   text-align: center;
 }
 
+.twocolart {
+  text-align: left;
+}
+
 @media (min-width: 45em) {
   .primary {
     width: 66.66667%;
@@ -791,27 +789,26 @@ body footer {
     padding-right: 0.92593%;
   }
 
-  .fourths {
+  .footsocial {
     width: 33.33333%;
     float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
   }
 
-  .fourths:nth-child(3n+0) {
+  .footnav {
     width: 33.33333%;
-    float: right;
+    float: left;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
   }
 
   .footlogo {
-    text-align: center;
-    width: 100%;
-    float: left;
+    width: 33.33333%;
+    float: right;
     padding-left: 0.92593%;
     padding-right: 0.92593%;
-    clear: both;
+    text-align: center;
   }
 
   .siteheader {
@@ -931,28 +928,41 @@ body footer {
     padding-right: 0.69444%;
   }
 
-  .fourths, .fourths:nth-child(3n+0), .fourths:nth-child(4) {
+  /*foot and nav styles*/
+  .footsocial {
     width: 25%;
     float: left;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
   }
 
-  .fourths:nth-child(4) {
-    clear: none;
+  .footnav {
+    width: 50%;
+    float: left;
+    padding-left: 0.69444%;
+    padding-right: 0.69444%;
+  }
+  .footnav h2 {
+    margin-bottom: 0;
+  }
+  .footnav .twocolart {
+    padding-top: .5em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    border-top: #FFFFFF solid 2px;
   }
 
-  .fourths:nth-child(4n+0) {
+  .footlogo {
     width: 25%;
     float: right;
     padding-left: 0.69444%;
     padding-right: 0.69444%;
+    clear: none;
     text-align: right;
   }
-
-  /*foot and nav styles*/
-  .footlogo {
-    text-align: right;
+  .footlogo p {
+    text-align: center;
   }
 
   .menutitle {
@@ -1175,7 +1185,7 @@ body footer {
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .primary {
     width: 1000px;
     margin: auto;

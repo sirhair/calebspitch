@@ -1269,6 +1269,11 @@ footer ul ul li:last-child {
   padding-bottom: 0;
 }
 
+.postmenu {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
 main h1 {
   color: #825da3;
   text-align: center;

@@ -6,13 +6,13 @@
   
         <div class="fourths footsocial"> <!-- social div -->
           <h2>Connect</h2>
-            <a href="https://www.facebook.com/CalebsPitch" title="Caleb's Pitch Facebook">
+            <a href="https://www.facebook.com/CalebsPitch"  target="_blank" title="Caleb's Pitch Facebook">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x cpBlue"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
               </span>
             </a>  
-            <a href="https://twitter.com/CalebsPitch" title="Caleb's Pitch Twitter">
+            <a href="https://twitter.com/CalebsPitch" target="_blank" title="Caleb's Pitch Twitter">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x cpSalmon"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>

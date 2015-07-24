@@ -650,7 +650,7 @@ html a:hover, html a:focus {
 }
 
 .layout {
-  max-width: 60em;
+  max-width: 60rem;
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
@@ -753,7 +753,7 @@ body footer {
   text-align: left;
 }
 
-@media (min-width: 45em) {
+@media (min-width: 45rem) {
   .primary {
     width: 66.66667%;
     float: left;
@@ -892,7 +892,7 @@ body footer {
     padding-right: 0.92593%;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 60rem) {
   .primary {
     width: 75%;
     float: left;

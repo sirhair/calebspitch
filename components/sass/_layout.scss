@@ -86,6 +86,19 @@ footer .logoimg{
     margin: auto;
   }
 
+#mc_embed_signup.emailForm input.email {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#mc-embedded-subscribe.greenButton {
+    margin: auto;
+    display: block;
+    margin-top: .5em;
+}
+
 .getInvolvedBadge {
   text-align: center;
 }
@@ -165,7 +178,7 @@ body footer{
   }
 
 //FOOTER
-  .footsocial{  
+  .footsocial{
     @include span(3 of 9);
   }
 
@@ -204,22 +217,17 @@ body footer{
 
   }
 
-  .homeSplat {
-  width: 40%;
-  }
+  #mc_embed_signup.emailForm input.email {
+    width: 50%;
+    display: inline;
+    float: left;
+}
 
-  .giText {
-    @include span(4 of 9);
-  }
-
-  .giImage {
-    @include span(5 of 9);
-  }
-
-  .miniCalendar {
-     @include span(5 of 9);
-     float: right;
-  }
+#mc-embedded-subscribe.greenButton {
+    margin: auto;
+    display: inline;
+    float: right;
+}
 
 /*----------- Forms ------------*/
 
@@ -280,7 +288,7 @@ body footer{
 
 
   /*foot and nav styles*/
-  .footsocial{  
+  .footsocial{
     @include span(3 of 12);
   }
 
@@ -411,7 +419,7 @@ body footer{
 .tribe-events-calendar{
     background:$cpTeal !important;
 
-//link-colors($normal, $hover, $active, $visited, $focus) 
+//link-colors($normal, $hover, $active, $visited, $focus)
 a{
   @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
 }
@@ -441,7 +449,7 @@ a{
     clear: both;
     text-align:center;
     }
-    
+
   }
    .tribe-events-meta-group-venue, .tribe-events-meta-group-gmap{
     width:90%;
@@ -449,9 +457,9 @@ a{
   }
 }
 /* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
   .primary{
   width:1000px;
@@ -519,13 +527,13 @@ a{
   }
 
 }
-  } 
+  }
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) {
   .primary{
@@ -552,7 +560,7 @@ a{
   display: inline;
   clear: both;
   text-align:center;
-  } 
+  }
 }
 
 }

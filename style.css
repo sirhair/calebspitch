@@ -708,6 +708,19 @@ footer .logoimg {
   margin: auto;
 }
 
+#mc_embed_signup.emailForm input.email {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+#mc-embedded-subscribe.greenButton {
+  margin: auto;
+  display: block;
+  margin-top: .5em;
+}
+
 .getInvolvedBadge {
   text-align: center;
 }
@@ -840,29 +853,15 @@ body footer {
     height: 18em;
   }
 
-  .homeSplat {
-    width: 40%;
+  #mc_embed_signup.emailForm input.email {
+    width: 50%;
+    display: inline;
+    float: left;
   }
 
-  .giText {
-    width: 44.44444%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .giImage {
-    width: 55.55556%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
-  }
-
-  .miniCalendar {
-    width: 55.55556%;
-    float: left;
-    padding-left: 0.92593%;
-    padding-right: 0.92593%;
+  #mc-embedded-subscribe.greenButton {
+    margin: auto;
+    display: inline;
     float: right;
   }
 
@@ -1409,9 +1408,46 @@ main {
   background: #004471;
 }
 
+/*----------Homepage - Email Sign Up Section----------- */
+.emailList {
+  background: #0062a4;
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.emailList h2 {
+  text-align: center;
+  line-height: 1em;
+  margin-bottom: .5em;
+}
+
+.emailList p {
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#mc_embed_signup.emailForm {
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+#mc_embed_signup.emailList form {
+  padding: 0;
+}
+
+#mc_embed_signup.emailForm input {
+  width: 10em;
+  padding: .6em;
+  border: none;
+}
+
 /*----------Homepage - Get Involved Section----------- */
 .getInvolved {
-  background: #fff0b3;
+  background: #c8eaec;
   margin-top: 1em;
   padding: .5em 1em 1em 1em;
 }

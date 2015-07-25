@@ -133,7 +133,7 @@ main {
     text-decoration: none;
 }
 
-.blueButton{ //How do I center this w/i the storyText div?
+.blueButton{
     background: $cpBlue;
     color: white;
     font-family: 'Graduate', sans-serif;
@@ -151,10 +151,48 @@ main {
     background: darken($cpBlue, 10%);
 }
 
+/*----------Homepage - Email Sign Up Section----------- */
+
+.emailList {
+  background: $cpBlue;
+  color: white;
+  margin-top: $margin;
+  padding: $padding;
+}
+
+.emailList h2 {
+  text-align: center;
+  line-height: 1em;
+  margin-bottom: .5em;
+}
+
+.emailList p {
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#mc_embed_signup.emailForm {
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+#mc_embed_signup.emailList form {
+  padding: 0;
+}
+
+#mc_embed_signup.emailForm input{
+  width: 10em;
+  padding: .6em;
+  border: none;
+}
+
 /*----------Homepage - Get Involved Section----------- */
 
 .getInvolved {
-    background: lighten($cpYellow, 35%);
+    background: lighten($cpTeal, 30%);
     margin-top: 1em;
     padding: .5em 1em 1em 1em;
 

@@ -408,13 +408,19 @@ body footer{
 
   display:none !important;
 }
-.tribe-events-calendar{
-    background:$cpTeal !important;
+.tribe-events-calendar th {
+  background:$cpTeal !important;
 
 //link-colors($normal, $hover, $active, $visited, $focus) 
 a{
   @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
 }
+  }
+  #tribe-events .tribe-events-button, .tribe-events-button {
+  background:$cpsalmon !important;
+  color:white;
+  }
+  
 @media screen and (min-width:900px){
  .primary{
     width:1000px;

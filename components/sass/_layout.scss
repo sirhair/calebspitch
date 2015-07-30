@@ -421,7 +421,7 @@ body footer{
 
 //link-colors($normal, $hover, $active, $visited, $focus)
 a{
-  @include link-colors($cWhite, $cpBlue, $cpPurple, $cWhite, $cpBlue);
+  @include link-colors($cpSalmon, $cpGreen, $cpPurple, $cpTeal, $cpBlue);
 }
   }
   #tribe-events .tribe-events-button, .tribe-events-button {

@@ -1,4 +1,4 @@
-<!DOCTYTPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Caleb's Pitch: Continue the Legacy</title>

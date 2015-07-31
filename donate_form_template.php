@@ -11,7 +11,7 @@ Template Name: Donate Form Template
     <section class="thirdwidth formText">
         <img class="formSplat" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/green_splat.png">
         <h2>Make a Donation to Caleb's Pitch</h2>
-           Thanks to the generous support from our donors, Caleb's Pitch is able to reach hundreds families. Your contribution to Caleb's Pitch helps buy paint for syringe paintings, canvases, and other necessary supplies.</p>
+           <p>Thanks to the generous support from our donors, Caleb's Pitch is able to reach hundreds families. Your contribution to Caleb's Pitch helps buy paint for syringe paintings, canvases, and other necessary supplies.</p>
     </section>
 
     <section class="donateForm">

@@ -32,7 +32,7 @@ Template Name: Contact Form Template
     <div class="mc-field-group">
         <label for="mce-MESSAGE">Your Message</label>
         <br />
-        <textarea rows="4" cols="50" type="text" name="MESSAGE" class="" id="mce-MESSAGE"></textarea>
+        <textarea rows="4" cols="46" type="text" name="MESSAGE" class="" id="mce-MESSAGE"></textarea>
     </div>
         <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>

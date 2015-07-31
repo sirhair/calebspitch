@@ -1414,6 +1414,7 @@ main {
   color: white;
   margin-top: 1rem;
   padding: 1rem;
+  margin-bottom: 2em;
 }
 
 .emailList h2 {
@@ -1447,7 +1448,7 @@ main {
 
 /*----------Homepage - Get Involved Section----------- */
 .getInvolved {
-  background: #c8eaec;
+  background: #ffeda3;
   margin-top: 1em;
   padding: .5em 1em 1em 1em;
 }

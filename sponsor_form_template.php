@@ -11,7 +11,7 @@ Template Name: Sponsor Form Template
     <section class="thirdwidth formText">
         <img class="formSplat" alt="Caleb's Pitch volunteer icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pink_splat.png">
         <h2>Sponsor Caleb's Pitch Today!</h2>
-            <p>By sponsoring an event with Caleb's Pitch you help us reach out the community and build our capacity to help more children and families. Your business can sponsor Caleb's Pitch by contibuting funds to help us put on our events, or by making in-kind donations. Use the form to the right to sign up, and we'll contact you to talk about how your business can make a lasting contribution to Caleb's Pitch.</p>
+            <p>By sponsoring an event with Caleb's Pitch you help us reach out to the community and build our capacity to help more children and families. Your business can sponsor Caleb's Pitch by contibuting funds to help us put on events, or by making in-kind donations. Use the form to the right to sign up and we'll contact you to talk about how your business can make a lasting contribution to Caleb's Pitch.</p>
     </section>
 
 <!-- Begin MailChimp Signup Form -->

@@ -158,6 +158,12 @@ body footer{
   }
 
   //body columns
+  .skinny{
+    @include span(12){
+      @include span(isolate 10 at 2);
+    }
+  }
+
   .primary{
     @include span(6 of 9);
   }

@@ -435,10 +435,11 @@ body footer{
 background:$cpSalmon !important;
 color:white;
 }
-
+@media screen and (max-width: 768px){
 .tribe-events-sub-nav li a {
   background:$cpGreen !important;
-  }
+  } 
+}
   
 @media screen and (min-width:900px){
  .primary{

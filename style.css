@@ -1111,10 +1111,11 @@ body footer {
   color: white;
 }
 
-.tribe-events-sub-nav li a {
-  background: #37b449 !important;
+@media screen and (max-width: 768px) {
+  .tribe-events-sub-nav li a {
+    background: #37b449 !important;
+  }
 }
-
 @media screen and (min-width: 900px) {
   .primary {
     width: 1000px;

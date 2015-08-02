@@ -607,11 +607,11 @@ html {
   box-sizing: border-box;
 }
 html a {
-  color: #57bfc4;
+  color: #0b9dff;
   text-decoration: none;
 }
 html a:visited {
-  color: #37b449;
+  color: #269C2A;
 }
 html a:focus {
   color: #ed7e22;
@@ -642,11 +642,11 @@ html a:hover, html a:focus {
 }
 
 .cpSalmon {
-  color: #e56066;
+  color: #ed1a35;
 }
 
 .cpYellow {
-  color: #ffce00;
+  color: #FFE600;
 }
 
 .layout {
@@ -682,6 +682,11 @@ body nav, body main, body footer, body header {
 
 .logoimg {
   height: 10rem;
+}
+
+.site-title img {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .5rem;
 }
 
 footer .logoimg {
@@ -1088,32 +1093,32 @@ body footer {
 }
 
 .tribe-events-calendar th {
-  background: #57bfc4 !important;
+  background: #0b9dff !important;
 }
 .tribe-events-calendar th a {
-  color: #e56066;
+  color: #ed1a35;
 }
 .tribe-events-calendar th a:visited {
-  color: #57bfc4;
+  color: #0b9dff;
 }
 .tribe-events-calendar th a:focus {
   color: #0062a4;
 }
 .tribe-events-calendar th a:hover {
-  color: #37b449;
+  color: #269C2A;
 }
 .tribe-events-calendar th a:active {
   color: #825da3;
 }
 
 #tribe-events .tribe-events-button, .tribe-events-button {
-  background: #e56066 !important;
+  background: #ed1a35 !important;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
   .tribe-events-sub-nav li a {
-    background: #37b449 !important;
+    background: #269C2A !important;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1311,7 +1316,7 @@ body > footer ul {
 }
 
 body {
-  background-color: #57bfc4;
+  background-color: #0b9dff;
 }
 
 ul {
@@ -1418,7 +1423,7 @@ main {
 
 /*----------Homepage - Story Section----------- */
 .storyText h2 {
-  color: #57bfc4;
+  color: #0b9dff;
 }
 
 .storyText a:hover {
@@ -1483,7 +1488,7 @@ main {
 
 /*----------Homepage - Get Involved Section----------- */
 .getInvolved {
-  background: #ffeda3;
+  background: #fff6a3;
   margin-top: 1em;
   padding: .5em 1em 1em 1em;
 }
@@ -1557,11 +1562,11 @@ main {
 }
 
 .tribe-mini-calendar thead {
-  background: #57bfc4;
+  background: #0b9dff;
 }
 
 .tribe-mini-calendar-event .list-date {
-  background: #57bfc4 !important;
+  background: #0b9dff !important;
 }
 
 .galleryHome h2 {
@@ -1596,7 +1601,7 @@ main {
 }
 
 #mc_embed_signup.sponsorForm {
-  border: solid 1px #e56066;
+  border: solid 1px #ed1a35;
 }
 
 #mc_embed_signup.contactForm {
@@ -1609,7 +1614,7 @@ main {
 }
 
 #mc_embed_signup.sponsorForm h2 {
-  color: #e56066;
+  color: #ed1a35;
 }
 
 #mc_embed_signup.contactForm h2 {
@@ -1636,7 +1641,7 @@ main {
 }
 
 .sponsorButton {
-  background: #e56066;
+  background: #ed1a35;
   color: white;
   font-family: 'Graduate', sans-serif;
   border: none;
@@ -1651,7 +1656,7 @@ main {
 }
 
 .sponsorButton:hover {
-  background: #de343c;
+  background: #c50f27;
 }
 
 .contactButton {
@@ -1693,13 +1698,13 @@ input {
 }
 
 .giDonate {
-  border-top: solid 1em #37b449;
-  color: #37b449;
+  border-top: solid 1em #269C2A;
+  color: #269C2A;
 }
 
 .giSponsor {
-  border-top: solid 1em #e56066;
-  color: #e56066;
+  border-top: solid 1em #ed1a35;
+  color: #ed1a35;
 }
 
 .giText a:hover {
@@ -1716,7 +1721,7 @@ input {
 }
 
 .greenButton {
-  background: #37b449;
+  background: #269C2A;
   color: white;
   font-family: 'Graduate', sans-serif;
   border: none;
@@ -1730,11 +1735,11 @@ input {
 }
 
 .greenButton:hover {
-  background: #2b8d39;
+  background: #1c731f;
 }
 
 .pinkButton {
-  background: #e56066;
+  background: #ed1a35;
   color: white;
   font-family: 'Graduate', sans-serif;
   border: none;
@@ -1748,7 +1753,7 @@ input {
 }
 
 .pinkButton:hover {
-  background: #de343c;
+  background: #c50f27;
 }
 
 .headsecondary, .headsecondary .layout {
@@ -1780,7 +1785,7 @@ input {
   position: absolute;
   top: 100%;
   left: 0;
-  background: #57bfc4;
+  background: #0b9dff;
   padding: 0;
   padding-top: .5em;
   z-index: 9999;
@@ -1799,4 +1804,28 @@ input {
 }
 .headsecondary .layout div:nth-child(2) ul li:hover ul {
   display: block;
+}
+
+.qpp-style.CalebsPitchDOnate #plain {
+  border: 1px solid #269C2A !important;
+}
+
+.qpp-style.CalebsPitchDOnate h2 {
+  color: #269C2A !important;
+}
+
+.qpp-style.CalebsPitchDOnate p {
+  color: #269C2A !important;
+}
+
+.qpp-style.CalebsPitchDOnate #submit, .qpp-style.CalebsPitchDOnate #submit:hover {
+  background: #269C2A !important;
+}
+
+.qpp-style.CalebsPitchDOnate #couponsubmit, .qpp-style.CalebsPitchDOnate #couponsubmit:hover {
+  background: #269C2A !important;
+}
+
+.qpp-style.CalebsPitchDOnate div.rangeslider__fill {
+  background: #269C2A !important;
 }

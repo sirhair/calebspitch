@@ -1,10 +1,15 @@
 //Caleb's Pitch Colors
-$cpYellow: #ffce00;
-$cpSalmon: #e56066;
+// $cpYellow: #ffce00;
+$cpYellow:#FFE600;
+$cpRed: #ed1a35;
+// $cpSalmon: #e56066;
+$cpSalmon:$cpRed;
 $cpOrange: #ed7e22;
 $cpBlue: #0062a4;
-$cpGreen: #37b449;
-$cpTeal: #57bfc4;
+// $cpGreen: #37b449;
+$cpGreen:#269C2A;
+// $cpTeal: #57bfc4;
+$cpTeal: lighten($cpBlue,20%);
 $cpPurple: #825da3;
 $cpWhite: #FFFFFF;
 
@@ -16,7 +21,7 @@ $cSecondary: $cpBlue;
 // $cBlack: #221F24;
 $cWhite: $cpWhite;
 // $cNote: #fcffad; 
-
+$cWhiteFade: rgba(255, 255, 255, 0.75); 
 
 //***************************
 // Where is everything else??

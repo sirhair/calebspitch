@@ -61,10 +61,24 @@ body nav,body main,body footer,body header{
     height: 10rem;
 }
 
+.site-title img{
+  background-color: $cWhiteFade;
+  padding:.5rem;
+
+}
+// .headsecondary{
+//   background-color:$cpBlue;
+// }
+// .siteheader, .sitefooter{
+//   background-color: lighten($cpBlue,30%) !important
+// }
+
+
 footer .logoimg{
     height: 13rem;
 
 }
+
 
 .siteheader{
   background: url("images/heroimagesm.jpg") no-repeat center center;

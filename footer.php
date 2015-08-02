@@ -39,7 +39,7 @@
             <p>&copy; <?php echo date("Y") ?> Caleb's Pitch</p> 
 
             <a href="<?php $url = home_url( '/' ); echo $url; ?>">
-              <img class="logoimg" alt="<?php echo get_bloginfo('name');?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.svg">
+              <img class="logoimg" alt="<?php echo get_bloginfo('name');?>" src="<?php echo get_stylesheet_directory_uri(); ?>/images/miniLogo2.png">
             </a> 
         
         </div> <!-- logo div -->

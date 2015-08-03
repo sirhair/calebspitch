@@ -733,6 +733,8 @@ footer .logoimg {
 
 .galleryHome {
   margin: 1rem;
+  clear: both;
+  padding-top: .2rem;
 }
 
 .giText {
@@ -752,6 +754,11 @@ footer .logoimg {
   width: 60%;
   display: block;
   margin: auto;
+}
+
+.emailList {
+  margin-top: 2rem;
+  padding: 1rem .5rem 1rem .5rem;
 }
 
 body footer {
@@ -876,6 +883,14 @@ body footer {
     margin: auto;
     display: inline;
     float: right;
+  }
+
+  .galleryHome {
+    padding-top: 1rem;
+  }
+
+  .emailList {
+    padding: 1rem .5rem 3.5rem .5rem;
   }
 
   /*----------- Forms ------------*/
@@ -1447,8 +1462,6 @@ main {
 .emailList {
   background: #0062a4;
   color: white;
-  margin-top: 1rem;
-  padding: 1rem;
   margin-bottom: 2em;
 }
 

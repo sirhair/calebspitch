@@ -125,6 +125,8 @@ footer .logoimg{
 
 .galleryHome {
     margin: $margin;
+    clear: both;
+    padding-top: .2rem;
   }
 
   .giText {
@@ -146,6 +148,11 @@ footer .logoimg{
   display: block;
   margin: auto;
   }
+
+  .emailList {
+  margin-top: 2rem;
+  padding: 1rem .5rem 1rem .5rem;
+}
 
 
 //footer layout divs
@@ -247,6 +254,14 @@ body footer{
     margin: auto;
     display: inline;
     float: right;
+}
+
+.galleryHome {
+    padding-top: 1rem;
+  }
+
+  .emailList {
+  padding: 1rem .5rem 3.5rem .5rem;
 }
 
 /*----------- Forms ------------*/

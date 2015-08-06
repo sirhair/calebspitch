@@ -107,6 +107,7 @@ If you need to install a local server [Xampp tutorial](http://grad.sirhair.com/i
 * variables/functions camelCased.
 
 ##Using package
+ you won't have a gulpfile when you first run. So copy the gulpfile from components to your main folder. We had to do this due to slightly different development configurations.
 
   * Run your local server.
   * Before coding, open the theme folder using a command line interface, and run: 

@@ -5,14 +5,15 @@
 
 We are using gulp, browsersync, [compass](http://compass-style.org/) (for sass), and jshint (for javascript debugging).
 
+###IMPORTANT
+Make sure your wordpress install is in a directory called "capstone" or browsersync won't work (unless you modify the config locally).
+
+When you create a Theme folder name it "calebspitch"
+
 ##Setting up dev package
 
 Dev package is a theme for WordPress
 We're using [SublimeText 3](http://www.sublimetext.com/3), if you are using another code editor, I can't help configure it.
-
-####IMPORTANT
-Make sure your wordpress install is in a directory called "capstone" or browsersync won't work (unless you modify the config locally)
-When you create a Theme folder name it "calebspitch"
 
 ##WP DATABASE SYNCING
 All team members will need to ensure that their local wordpress installations USE THE SAME TABLE PREFIX.

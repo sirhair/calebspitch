@@ -12,6 +12,7 @@ We're using [SublimeText 3](http://www.sublimetext.com/3), if you are using anot
 
 ####IMPORTANT
 Make sure your wordpress install is in a directory called "capstone" or browsersync won't work (unless you modify the config locally)
+When you create a Theme folder name it "calebspitch"
 
 ##WP DATABASE SYNCING
 All team members will need to ensure that their local wordpress installations USE THE SAME TABLE PREFIX.
